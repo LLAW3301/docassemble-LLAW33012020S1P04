@@ -228,7 +228,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  Did the discrimination occur in an area of public life? | $ { area_public_life }
+  Did the discrimination occur in an area of public life? | ${ area_public_life }
 
 
 event: endpoint['noareapubliclife_housingdisputes']
