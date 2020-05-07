@@ -256,6 +256,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
 
 
 event: endpoint['noareapubliclife_mentalhealth']
@@ -283,6 +284,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
 
 
 event: endpoint['noareapubliclife_consentmedical']
@@ -310,6 +312,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
 
 
 event: endpoint['noareapubliclife_governmentreview']
@@ -1836,6 +1839,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_advancecare']
 buttons:
@@ -1862,6 +1866,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_personalaffairs']
 buttons:
@@ -1888,6 +1893,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
   
 event: endpoint['noareapubliclife_workplacediscrimination']
@@ -1915,6 +1921,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_hwsrelations']
 buttons:
@@ -1944,6 +1951,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_banking']
 buttons:
@@ -1974,6 +1982,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_consumerrights']
 buttons:
@@ -2000,6 +2009,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_administrativegovernment']
 buttons:
@@ -2031,6 +2041,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_education']
 buttons:
@@ -2064,6 +2075,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_electricity']
 buttons:
@@ -2090,6 +2102,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_emplyoment']
 buttons:
@@ -2116,6 +2129,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_gas']
 buttons:
@@ -2142,6 +2156,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_guardianshipyoung']
 buttons:
@@ -2171,6 +2186,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_healthcare']
 buttons:
@@ -2201,6 +2217,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_humanrights']
 buttons:
@@ -2227,6 +2244,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_land']
 buttons:
@@ -2253,6 +2271,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_lawyers']
 buttons:
@@ -2279,6 +2298,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_government']
 buttons:
@@ -2305,6 +2325,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_media']
 buttons:
@@ -2333,6 +2354,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_mentallyvulnerable']
 buttons: 
@@ -2361,6 +2383,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_internet']
 buttons:
@@ -2387,6 +2410,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_infrastructure']
 buttons:
@@ -2413,6 +2437,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_police']
 buttons:
@@ -2439,6 +2464,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_publictrustee']
 buttons:
@@ -2465,6 +2491,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_stategovernment']
 buttons:
@@ -2491,6 +2518,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_transport']
 buttons:
@@ -2517,6 +2545,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_crimevictims']
 buttons:
@@ -2543,6 +2572,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_water']
 buttons:
@@ -2571,6 +2601,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ area_public_life }
   
 event: endpoint['noareapubliclife_returntowork']
 buttons:
