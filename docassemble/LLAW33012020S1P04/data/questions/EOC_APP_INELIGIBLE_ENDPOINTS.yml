@@ -1,3 +1,4 @@
+---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
 subquestion: |
@@ -56,7 +57,7 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
  
 event: endpoint['Victoria']
@@ -80,7 +81,7 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
  
 event: endpoint['NSW']
@@ -103,7 +104,7 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
  
 event: endpoint['Queensland']
@@ -127,7 +128,7 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
  
 event: endpoint['Tasmania']
@@ -152,7 +153,7 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
  
 event: endpoint['ACT']
@@ -176,7 +177,7 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
  
 event: endpoint['NT']
@@ -199,7 +200,7 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia? | ${ which_state }
+  Did the incident occur in South Australia? | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
  
 event: endpoint['WA']
@@ -222,7 +223,7 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
  
 event: endpoint['outsideAus']

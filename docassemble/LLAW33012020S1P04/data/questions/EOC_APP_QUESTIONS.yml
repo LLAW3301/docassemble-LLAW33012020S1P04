@@ -6,10 +6,10 @@ fields:
   - no label: person_aggrieved
     input type: radio
     choices: 
-     - Yes, I am the person aggrieved by the action: True
-     - No, but the person aggrieved is a child (under 18): True
-     - No, but the person aggrieved is intellectually incapable: True
-     - No, I have no connection with the person aggrieved.: False
+     - Yes, I am the person aggrieved by the action: 'Yes, I am the person aggrieved by the action'
+     - No, but the person aggrieved is a child (under 18): 'No, but the person aggrieved is a child (under 18)'
+     - No, but the person aggrieved is intellectually incapable: 'No, but the person aggrieved is intellectually incapable'
+     - No, I have no connection with the person aggrieved: 'No, I have no connection with the person aggrieved'
     note: |
       Note: *The EOC will determine if you are a suitable representative for the interests of the  aggrieved person.*
 terms:
@@ -22,9 +22,9 @@ fields:
   - no label: incident_date
     input type: radio
     choices:
-      - The incident occurred within the **last 12 months**: True
-      - The incident occurred **over 12 months ago**: False
-      - I do not remember when the incident occurred.: False
+      - The incident occurred within the **last 12 months**: 'The incident occurred within the **last 12 months**'
+      - The incident occurred **over 12 months ago**: 'The incident occurred **over 12 months ago**'
+      - I do not remember when the incident occurred: 'I do not remember when the incident occurred'
 terms:
   incident: |
     The act which caused you harm
@@ -74,8 +74,8 @@ fields:
   - no label: victimisation_sexualharrassment2
     input type: radio
     choices:
-      - Sexual Harrassment: 'sexualharrassment'
-      - Victimisation: 'victimisation'
+      - Sexual Harrassment: 'Sexual Harrassment'
+      - Victimisation: 'Victimisation'
 ---
 question: |
   Was there discrimination?
@@ -100,19 +100,19 @@ fields:
   - no label: protected_ground
     input type: radio
     choices:
-      - Sex: True
-      - Sexual Orientation: True
-      - Sexual Identity: True
-      - Race: True
-      - Disability: True
-      - Age: True
-      - Matrial or domestic partnership status: True
-      - Identity of a spouse or domestic partner: True
-      - Pregnancy: True
-      - Association with a child: True
-      - Caring Responsibility: True
-      - Religious appearance or dress: True
-      - Other grounds: False
+      - Sex: 'Sex'
+      - Sexual Orientation: 'Sexual Orientation'
+      - Sexual Identity: 'Sexual Identity'
+      - Race: 'Race'
+      - Disability: 'Disability'
+      - Age: 'Age'
+      - Matrial or domestic partnership status: 'Matrial or domestic partnership status'
+      - Identity of a spouse or domestic partner: 'Identity of a spouse or domestic partner'
+      - Pregnancy: 'Pregnancy'
+      - Association with a child: 'Association with a child'
+      - Caring Responsibility: 'Caring Responsibility'
+      - Religious appearance or dress: 'Religious appearance or dress'
+      - Other grounds: 'Other grounds'
 ---
 question: |
   Did the discrimination occur in an area of public life? 
@@ -122,15 +122,15 @@ fields:
   - no label: area_public_life
     input type: radio
     choices:
-      - Employment: True
-      - Customer Service: True
-      - Accomodation: True
-      - Selling Land: True
-      - Clubs and Associations: True
-      - Advertising: True
-      - Education: True
-      - Granting Qualifications: True
-      - None of the above: False
+      - Employment: 'Employment'
+      - Customer Service: 'Customer Service'
+      - Accomodation: 'Accomodation'
+      - Selling Land: 'Selling Land'
+      - Clubs and Associations: 'Clubs and Associations'
+      - Advertising: 'Advertising'
+      - Education: 'Education'
+      - Granting Qualifications: 'Granting Qualifications'
+      - None of the above: 'None of the above'
 ---
 question: |
   Is your complaint based on any of these grounds?
@@ -138,38 +138,38 @@ fields:
   - no label: other_complaint_bodies
     input type: radio
     choices:
-      - Housing Disputes: 'housingdisputes'
-      - Medical/Mental Health Issues: 'mentalhealth'
-      - Consent to Medical Treatment: 'consentmedical'
-      - Reviews of Government Decisions: 'governmentreview'
-      - Advance Care Directives: 'advancecare'
-      - Guardianship and Administration of Personal Affairs: 'personalaffairs'
-      - Workplace Discrimination: 'workplacediscrimination'
-      - Health, Safety and Workplace Relations: 'hswrelations'
-      - Banking and Financial Services: 'banking'
-      - Consumer Rights: 'consumerrights'
-      - Administrative Actions of Australian Government Departments and Agencies: 'administrativegovernment'
-      - Education and Training: 'education'
-      - Electricity Suppliers: 'electricity'
-      - Employment: 'employment'
-      - Gas Suppliers: 'gas'
-      - Guardianship of Young People: 'guardianshipyoung'
-      - Healthcare and Community Services: 'healthcare'
-      - Human Rights: 'humanrights'
-      - Land: 'land'
-      - Legal Practitioners: 'lawyers'
-      - Local Government: 'government'
-      - Media: 'media'
-      - Mentally Vulnerable: 'mentallyvulnerable'
-      - Phone, Internet and Telecommunications: 'internet'
-      - Planning and Infrastructure: 'infrastructure'
-      - Police: 'police'
-      - Public Trustee: 'publictrustee'
-      - State Government: 'stategovernment'
-      - Transport: 'transport'
-      - Victims of Crime: 'crimevictims'
-      - Water Suppliers: 'water'
-      - ReturnToWorkSA: 'returntowork'
+      - Housing Disputes: 'Housing Disputes'
+      - Medical/Mental Health Issues: 'Mental Health'
+      - Consent to Medical Treatment: 'Consent Medical'
+      - Reviews of Government Decisions: 'Government Review'
+      - Advance Care Directives: 'Advance Care'
+      - Guardianship and Administration of Personal Affairs: 'Personal Affairs'
+      - Workplace Discrimination: 'Workplace Discrimination'
+      - Health, Safety and Workplace Relations: 'Health, Safety and Workplace Relations'
+      - Banking and Financial Services: 'Banking'
+      - Consumer Rights: 'Consumer Rights'
+      - Administrative Actions of Australian Government Departments and Agencies: 'Administrative Government'
+      - Education and Training: 'Education'
+      - Electricity Suppliers: 'Electricity'
+      - Employment: 'Employment'
+      - Gas Suppliers: 'Gas'
+      - Guardianship of Young People: 'Guardianship of Young'
+      - Healthcare and Community Services: 'Healthcare'
+      - Human Rights: 'Human Rights'
+      - Land: 'Land'
+      - Legal Practitioners: 'Lawyers'
+      - Local Government: 'Government'
+      - Media: 'Media'
+      - Mentally Vulnerable: 'Mentally Vulnerable'
+      - Phone, Internet and Telecommunications: 'Phone/Internet'
+      - Planning and Infrastructure: 'Infrastructure'
+      - Police: 'Police'
+      - Public Trustee: 'Public Trustee'
+      - State Government: 'State Government'
+      - Transport: 'Transport'
+      - Victims of Crime: 'Crime Victims'
+      - Water Suppliers: 'Water'
+      - ReturnToWorkSA: 'ReturnToWorkSA'
 ---
 question: |
   Do you wish to make this complaint at a State or Federal Level? 

@@ -1,3 +1,4 @@
+---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
 subquestion: |
@@ -14,8 +15,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
 
 
 event: endpoint['housingdisputes']
@@ -40,8 +41,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
 
 
 event: endpoint['mentalhealth']
@@ -66,8 +67,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
 
 
 event: endpoint['consentmedical']
@@ -92,8 +93,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
 
 
 event: endpoint['governmentreview']
@@ -118,8 +119,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
 
 
@@ -145,8 +146,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
 
 
@@ -172,8 +173,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
 
 
@@ -199,8 +200,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
 
 
@@ -224,8 +225,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | $ { area_public_life }
 
@@ -252,8 +253,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
 
 
@@ -279,8 +280,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
 
 
@@ -306,8 +307,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
 
 
@@ -333,8 +334,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
 
 
 event: endpoint['advancecare']
@@ -359,8 +360,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
 
 
 event: endpoint['personalaffairs']
@@ -385,8 +386,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['workplacediscrimination']
 buttons:
@@ -410,8 +411,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['hwsrelations']
 buttons:
@@ -438,8 +439,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['banking']
 buttons:
@@ -467,8 +468,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['consumerrights']
 buttons:
@@ -492,8 +493,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['administrativegovernment']
 buttons:
@@ -522,8 +523,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['education']
 buttons:
@@ -554,8 +555,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['electricity']
 buttons:
@@ -579,8 +580,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['emplyoment']
 buttons:
@@ -604,8 +605,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['gas']
 buttons:
@@ -629,8 +630,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['guardianshipyoung']
 buttons:
@@ -657,8 +658,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['healthcare']
 buttons:
@@ -686,8 +687,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['humanrights']
 buttons:
@@ -711,8 +712,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['land']
 buttons:
@@ -736,8 +737,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['lawyers']
 buttons:
@@ -761,8 +762,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['government']
 buttons:
@@ -786,8 +787,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['media']
 buttons:
@@ -813,8 +814,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['mentallyvulnerable']
 buttons: 
@@ -840,8 +841,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['internet']
 buttons:
@@ -865,8 +866,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['infrastructure']
 buttons:
@@ -890,8 +891,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['police']
 buttons:
@@ -915,8 +916,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['publictrustee']
 buttons:
@@ -940,8 +941,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['stategovernment']
 buttons:
@@ -965,8 +966,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['transport']
 buttons:
@@ -990,8 +991,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['crimevictims']
 buttons:
@@ -1015,8 +1016,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['water']
 buttons:
@@ -1042,8 +1043,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   
 event: endpoint['returntowork']
 buttons:
@@ -1069,8 +1070,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_advancecare']
@@ -1095,8 +1096,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_personalaffairs']
@@ -1121,8 +1122,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_workplacediscrimination']
@@ -1147,8 +1148,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_hwsrelations']
@@ -1176,8 +1177,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_banking']
@@ -1206,8 +1207,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_consumerrights']
@@ -1232,8 +1233,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_administrativegovernment']
@@ -1263,8 +1264,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_education']
@@ -1296,8 +1297,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_electricity']
@@ -1322,8 +1323,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_emplyoment']
@@ -1348,8 +1349,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_gas']
@@ -1374,8 +1375,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_guardianshipyoung']
@@ -1403,8 +1404,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_healthcare']
@@ -1433,8 +1434,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_humanrights']
@@ -1459,8 +1460,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_land']
@@ -1485,8 +1486,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_lawyers']
@@ -1511,8 +1512,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_government']
@@ -1538,8 +1539,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_media']
@@ -1566,8 +1567,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_mentallyvulnerable']
@@ -1594,8 +1595,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_internet']
@@ -1620,8 +1621,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_infrastructure']
@@ -1646,8 +1647,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_police']
@@ -1672,8 +1673,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_publictrustee']
@@ -1698,8 +1699,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_stategovernment']
@@ -1724,8 +1725,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_transport']
@@ -1750,8 +1751,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_crimevictims']
@@ -1776,8 +1777,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_water']
@@ -1804,8 +1805,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['protected_ground_returntowork']
@@ -1832,8 +1833,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_advancecare']
@@ -1858,8 +1859,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_personalaffairs']
@@ -1884,8 +1885,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
   
@@ -1911,8 +1912,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_hwsrelations']
@@ -1940,8 +1941,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_banking']
@@ -1970,8 +1971,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_consumerrights']
@@ -1996,8 +1997,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_administrativegovernment']
@@ -2027,8 +2028,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_education']
@@ -2060,8 +2061,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_electricity']
@@ -2086,8 +2087,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_emplyoment']
@@ -2112,8 +2113,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_gas']
@@ -2138,8 +2139,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_guardianshipyoung']
@@ -2167,8 +2168,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_healthcare']
@@ -2197,8 +2198,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_humanrights']
@@ -2223,8 +2224,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_land']
@@ -2249,8 +2250,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_lawyers']
@@ -2275,8 +2276,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_government']
@@ -2301,8 +2302,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_media']
@@ -2329,8 +2330,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_mentallyvulnerable']
@@ -2357,8 +2358,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_internet']
@@ -2383,8 +2384,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_infrastructure']
@@ -2409,8 +2410,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_police']
@@ -2435,8 +2436,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_publictrustee']
@@ -2461,8 +2462,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_stategovernment']
@@ -2487,8 +2488,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_transport']
@@ -2513,8 +2514,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_crimevictims']
@@ -2539,8 +2540,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_water']
@@ -2567,8 +2568,8 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   
 event: endpoint['noareapubliclife_returntowork']
