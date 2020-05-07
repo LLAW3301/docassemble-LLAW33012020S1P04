@@ -130,7 +130,7 @@ fields:
       - Advertising: 'Advertising'
       - Education: 'Education'
       - Granting Qualifications: 'Granting Qualifications'
-      - None of the above: 'None of the above'
+      - None of the above: 'No'
 ---
 question: |
   Is your complaint based on any of these grounds?
