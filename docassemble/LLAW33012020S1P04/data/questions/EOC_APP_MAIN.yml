@@ -317,7 +317,7 @@ code: |
     endpoint['noareapubliclife_returntowork']
 ---
 code: |
-  if ( person_aggrieved == 'Yes, I am the person aggrieved by the action' or 
+  if (person_aggrieved == 'Yes, I am the person aggrieved by the action' or 
     person_aggrieved == 'No, but the person aggrieved is a child (under 18)' or 
     person_aggrieved == 'No, but the person aggrieved is intellectually incapable'):
     person_aggrieved_eligible = True
@@ -329,26 +329,56 @@ code: |
     incident_date_eligible = True
   else:
     incident_date_eligible = False
+---
+code: |
   if which_state:
     which_state_answer = 'Yes'
   else:
     which_state_answer = 'No'
+---
+code: |
   if victimisation_sexualharrassment:
     victimisation_sexualharrassment_answer = 'Yes'
   else: 
     victimisation_sexualharrassment_answer = 'No'
+---
+code: |
   if discrimination:
     discrimination_answer = 'Yes'
   else:
     discrimination_answer = 'No'
-  if protected_ground == 'Sex' or 'Sexual Orientation' or 'Sexual Identity' or 'Race' or 'Disability' or 'Age' or 'Matrial or domestic partnership status' or 'Identity of a spouse or domestic partner' or 'Pregnancy' or 'Association with a child' or 'Caring Responsibility' or 'Religious appearance or dress':
+---
+code: |
+  if (protected_ground == 'Sex' or 
+    protected_ground == 'Sexual Orientation' or 
+    protected_ground == 'Sexual Identity' or 
+    protected_ground == 'Race' or 
+    protected_ground == 'Disability' or 
+    protected_ground == 'Age' or 
+    protected_ground == 'Matrial or domestic partnership status' or
+    protected_ground == 'Identity of a spouse or domestic partner' or
+    protected_ground == 'Pregnancy' or 
+    protected_ground == 'Association with a child' or 
+    protected_ground == 'Caring Responsibility' or 
+    protected_ground == 'Religious appearance or dress'):
     protected_ground_eligible = True
   else:
     protected_ground_eligible = False
-  if area_public_life == 'Employment' or 'Customer Service' or 'Accomodation' or 'Selling Land' or 'Clubs and Associations' or 'Advertising' or 'Education' or 'Granting Qualifications':
+---
+code: |
+  if (area_public_life == 'Employment' or 
+  area_public_life == 'Customer Service' or 
+  area_public_life == 'Accomodation' or 
+  area_public_life == 'Selling Land' or 
+  area_public_life == 'Clubs and Associations' or 
+  area_public_life == 'Advertising' or 
+  area_public_life == 'Education' or 
+  area_public_life == 'Granting Qualifications'):
     area_public_life_eligible = True
   else: 
     area_public_life_eligible = False
+---
+code: |
   if state_or_federal:
     state_or_federal_answer = 'South Australian State Level'
   else:
