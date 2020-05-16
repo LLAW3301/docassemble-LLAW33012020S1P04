@@ -7,8 +7,8 @@ subquestion: |
   
   As your complaint deals with a **housing dispute** please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
-  
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
+ 
   Here are your responses:
   
   Question|Your Responses
@@ -18,11 +18,16 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
 
+  **Please click continue for an opportunity to provide feedback only after you have accessed the information provided above.**
 
+continue button field: usergoto_survey2
+---
 event: endpoint['housingdisputes']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey2 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -33,7 +38,7 @@ subquestion: |
   
   As your complaint involves **Medical/Mental Health Issues** please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -43,12 +48,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-
-
+  
+continue button field: usergoto_survey3
+---
 event: endpoint['mentalhealth']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey3 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -59,7 +67,7 @@ subquestion: |
   
   As your complaint deals with **Consent to Medical Treatment** please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -69,12 +77,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-
-
+  
+continue button field: usergoto_survey4
+---
 event: endpoint['consentmedical']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey4 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -85,7 +96,7 @@ subquestion: |
   
   As your complaint deals with **Reviewing a Government Decision**, please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -95,12 +106,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-
-
+  
+continue button field: usergoto_survey5
+---
 event: endpoint['governmentreview']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey5 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -110,8 +124,8 @@ subquestion: |
   Unfortunately, as you have not selected a protected ground, the Equal Opportunity Commission is unable to process your complaint. 
 
   As your complaint deals with a **housing dispute**, please contact SACAT.
-
-  Please click on the link below to access the SACAT website.
+  
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -123,11 +137,14 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
 
-
+continue button field: usergoto_survey6
+---
 event: endpoint['protected_ground_housingdisputes']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey6 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -138,7 +155,7 @@ subquestion: |
 
   As your complaint deals with a **Medical/Mental Health Issue**, please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -150,11 +167,14 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
 
-
+continue button field: usergoto_survey7
+---
 event: endpoint['protected_ground_mentalhealth']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey7 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -165,7 +185,7 @@ subquestion: |
 
   As your complaint deals with **Consent to Medical Treatment**, please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -177,11 +197,14 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
 
-
+continue button field: usergoto_survey8
+---
 event: endpoint['protected_ground_consentmedical']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey8 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -192,7 +215,7 @@ subquestion: |
 
   As your complaint deals with **Reviews of Government Decisions**, please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -204,11 +227,14 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
 
-
+continue button field: usergoto_survey9
+---
 event: endpoint['protected_ground_governmentreview']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey9 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -218,6 +244,8 @@ subquestion: |
   Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
 
   As your complaint deals with a **housing dispute**, please contact SACAT.
+  
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -230,11 +258,14 @@ subquestion: |
   On what ground is the discrimination in question based on? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | ${ area_public_life }
 
-
+continue button field: usergoto_survey10
+---
 event: endpoint['noareapubliclife_housingdisputes']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey10 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -245,7 +276,7 @@ subquestion: |
 
   As your complaint deals with a **Medical/Mental Health Issue** please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -258,11 +289,14 @@ subquestion: |
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
 
-
+continue button field: usergoto_survey11
+---
 event: endpoint['noareapubliclife_mentalhealth']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey11 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -273,7 +307,7 @@ subquestion: |
 
   As your complaint deals with **Consent to Medical Treatment** please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -286,11 +320,14 @@ subquestion: |
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
 
-
+continue button field: usergoto_survey12
+---
 event: endpoint['noareapubliclife_consentmedical']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey12 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -301,7 +338,7 @@ subquestion: |
 
   As your complaint deals with **Reviews of Government Decisions** please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
+   [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -314,11 +351,14 @@ subquestion: |
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
 
-
+continue button field: usergoto_survey13
+---
 event: endpoint['noareapubliclife_governmentreview']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey13 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -329,7 +369,7 @@ subquestion: |
   
   As your complaint deals with **Advance Care**, please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -340,11 +380,14 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
 
-
+continue button field: usergoto_survey14
+---
 event: endpoint['advancecare']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey14 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -355,7 +398,7 @@ subquestion: |
   
   As your complaint deals with **Guardianship and Administration of Personal Affairs**, please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -366,12 +409,16 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
 
-
+continue button field: usergoto_survey15
+---
 event: endpoint['personalaffairs']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey15 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
+
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -380,8 +427,8 @@ subquestion: |
   Unfortunately, the Equal Opportunity Commission only deals with **complaints of discriminaion**. 
   
   As your complaint deals with **Workplace Discrimination**, please contact the South Australian Employment Tribunal.
-
-  Please click on the link below to access the South Australina Employment Tribunal's website.
+  
+  [Please click here to access the South Australian Employment Tribunal's website](${ url_of('https://www.saet.sa.gov.au') }).
   
   Here are your responses:
   
@@ -391,12 +438,17 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey16
+---
 event: endpoint['workplacediscrimination']
-buttons:
-  - "SAET Website": exit
-    url: https://www.saet.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey16 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
+
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -406,7 +458,7 @@ subquestion: |
   
   As your complaint deals with **Health, Safety and Workplace Relations**, please contact SafeWork SA.
 
-  Please click on the link below to access the SafeWork SA's website.
+   [Please click here to access the SafeWork SA website](${ url_of('https://www.safework.sa.gov.au') }).
   
   Here are your responses:
   
@@ -417,11 +469,16 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   
+continue button field: usergoto_survey17
+---
 event: endpoint['hwsrelations']
-buttons:
-  - "SafeWork SA": exit
-    url: https://www.safework.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey17 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
+
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -430,11 +487,21 @@ subquestion: |
   Unfortunately, the Equal Opportunity Commission only deals with **complaints of discriminaion**. 
   
   As your complaint deals with **Banking and Financial Services **, please contact either of these complaint bodies:
-     - Australian Financial Complaints Authority
-     - Australian Securities and Investment Commission
-     - Ombudsman SA (complaints about Super SA Board)
+  
+  - Australian Financial Complaints Authority
+  
+  - Australian Securities and Investment Commission
+  
+  - Ombudsman SA (complaints about Super SA Board)
 
-  Please click on the links below to access the complaint body website.
+ 
+  **Please click on the links below to access the complaint body website.**
+  
+  - [Click here to access the Australian Financial Complaints Authority website](${ url_of('https://www.afca.org.au') }).
+ 
+  - [Click here to access the Australian Securities and Investment Commission website](${ url_of('https://asic.gov.au') }).
+ 
+  - [Click here to access the Ombudsman SA website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -445,15 +512,16 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   
+continue button field: usergoto_survey18
+---
 event: endpoint['banking']
-buttons:
-  - "Australian Financial Complaints Authority": exit
-    url: https://www.afca.org.au
-  - "Australian Securities and Investment Commission": exit
-    url: https://asic.gov.au
-  - "Ombudsman SA": exit
-    url: https://www.ombudsman.sa.gov.au
-  - Restart: restart 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey18 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -463,7 +531,7 @@ subquestion: |
   
   As your complaint deals with **Consumer Rights**, please contact the Commissioner for Consumer Affairs. 
 
-  Please click on the link below to access the Consumer and Business Services' website.
+  [Please click here to access the Consumer and Business Services' website](${ url_of('https://www.cbs.sa.gov.au') }).
   
   Here are your responses:
   
@@ -473,12 +541,17 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey19
+---
 event: endpoint['consumerrights']
-buttons:
-  - "Consumer and Business Services": exit
-    url: https://www.cbs.sa.gov.au
-  - Restart: restart 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey19 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+ 
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -488,7 +561,7 @@ subquestion: |
   
   As your complaint deals with **Administrative actions of Australian Government Departments and Agencies**, please contact the Commonwealth Ombudsman.
 
-  Please click on the link below to access the Commonwealth Ombudsman's website.
+  [Please click here to access the Commonwealth Ombudsman's website](${ url_of('https://www.ombudsman.gov.au') }).
   
   Here are your responses:
   
@@ -498,12 +571,17 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey19A
+---
 event: endpoint['administrativegovernment']
-buttons:
-  - "Commonwealth Ombudsman": exit
-    url: https://www.ombudsman.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey19A } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
+
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -512,13 +590,29 @@ subquestion: |
   Unfortunately, the Equal Opportunity Commission only deals with **complaints of discriminaion**. 
   
   As your complaint deals with **Education and Training**, please contact either of these complaint bodies:
+  
     - Training Advocate
+    
     - Overseas Students Ombudsman
+    
     - Catholic Education Office
+    
     - Association of Idependent Schools of SA
+    
     - Ombudsman SA (complaints about Department of Education, Flinders University, University of Adelaide and University of South Australia)
 
+
   Please click on the link below to access the complaint bodies website.
+  
+  - [Please click here to access the Training Advocate website](${ url_of('https://www.trainingadvocate.sa.gov.au') }).
+     
+  - [Please click here to access the Overseas Students Ombudsman website](${ url_of('https://www.ombudsman.gov.au/How-we-can-help/overseas-students') }).
+  
+  - [Please click here to access the Catholic Education Office website](${ url_of('https://www.cesa.catholic.edu.au') }).
+  
+  - [PLease click here to access the Association of Independent Schools of SA website](${ url_of('https://www.ais.sa.edu.au') }).
+    
+  - [Please click here to access the Ombudsman SA website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -528,19 +622,16 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey20
+---
 event: endpoint['education']
-buttons:
-  - "Training Advocate": exit
-    url: https://www.trainingadvocate.sa.gov.au
-  - "Overseas Students Ombudsman": exit
-    url: https://www.ombudsman.gov.au/How-we-can-help/overseas-students
-  - "Catholic Education Office": exit
-    url: https://www.cesa.catholic.edu.au
-  - "Association of Independent Schools of SA": exit
-    url: https://www.ais.sa.edu.au
-  - "Ombudsman SA": exit 
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey20 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 --- 
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -550,7 +641,7 @@ subquestion: |
   
   As your complaint deals with **Electricity**, please contact the Energy and Water Ombudsman SA.
 
-  Please click on the link below to access the Energy and Water Ombudsman SA's website.
+  [Please click here to access the Energy and Water Ombudsman SA website](${ url_of('https://ewosa.com.au') }).
   
   Here are your responses:
   
@@ -560,11 +651,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey21
+---
 event: endpoint['electricity']
-buttons:
-  - "Energy and Water Ombudsman SA": exit
-    url: https://ewosa.com.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey21 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -575,7 +670,7 @@ subquestion: |
   
   As your complaint deals with **Employment**, please contact the Fair Work Ombudsman.
 
-  Please click on the link below to access  the Fair Work Ombudsman's website.
+  [Please click here to access the Fair Work Ombudsman website](${ url_of('https://www.fairwork.gov.au') }).
   
   Here are your responses:
   
@@ -585,11 +680,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey22
+---
 event: endpoint['emplyoment']
-buttons:
-  - "Fair Work Ombudsman": exit
-    url: https://www.fairwork.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey22 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -600,7 +699,7 @@ subquestion: |
   
   As your complaint deals with **Gas Suppliers**, please contact the Energy and Water Ombudsman SA.
 
-  Please click on the link below to access the Energy and Water Ombudsman SA.
+  [Please click here to access the Energy and Water Ombudsman SA website](${ url_of('https://ewosa.com.au') }).
   
   Here are your responses:
   
@@ -610,11 +709,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey23
+---
 event: endpoint['gas']
-buttons:
-  - "Energy and Water Ombudsman SA": exit
-    url: https://ewosa.com.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey23 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -625,7 +728,7 @@ subquestion: |
   
   As your complaint deals with **Guardianship of Young People**, please contact the Guardian for Children and Young People.
 
-  Please click on the link below to access the Guardian for Children and Young People's website.
+  [Please click here to access the Guardian for Child and Young People website](${ url_of('http://www.gcyp.sa.gov.au') }).
   
   Here are your responses:
   
@@ -635,12 +738,17 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey24
+---
 event: endpoint['guardianshipyoung']
-buttons:
-  - "Guardian for Children and Young People": exit
-    url: http://www.gcyp.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey24 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
+
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -649,12 +757,21 @@ subquestion: |
   Unfortunately, the Equal Opportunity Commission only deals with **complaints of discriminaion**. 
   
   As your complaint deals with **Healthcare and Community Services**, please contact either of these complaint bodies:
-     - Health and Community Services Complaints Commissioner
-     - Australian Health Practitioner Regulation Agency
-     - Ombudsmans SA (complaints about the administrative actions of the Department for Health and Wellbeing and the Local Health networks)
+  - Health and Community Services Complaints Commissioner
+     
+  - Australian Health Practitioner Regulation Agency
+     
+  - Ombudsmans SA (complaints about the administrative actions of the Department for Health and Wellbeing and the Local Health networks)
 
-  Please click on the link below to access the complaint body's website.
+
+  **Please click on the link below to access the complaint body's website.**
   
+  - [Please click here to access the Health and Community Services Complaints Commissioner website](${ url_of('https://www.hcscc.sa.gov.au') }).
+
+  - [Please click here to access the Australian Health Practitioner Regulation Agency website](${ url_of('https://www.ahpra.gov.au') }).
+
+  - [Please click here to access the Ombudsman SA website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+    
   Here are your responses:
   
   Question|Your Responses
@@ -663,16 +780,17 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey25
+---
 event: endpoint['healthcare']
-buttons:
-  - "Health and Community Services Complaints Commissioner": exit
-    url: https://www.hcscc.sa.gov.au
-  - "Australian Health Practitioner Regulation Agency": exit
-    url: https://www.ahpra.gov.au
-  - "Ombudsman SA": exit 
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey25 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
+
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -682,7 +800,7 @@ subquestion: |
   
   As your complaint deals with **Human Rights**, please contact the Australian Human Rights Commission.
 
-  Please click on the link below to access the Australian Human Rights Commission's website
+  [Please click here to access the Australian Human Rights Commission website](${ url_of('https://www.humanrights.gov.au') }).
   
   Here are your responses:
   
@@ -692,11 +810,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey26
+---
 event: endpoint['humanrights']
-buttons:
-  - "Australian Human Rights Commission": exit
-    url: https://www.humanrights.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey26 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -707,7 +829,7 @@ subquestion: |
   
   As your complaint deals with **Land**, please contact the Environment, Resources and Development (ERD) Court.
 
-  Please click on the link below to access the Environment, Resources and Development Court's website.
+  [Please click here to access the Environment, Resources and Development Court website](${ url_of('http://www.courts.sa.gov.au/OurCourts/ERDCourt/Pages/default.aspx') }).
   
   Here are your responses:
   
@@ -717,12 +839,16 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey27
+---
 event: endpoint['land']
-buttons:
-  - "Environment, Resources and Development Court": exit
-    url: http://www.courts.sa.gov.au/OurCourts/ERDCourt/Pages/default.aspx
-  - Restart: restart 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey27 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -732,7 +858,7 @@ subquestion: |
   
   As your complaint deals with **Legal Practitioners**, please contact the Legal Profession Conduct Commissioner.
 
-  Please click on the link below to access the Legal Profession Conduct Commissioner's website.
+  [Please click here to access the Legal Profession Conduct Commissioner website](${ url_of('https://www.lpcc.sa.gov.au') }).
   
   Here are your responses:
   
@@ -742,11 +868,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey28
+---
 event: endpoint['lawyers']
-buttons:
-  - "Legal Profession Conduct Commissioner": exit
-    url: https://www.lpcc.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey28 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -757,7 +887,7 @@ subquestion: |
   
   As your complaint deals with **Local Government**, please contact the SA Ombudsman.
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -767,11 +897,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey29
+---
 event: endpoint['government']
-buttons:
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey29 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -782,7 +916,7 @@ subquestion: |
   
   As your complaint deals with **Media**, please contact the Australian Communications and Media Authority.
 
-  Please click on the link below to access the Australian Communications and Media Authority's website.
+  [Please click here to access the Australian Communications and Media Authority website](${ url_of('https://www.acma.gov.au') }).
   
   Here are your responses:
   
@@ -792,11 +926,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey30
+---
 event: endpoint['media']
-buttons:
-  - "Australian Communications and Media Authority": exit 
-    url: https://www.acma.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey30 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -805,11 +943,19 @@ subquestion: |
  
   Unfortunately, the Equal Opportunity Commission only deals with **complaints of discriminaion**. 
   
-  As your complaint deals with **Mentally Vulnerable**, please contact either of these complaint bodies:  
+  As your complaint deals with **Mentally Vulnerable**, please contact either of these complaint bodies: 
+  
   - Office of the Public Advocate 
+  
   - Community Visitor Scheme
+  
 
-  Please click on the link below to access the complaint body's website.
+  **Please click on the link below to access the complaint body's website.**
+  
+  - [Please click here to access the Office of the Public Advocate website](${ url_of('http://www.opa.sa.gov.au') }).
+  
+  - [Please click here to access the Community Visitor Scheme website](${ url_of('https://communityvisitorscheme.sa.gov.au') }).
+  
   
   Here are your responses:
   
@@ -819,13 +965,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey31
+---
 event: endpoint['mentallyvulnerable']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey31 } ${ hidden_responses } ${ survey_answer } 
 buttons: 
-  - "Office of the Public Advocate": exit
-    url: http://www.opa.sa.gov.au
-  - "Community Visitor Scheme": exit
-    url: https://communityvisitorscheme.sa.gov.au
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -836,7 +984,7 @@ subquestion: |
   
   As your complaint deals with **Phone, Internet and Telecommunications**, please contact the Telecommunications Industry Ombudsman.
 
-  Please click on the link below to access the Telecommunications Industry Ombudsman's website.
+  [Please click here to access the Telecommunications Industry Ombudsman website](${ url_of('https://www.tio.com.au') }).
   
   Here are your responses:
   
@@ -846,11 +994,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey32
+---
 event: endpoint['internet']
-buttons:
-  - "Telecommunications Industry Ombudsman": exit
-    url: https://www.tio.com.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey32 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -861,7 +1013,8 @@ subquestion: |
   
   As your complaint deals with **Planning and Infrastructure**, please contact the SA Ombudsman (complaints about the Department of Planning, Transport and Infrastructure).
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
   
   Here are your responses:
   
@@ -871,11 +1024,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey33
+---
 event: endpoint['infrastructure']
-buttons:
-  - "Ombudsman SA": exit 
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey33 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -886,7 +1043,7 @@ subquestion: |
   
   As your complaint deals with **Police**, please contact the Office for Public Integrity.
 
-  Please click on the link below to access the Office of Public Integrity's website.
+  [Please click here to access the Office for Public Integrity website](${ url_of('https://icac.sa.gov.au') }).
   
   Here are your responses:
   
@@ -896,12 +1053,16 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey34
+---
 event: endpoint['police']
-buttons:
-  - "Office of Public Integrity": exit
-    url: https://icac.sa.gov.au
-  - Restart: restart 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey34 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -911,7 +1072,7 @@ subquestion: |
   
   As your complaint deals with **Public Trustee**, please contact the SA Ombudsman.
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -921,11 +1082,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey35
+---
 event: endpoint['publictrustee']
-buttons:
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey35 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -936,7 +1101,7 @@ subquestion: |
   
   As your complaint deals with **State Government**, please contact the SA Ombudsman.
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -946,11 +1111,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey36
+---
 event: endpoint['stategovernment']
-buttons:
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey36 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -961,7 +1130,7 @@ subquestion: |
   
   As your complaint deals with **Transport**, please contact the SA Ombudsman.
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -971,11 +1140,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey37
+---
 event: endpoint['transport']
-buttons:
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey37 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -986,7 +1159,7 @@ subquestion: |
   
   As your complaint deals with **Victims of Crime**, please contact the Commissioner for Victims' Rights.
 
-  Please click on the link below to access the Commissioner for Victims' Rights website.
+  [Please click here to access the Commissioner for Victims' Rights website](${ url_of('https://www.voc.sa.gov.au') }).
   
   Here are your responses:
   
@@ -996,12 +1169,16 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey38
+---
 event: endpoint['crimevictims']
-buttons:
-  - "Commissioner for Victims Rights": exit
-    url: https://www.voc.sa.gov.au
-  - Restart: restart 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey38 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -1011,7 +1188,7 @@ subquestion: |
   
   As your complaint deals with **Water**, please contact the Energy and Water Ombudsman.
 
-  Please click on the link below to access the Energy and Water Ombudsman's wesbite.
+  [Please click here to access the Energy and Water Ombudsman website](${ url_of('https://ewosa.com.au') }).
   
   Here are your responses:
   
@@ -1021,11 +1198,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey39
+---
 event: endpoint['water']
-buttons:
-  - "Energy and Water Ombudsman SA": exit
-    url: https://ewosa.com.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey39 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1035,10 +1216,17 @@ subquestion: |
   Unfortunately, the Equal Opportunity Commission only deals with **complaints of discriminaion**. 
   
   As your complaint deals with **ReturnToWork**, please contact either of these complaint bodies:
+  
     - ReturnToWorkSA
+    
     - SA Ombudsman
+    
 
-  Please click on the link below to access the complaint body's website.
+  **Please click on the link below to access the complaint body's website.**
+  
+  - [Please click here to access the ReturnToWorkSA website](${ url_of('https://www.rtwsa.com') }).
+  
+  - [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1048,13 +1236,15 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
-  
+
+continue button field: usergoto_survey40
+---
 event: endpoint['returntowork']
-buttons:
-  - "ReturnToWorkSA": exit
-    url: https://www.rtwsa.com
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey40 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1063,9 +1253,9 @@ subquestion: |
 
   Unfortunately, as you have not selected a protected ground, the Equal Opportunity Commission is unable to process your complaint. 
 
-  As your complaint deals with ...
+  As your complaint deals with **Advanced Care**, please contact SACAT.
 
-  Please click on the link below to access ...
+  [Please click here to access the SACAT website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1076,11 +1266,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey41
+---
 event: endpoint['protected_ground_advancecare']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey41 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1091,7 +1285,7 @@ subquestion: |
 
   As your complaint deals with **Guardianship and Administration of Personal Affairs**, please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
+  [Please click here to access the SACAT website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1102,11 +1296,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey42
+---
 event: endpoint['protected_ground_personalaffairs']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey42 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1117,7 +1315,7 @@ subquestion: |
 
   As your complaint deals with **Workplace Discriminatio**, please contact the South Australian Employment Tribunal.
 
-  Please click on the link below to access the South Australian Employment Tirbunal's website.
+  [Please click here to access the South Australian Employment Tribunal website](${ url_of('https://www.saet.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1128,11 +1326,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey43
+---
 event: endpoint['protected_ground_workplacediscrimination']
-buttons:
-  - "SAET Website": exit
-    url: https://www.saet.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey43 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1143,7 +1345,7 @@ subquestion: |
 
   As your complaint deals with **Health, Safety and Workplace Relations**, please contact SafeWork SA.
 
-  Please click on the link below to access SafeWork SA's website.
+  [Please click here to access the SafeWork SA website](${ url_of('https://www.safework.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1154,11 +1356,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey44
+---
 event: endpoint['protected_ground_hwsrelations']
-buttons:
-  - "SafeWork SA": exit
-    url: https://www.safework.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey44 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1168,11 +1374,21 @@ subquestion: |
   Unfortunately, as you have not selected a protected ground, the Equal Opportunity Commission is unable to process your complaint. 
 
   As your complaint deals with **Banking and Financial Services**, please contact either of the complaint bodies below:
+  
     - Australian Financial Complaints Authority
+    
     - Australian Securities and Investment Commission
+    
     - Ombudsman SA (complaints about Super SA Board)
 
-  Please click on the link below to access the complaint body's website.
+
+  **Please click on the link below to access the complaint body's website.**
+  
+  - [Please click here to access the Australian Financial Complaints Authority website](${ url_of('https://www.afca.org.au') }).
+  
+  - [Please click here to access the Australian Securities and Investment Commission website](${ url_of('https://asic.gov.au') }).
+  
+  - [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1183,16 +1399,16 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey45
+---
 event: endpoint['protected_ground_banking']
-buttons:
-  - "Australian Financial Complaints Authority": exit
-    url: https://www.afca.org.au
-  - "Australian Securities and Investment Commission": exit
-    url: https://asic.gov.au
-  - "Ombudsman SA": exit
-    url: https://www.ombudsman.sa.gov.au
-  - Restart: restart 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey45 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -1202,7 +1418,8 @@ subquestion: |
 
   As your complaint deals with **Consumer Rights**, please contact the Commissioner for Consumer Affairs. 
 
-  Please click on the link below to access the Consumer and Business Services' website.
+  [Please click here to access the Consumer and Business Services website](${ url_of('https://www.cbs.sa.gov.au') }).
+  
   
   Here are your responses:
   
@@ -1213,11 +1430,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey46
+---
 event: endpoint['protected_ground_consumerrights']
-buttons:
-  - "Consumer and Business Services": exit
-    url: https://www.cbs.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey46 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1228,7 +1449,7 @@ subquestion: |
 
   As your complaint deals with **Administrative actions of Australian Government Departments and Agencies**, please contact the Commonwealth Ombudsman.
 
-  Please click on the link below to access the Commonwealth Ombudsman's website.
+  [Please click here to access the Commonwealth Ombudsman website](${ url_of('https://www.ombudsman.gov.au') }).
   
   Here are your responses:
   
@@ -1239,11 +1460,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey47
+---
 event: endpoint['protected_ground_administrativegovernment']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey47 } ${ hidden_responses } ${ survey_answer } 
 buttons: 
-  - "Commonwealth Ombudsman": exit
-    url: https://www.ombudsman.gov.au
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1253,13 +1478,29 @@ subquestion: |
   Unfortunately, as you have not selected a protected ground, the Equal Opportunity Commission is unable to process your complaint. 
 
   As your complaint deals with **Education and Training**, please contact either of these complaint bodies:
+  
     - Training Advocate
+    
     - Overseas Students Ombudsman
+    
     - Catholic Education Office
+    
     - Association of Idependent Schools of SA
+    
     - Ombudsman SA (complaints about Department of Education, Flinders University, University of Adelaide and University of South Australia)
+    
 
-  Please click on the link below to access the complaint body's website.
+  **Please click on the link below to access the complaint body's website.**
+  - [Please click here to access the Training Advocate website](${ url_of('https://www.trainingadvocate.sa.gov.au') }).
+  
+  - [Please click here to access the Overseas Students Ombudsman website](${ url_of('https://www.ombudsman.gov.au/How-we-can-help/overseas-students') }).
+ 
+  - [Please click here to access the Catholic Education Office website](${ url_of('https://www.cesa.catholic.edu.au') }).
+ 
+  - [Please click here to access the Association of Independent Schools of SA website](${ url_of('https://www.ais.sa.edu.au') }).
+ 
+  - [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
   
   Here are your responses:
   
@@ -1270,19 +1511,16 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey48
+---
 event: endpoint['protected_ground_education']
-buttons:
-  - "Training Advocate": exit
-    url: https://www.trainingadvocate.sa.gov.au
-  - "Overseas Students Ombudsman": exit
-    url: https://www.ombudsman.gov.au/How-we-can-help/overseas-students
-  - "Catholic Education Office": exit
-    url: https://www.cesa.catholic.edu.au
-  - "Association of Independent Schools of SA": exit
-    url: https://www.ais.sa.edu.au
-  - "Ombudsman SA": exit 
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey48 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -1292,7 +1530,7 @@ subquestion: |
 
   As your complaint deals with **Electricity**, please contact the Energy and Water Ombudsman SA.
 
-  Please click on the link below to access the Energy and Water Ombudsman SA's website.
+  [Please click here to access the SA Energy and Water Ombudsman website](${ url_of('https://ewosa.com.au') }).
   
   Here are your responses:
   
@@ -1303,11 +1541,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey49
+---
 event: endpoint['protected_ground_electricity']
-buttons:
-  - "Energy and Water Ombudsman SA": exit
-    url: https://ewosa.com.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey49 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1318,7 +1560,7 @@ subquestion: |
 
   As your complaint deals with **Employment**, please contact the Fair Work Ombudsman.
 
-  Please click on the link below to access the Fair Work Ombudsman's website.
+  [Please click here to access the Fair Work Ombudsman website](${ url_of('https://www.fairwork.gov.au') }).
   
   Here are your responses:
   
@@ -1329,11 +1571,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey50
+---
 event: endpoint['protected_ground_emplyoment']
-buttons:
-  - "Fair Work Ombudsman": exit
-    url: https://www.fairwork.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey50 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1344,7 +1590,7 @@ subquestion: |
 
   As your complaint deals with **Gas Suppliers**, please contact the Energy and Water Ombudsman SA.
 
-  Please click on the link below to access the Energy and Water Ombudsman SA's website.
+  [Please click here to access the SA Energy and Water Ombudsman website](${ url_of('https://ewosa.com.au') }).
   
   Here are your responses:
   
@@ -1355,11 +1601,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey51
+---
 event: endpoint['protected_ground_gas']
-buttons:
-  - "Energy and Water Ombudsman SA": exit
-    url: https://ewosa.com.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey51 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1370,7 +1620,7 @@ subquestion: |
 
   As your complaint deals with **Guardianship of Young People**, please contact the Guardian for Children and Young People.
 
-  Please click on the link below to access the Guardian for Children and Young People's website.
+  [Please click here to access the Guardian for Children and Young People website](${ url_of('http://www.gcyp.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1381,11 +1631,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey52
+---
 event: endpoint['protected_ground_guardianshipyoung']
-buttons:
-  - "Guardian for Children and Young People": exit
-    url: http://www.gcyp.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey52 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1395,11 +1649,21 @@ subquestion: |
   Unfortunately, as you have not selected a protected ground, the Equal Opportunity Commission is unable to process your complaint. 
 
   As your complaint deals with **Healthcare and Community Services**, please contact either of these complaint bodies:
+  
    - Health and Community Services Complaints Commissioner
+   
    - Australian Health Practitioner Regulation Agency
+   
    - Ombudsmans SA (complaints about the administrative actions of the Department for Health and Wellbeing and the Local Health networks)
+   
 
-  Please click on the link below to access the complaint body's website.
+  **Please click on the link below to access the complaint body's website.**
+  - [Please click here to access the Health and Community Services Complaints Commissioner website](${ url_of('https://www.hcscc.sa.gov.au') }).
+ 
+  - [Please click here to access the Australian Health Practitioner Regulation Agency website](${ url_of('https://www.ahpra.gov.au') }).
+ 
+  - [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
   
   Here are your responses:
   
@@ -1410,15 +1674,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey53
+---
 event: endpoint['protected_ground_healthcare']
-buttons:
-  - "Health and Community Services Complaints Commissioner": exit
-    url: https://www.hcscc.sa.gov.au
-  - "Australian Health Practitioner Regulation Agency": exit
-    url: https://www.ahpra.gov.au
-  - "Ombudsman SA": exit 
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey53 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1429,7 +1693,7 @@ subquestion: |
 
   As your complaint deals with **Human Rights**, please contact the Australian Human Rights Commission.
 
-  Please click on the link below to access the Australian Human Rights Commission's website.
+  [Please click here to access the Australian Human Rights Commission website](${ url_of('https://www.humanrights.gov.au') }).
   
   Here are your responses:
   
@@ -1440,11 +1704,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey54
+---
 event: endpoint['protected_ground_humanrights']
-buttons:
-  - "Australian Human Rights Commission": exit
-    url: https://www.humanrights.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey54 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1455,7 +1723,7 @@ subquestion: |
 
   As your complaint deals with **Land**, please contact the Environment, Resources and Development (ERD) Court.
 
-  Please click on the link below to access the Environment, Resources and Development Court's website.
+  [Please click here to access the Environment, Resources and Development Court website](${ url_of('http://www.courts.sa.gov.au/OurCourts/ERDCourt/Pages/default.aspx') }).
   
   Here are your responses:
   
@@ -1466,12 +1734,16 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey55
+---
 event: endpoint['protected_ground_land']
-buttons:
-  - "Environment, Resources and Development Court": exit
-    url: http://www.courts.sa.gov.au/OurCourts/ERDCourt/Pages/default.aspx
-  - Restart: restart 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey55 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -1481,7 +1753,7 @@ subquestion: |
 
   As your complaint deals with **Legal Practitioners**, please contact the Legal Profession Conduct Commissioner.
 
-  Please click on the link below to access the Legal Profession Conduct Commissioner's website.
+  [Please click here to access the Legal Profession Conduct Commissioner website](${ url_of('https://www.lpcc.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1492,11 +1764,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey56
+---
 event: endpoint['protected_ground_lawyers']
-buttons:
-  - "Legal Profession Conduct Commissioner": exit
-    url: https://www.lpcc.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey56 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1507,7 +1783,7 @@ subquestion: |
 
   As your complaint deals with the **Local Government**, please contact the SA Ombudsman.
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1518,13 +1794,16 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
-event: endpoint['protected_ground_government']
-buttons:
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
-  - Restart: restart
 
+continue button field: usergoto_survey57
+---
+event: endpoint['protected_ground_government']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey57 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -1534,7 +1813,7 @@ subquestion: |
 
   As your complaint deals with **Media**, please contact the Australian Communications and Media Authority.
 
-  Please click on the link below to access the Australian Communications and Media Authority's website.
+  [Please click here to access the Australian Communications and Media Authority website](${ url_of('https://www.acma.gov.au') }).
   
   Here are your responses:
   
@@ -1545,11 +1824,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey58
+---
 event: endpoint['protected_ground_media']
-buttons:
-  - "Australian Communications and Media Authority": exit 
-    url: https://www.acma.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey58 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1559,11 +1842,18 @@ subquestion: |
   Unfortunately, as you have not selected a protected ground, the Equal Opportunity Commission is unable to process your complaint. 
 
   As your complaint deals with **Mentally Vulnerable**, please contact either of these complaint bodies:
+  
     - Office of the Public Advocate 
+    
     - Community Visitor Scheme
 
-  Please click on the link below to access the complaint body's website.
+  **Please click on the link below to access the complaint body's website.**
   
+  - [Please click here to access the Office of the Public Advocate website](${ url_of('http://www.opa.sa.gov.au') }). 
+ 
+  - [Please click here to access the Community Visitor Scheme website](${ url_of('https://communityvisitorscheme.sa.gov.au') }).
+    
+    
   Here are your responses:
   
   Question|Your Responses
@@ -1573,13 +1863,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey59
+---
 event: endpoint['protected_ground_mentallyvulnerable']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey59 } ${ hidden_responses } ${ survey_answer } 
 buttons: 
-  - "Office of the Public Advocate": exit
-    url: http://www.opa.sa.gov.au
-  - "Community Visitor Scheme": exit
-    url: https://communityvisitorscheme.sa.gov.au
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1590,7 +1882,7 @@ subquestion: |
 
   As your complaint deals with **Phone, Internet and Telecommunications**, please contact the Telecommunications Industry Ombudsman.
 
-  Please click on the link below to access the Telecommunications Industry Ombudsman's website.
+  [Please click here to access the Telecommunications Industry Ombudsman website](${ url_of('https://www.tio.com.au') }).
   
   Here are your responses:
   
@@ -1601,11 +1893,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey60
+---
 event: endpoint['protected_ground_internet']
-buttons:
-  - "Telecommunications Industry Ombudsman": exit
-    url: https://www.tio.com.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey60 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1616,7 +1912,7 @@ subquestion: |
 
   As your complaint deals with **Planning and Infrastructure**, please contact the SA Ombudsman (complaints about the Department of Planning, Transport and Infrastructure).
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1627,11 +1923,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey61
+---
 event: endpoint['protected_ground_infrastructure']
-buttons:
-  - "Ombudsman SA": exit 
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey61 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1642,7 +1942,7 @@ subquestion: |
 
   As your complaint deals with **Police**, please contact the Office of Public Integrity.
 
-  Please click on the link below to access the Office of Public Integrity's website.
+  [Please click here to access the Office of Public Integrity website](${ url_of('https://icac.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1653,12 +1953,16 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey62
+---
 event: endpoint['protected_ground_police']
-buttons:
-  - "Office of Public Integrity": exit
-    url: https://icac.sa.gov.au
-  - Restart: restart 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey62 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -1668,7 +1972,7 @@ subquestion: |
 
   As your complaint deals with **Public Trustee**, please contact the SA Ombudsman.
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1679,11 +1983,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey63
+---
 event: endpoint['protected_ground_publictrustee']
-buttons:
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey63 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1694,7 +2002,7 @@ subquestion: |
 
   As your complaint deals with **State Government**, please contact the SA Ombudsman.
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1705,11 +2013,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey64
+---
 event: endpoint['protected_ground_stategovernment']
-buttons:
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey64 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1720,7 +2032,7 @@ subquestion: |
 
   As your complaint deals with **Transport**, please contact the SA Ombudsman.
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1731,11 +2043,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey65
+---
 event: endpoint['protected_ground_transport']
-buttons:
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey65 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1746,7 +2062,7 @@ subquestion: |
 
   As your complaint deals with **Victims of Crime**, please contact the Commissioner of Victims' Rights.
 
-  Please click on the link below to access the Commissioner of Victims' Rights website.
+  [Please click here to access the Commissioner of Victims' Rights website](${ url_of('https://www.voc.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1757,12 +2073,16 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey66
+---
 event: endpoint['protected_ground_crimevictims']
-buttons:
-  - "Commissioner for Victims Rights": exit
-    url: https://www.voc.sa.gov.au
-  - Restart: restart 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey66 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -1772,7 +2092,7 @@ subquestion: |
 
   As your complaint deals with **Water**, please contact the Energy and Water Ombudsman.
 
-  Please click on the link below to access the Energy and Water Ombudsman's website.
+  [Please click here to access the Energy and Water Ombudsman SA website](${ url_of('https://ewosa.com.au') }).
   
   Here are your responses:
   
@@ -1783,11 +2103,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
-event: endpoint['protected_ground_water']
-buttons:
-  - "Energy and Water Ombudsman SA": exit
-    url: https://ewosa.com.au
+
+continue button field: usergoto_survey67
+---
+event: endpoint['protected_ground_crimevictims']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey67 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1797,10 +2121,17 @@ subquestion: |
   Unfortunately, as you have not selected a protected ground, the Equal Opportunity Commission is unable to process your complaint. 
 
   As your complaint deals with **ReturnToWorkSA**, please contact either of these complaint bodies:
+  
     - ReturnToWorkSA
+    
     - SA Ombudsman
 
-  Please click on the link below to access the complaint body's website.
+  **Please click on the link below to access the complaint body's website.**
+
+  - [Please click here to access the ReturnToWorkSA website](${ url_of('https://www.rtwsa.com') }).
+  
+  - [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
   
   Here are your responses:
   
@@ -1811,13 +2142,15 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  
+
+continue button field: usergoto_survey68
+---
 event: endpoint['protected_ground_returntowork']
-buttons:
-  - "ReturnToWorkSA": exit
-    url: https://www.rtwsa.com
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey68 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1828,7 +2161,7 @@ subquestion: |
 
   As your complaint deals with **Advance Care**, please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
+  [Please click here to access the SACAT website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1840,11 +2173,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey69
+---
 event: endpoint['noareapubliclife_advancecare']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey69 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1855,7 +2192,7 @@ subquestion: |
 
   As your complaint deals with **Guardianship and Administration of Personal Affairs**, please contact SACAT.
 
-  Please click on the link below to access the SACAT website.
+  [Please click here to access the SACAT website](${ url_of('http://sacat.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1867,11 +2204,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey70
+---
 event: endpoint['noareapubliclife_personalaffairs']
-buttons:
-  - SACAT Website: exit
-    url: http://sacat.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey70 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1882,7 +2223,7 @@ subquestion: |
 
   As your complaint deals with **Workplace Discriminatio**, please contact the South Australian Employment Tribunal.
 
-  Please click on the link below to access the South Australian Employment Tribunal's website.
+  [Please click here to access the SAET website](${ url_of('https://www.saet.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1895,11 +2236,14 @@ subquestion: |
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
   
-  
+continue button field: usergoto_survey71
+---
 event: endpoint['noareapubliclife_workplacediscrimination']
-buttons:
-  - "SAET Website": exit
-    url: https://www.saet.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey71 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1910,7 +2254,7 @@ subquestion: |
 
   As your complaint deals with **Health, Safety and Workplace Relations**, please contact SafeWork SA.
 
-  Please click on the link below to access SafeWork SA's website.
+  [Please click here to access the SafeWork SA website](${ url_of('https://www.safework.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1922,11 +2266,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey72
+---
 event: endpoint['noareapubliclife_hwsrelations']
-buttons:
-  - "SafeWork SA": exit
-    url: https://www.safework.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey72 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1936,11 +2284,21 @@ subquestion: |
   Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
 
   As your complaint deals with **Banking and Financial Services**, please contact either of the complaint bodies below: 
+  
    - Australian Financial Complaints Authority
+   
    - Australian Securities and Investment Commission
+   
    - Ombudsman SA (complaints about Super SA Board)
 
-  Please click on the link below to access the complaint body's website.
+
+  **Please click on the link below to access the complaint body's website.**
+
+  - [Please click here to access the Australian Financial Complaints Authority website](${ url_of('https://www.afca.org.au') }).
+  
+  - [Please click here to access the Australian Securities and Investment Commission website](${ url_of('https://asic.gov.au') }).
+  
+  - [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1952,16 +2310,16 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey73
+---
 event: endpoint['noareapubliclife_banking']
-buttons:
-  - "Australian Financial Complaints Authority": exit
-    url: https://www.afca.org.au
-  - "Australian Securities and Investment Commission": exit
-    url: https://asic.gov.au
-  - "Ombudsman SA": exit
-    url: https://www.ombudsman.sa.gov.au
-  - Restart: restart 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey73 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -1971,7 +2329,7 @@ subquestion: |
 
   As your complaint deals with **Consumer Rights**, please contact the Commissioner for Consumer Affairs. 
 
-  Please click on the link below to access the Consumer and Business Services' website.
+  [Please click here to access the Consumer and Business Services website](${ url_of('https://www.cbs.sa.gov.au') }).
   
   Here are your responses:
   
@@ -1983,11 +2341,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey74
+---
 event: endpoint['noareapubliclife_consumerrights']
-buttons:
-  - "Consumer and Business Services": exit
-    url: https://www.cbs.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey74 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -1998,7 +2360,8 @@ subquestion: |
 
   As your complaint deals with **Administrative actions of Australian Government Departments and Agencies**, please contact the Commonwealth Ombudsman.
 
-  Please click on the link below to access the Commonwealth Ombudsman's website.
+  [Please click here to access the Commonwealth Ombudsman website](${ url_of('https://www.ombudsman.gov.au') }).
+  
   
   Here are your responses:
   
@@ -2010,11 +2373,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey75
+---
 event: endpoint['noareapubliclife_administrativegovernment']
-buttons:
-  - "Commonwealth Ombudsman": exit
-    url: https://www.ombudsman.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey75 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2024,14 +2391,30 @@ subquestion: |
   Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
 
   As your complaint deals with **Education and Training**, please contact either of these complaint bodies:
-    - Training Advocate
-    - Overseas Students Ombudsman
-    - Catholic Education Office
-    - Association of Idependent Schools of SA
-    - Ombudsman SA (complaints about Department of Education, Flinders University, University of Adelaide and University of South Australia)
-
-  Please click on the link below to access the complaint body's website.
   
+    - Training Advocate
+    
+    - Overseas Students Ombudsman
+    
+    - Catholic Education Office
+    
+    - Association of Idependent Schools of SA
+    
+    - Ombudsman SA (complaints about Department of Education, Flinders University, University of Adelaide and University of South Australia)
+    
+  **Please click on the link below to access the complaint body's website.**
+
+  - [Please click here to access the Training Advocate website](${ url_of('https://www.trainingadvocate.sa.gov.au') }).
+  
+  - [Please click here to access the Overseas Students Ombudsman website](${ url_of('https://www.ombudsman.gov.au/How-we-can-help/overseas-students') }).
+  
+  - [Please click here to access the Catholic Education Office website](${ url_of('https://www.cesa.catholic.edu.au') }).
+  
+  - [Please click here to access the Association of Independent Schools of SA website](${ url_of('https://www.ais.sa.edu.au') }).
+  
+  - [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+ 
+    
   Here are your responses:
   
   Question|Your Responses
@@ -2042,19 +2425,16 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey76
+---
 event: endpoint['noareapubliclife_education']
-buttons:
-  - "Training Advocate": exit
-    url: https://www.trainingadvocate.sa.gov.au
-  - "Overseas Students Ombudsman": exit
-    url: https://www.ombudsman.gov.au/How-we-can-help/overseas-students
-  - "Catholic Education Office": exit
-    url: https://www.cesa.catholic.edu.au
-  - "Association of Independent Schools of SA": exit
-    url: https://www.ais.sa.edu.au
-  - "Ombudsman SA": exit 
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey76 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -2064,7 +2444,7 @@ subquestion: |
 
   As your complaint deals with **Electricity**, please contact the Energy and Water Ombudsman SA.
 
-  Please click on the link below to access the Energy and Water Ombudsman SA's website.
+  [Please click here to access the Energy and Water Ombudsman SA website](${ url_of('https://ewosa.com.au') }).
   
   Here are your responses:
   
@@ -2076,11 +2456,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey77
+---
 event: endpoint['noareapubliclife_electricity']
-buttons:
-  - "Energy and Water Ombudsman SA": exit
-    url: https://ewosa.com.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey77 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2091,7 +2475,7 @@ subquestion: |
 
   As your complaint deals with **Employment**, please contact the Fair Work Ombudsman.
 
-  Please click on the link below to access the Fair Work Ombudsman's website
+  [Please click here to access the Fair Work Ombudsman website](${ url_of('https://www.fairwork.gov.au') }).
   
   Here are your responses:
   
@@ -2103,11 +2487,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey78
+---
 event: endpoint['noareapubliclife_emplyoment']
-buttons:
-  - "Fair Work Ombudsman": exit
-    url: https://www.fairwork.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey78 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2118,7 +2506,7 @@ subquestion: |
 
   As your complaint deals with **Gas Suppliers**, please contact the Energy and Water Ombudsman SA.
 
-  Please click on the link below to access the Energy and Water Ombudsman SA's website.
+  [Please click here to access the Energy and Water Ombudsman SA website](${ url_of('https://ewosa.com.au') }).
   
   Here are your responses:
   
@@ -2130,11 +2518,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey79
+---
 event: endpoint['noareapubliclife_gas']
-buttons:
-  - "Energy and Water Ombudsman SA": exit
-    url: https://ewosa.com.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey79 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2143,9 +2535,9 @@ subquestion: |
 
   Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
 
-  As your complaint deals with **Guardianship of Young People**, please contact the Guardian for Children and Young Children.
+  As your complaint deals with **Guardianship of Young People**, please contact the Guardian for Children and Young People.
 
-  Please click on the link below to access the Guardian for Children and Young People's website.
+   [Please click here to access the Guardian for Children and Young People website](${ url_of('http://www.gcyp.sa.gov.au') }).
   
   Here are your responses:
   
@@ -2157,11 +2549,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey80
+---
 event: endpoint['noareapubliclife_guardianshipyoung']
-buttons:
-  - "Guardian for Children and Young People": exit
-    url: http://www.gcyp.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey80 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2171,11 +2567,22 @@ subquestion: |
   Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
 
   As your complaint deals with **Healthcare and Community Services**, please contact either of these complaint bodies:
+  
    - Health and Community Services Complaints Commissioner
+   
    - Australian Health Practitioner Regulation Agency
+   
    - Ombudsmans SA (complaints about the administrative actions of the Department for Health and Wellbeing and the Local Health networks)
 
-  Please click on the link below to access the complaint body's website.
+
+  **Please click on the link below to access the complaint body's website.**
+  
+  - [Please click here to access the Health and Community Services Complaints Commissioner website](${ url_of('https://www.hcscc.sa.gov.au') }).
+  
+  - [Please click here to access the Australian Health Practitioner Regulation Agency website](${ url_of('https://www.ahpra.gov.au') }).
+  
+  - [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
   
   Here are your responses:
   
@@ -2187,15 +2594,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey81
+---
 event: endpoint['noareapubliclife_healthcare']
-buttons:
-  - "Health and Community Services Complaints Commissioner": exit
-    url: https://www.hcscc.sa.gov.au
-  - "Australian Health Practitioner Regulation Agency": exit
-    url: https://www.ahpra.gov.au
-  - "Ombudsman SA": exit 
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey81 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2206,7 +2613,7 @@ subquestion: |
 
   As your complaint deals with **Human Rights**, please contact the Australian Human Rights Commission.
 
-  Please click on the link below to access the Australian Human Rights Commission's website.
+  [Please click here to access the Australian Human Rights Commission website](${ url_of('https://www.humanrights.gov.au') }).
   
   Here are your responses:
   
@@ -2218,11 +2625,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey82
+---
 event: endpoint['noareapubliclife_humanrights']
-buttons:
-  - "Australian Human Rights Commission": exit
-    url: https://www.humanrights.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey82 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2233,7 +2644,7 @@ subquestion: |
 
   As your complaint deals with **Land**, please contact the Environment, Resources and Development (ERD) Court.
 
-  Please click on the link below to access the Environment, Resources and Development Court's website.
+  [Please click here to access the Environment, Resources and Development Court website](${ url_of('http://www.courts.sa.gov.au/OurCourts/ERDCourt/Pages/default.aspx') }).
   
   Here are your responses:
   
@@ -2245,12 +2656,16 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey83
+---
 event: endpoint['noareapubliclife_land']
-buttons:
-  - "Environment, Resources and Development Court": exit
-    url: http://www.courts.sa.gov.au/OurCourts/ERDCourt/Pages/default.aspx
-  - Restart: restart 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey83 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -2260,7 +2675,7 @@ subquestion: |
 
   As your complaint deals with **Legal Practitioners**, please contact the Legal Profession Conduct Commissioner.
 
-  Please click on the link below to access the Legal Profession Conduct Commissioner's website.
+  [Please click here to access the Legal Profession Conduct Commissioner website](${ url_of('https://www.lpcc.sa.gov.au') }).
   
   Here are your responses:
   
@@ -2272,11 +2687,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey84
+---
 event: endpoint['noareapubliclife_lawyers']
-buttons:
-  - "Legal Profession Conduct Commissioner": exit
-    url: https://www.lpcc.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey84 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2287,7 +2706,7 @@ subquestion: |
 
   As your complaint deals with the **Local Government**, please contact SA Ombudsman.
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -2299,11 +2718,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey85
+---
 event: endpoint['noareapubliclife_government']
-buttons:
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey85 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2314,7 +2737,7 @@ subquestion: |
 
   As your complaint deals with **Media**, please contact the Australian Communications and Media Authority.
 
-  Please click on the link below to access the Australian Communications and Media Authority's website.
+  [Please click here to access the Australian Communications and Media Authority website](${ url_of('https://www.acma.gov.au') }).
   
   Here are your responses:
   
@@ -2326,11 +2749,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey86
+---
 event: endpoint['noareapubliclife_media']
-buttons:
-  - "Australian Communications and Media Authority": exit 
-    url: https://www.acma.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey86 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2340,10 +2767,17 @@ subquestion: |
   Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
 
   As your complaint deals with **Mentally Vulnerable**, please contact either of these complaint bodies:
+  
     - Office of the Public Advocate 
+    
     - Community Visitor Scheme
 
-  Please click on the link below to access the complaint body's website.
+
+  **Please click on the link below to access the complaint body's website.**
+  
+  - [Please click here to access the Office of the Public Advocate website](${ url_of('http://www.opa.sa.gov.au') }).
+  
+  - [Please click here to access the Community Visitor Scheme website](${ url_of('https://communityvisitorscheme.sa.gov.au') }).
   
   Here are your responses:
   
@@ -2355,13 +2789,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey87
+---
 event: endpoint['noareapubliclife_mentallyvulnerable']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey87 } ${ hidden_responses } ${ survey_answer } 
 buttons: 
-  - "Office of the Public Advocate": exit
-    url: http://www.opa.sa.gov.au
-  - "Community Visitor Scheme": exit
-    url: https://communityvisitorscheme.sa.gov.au
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2372,7 +2808,7 @@ subquestion: |
 
   As your complaint deals with **Phone, Internet and Telecommunications**, please contact the Telecommunications Industry Ombudsman.
 
-  Please click on the link below to access the Telecommunications Industry Ombudsman's website.
+  [Please click here to access the Telecommunications Industry Ombudsman website](${ url_of('https://www.tio.com.au') }).
   
   Here are your responses:
   
@@ -2384,11 +2820,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey88
+---
 event: endpoint['noareapubliclife_internet']
-buttons:
-  - "Telecommunications Industry Ombudsman": exit
-    url: https://www.tio.com.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey88 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2399,7 +2839,7 @@ subquestion: |
 
   As your complaint deals with **Planning and Infrastructure**, please contact the SA Ombudsman (complaints about the Department of Planning, Transport and Infrastructure).
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -2411,11 +2851,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey89
+---
 event: endpoint['noareapubliclife_infrastructure']
-buttons:
-  - "Ombudsman SA": exit 
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey89 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2426,7 +2870,7 @@ subquestion: |
 
   As your complaint deals with **Police**, please contact the Office of Public Integrity.
 
-  Please click on the link below to access the Office of Public Integrity's website.
+  [Please click here to access the Office of Public Integrity website](${ url_of('https://icac.sa.gov.au') }).
   
   Here are your responses:
   
@@ -2438,12 +2882,16 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey90
+---
 event: endpoint['noareapubliclife_police']
-buttons:
-  - "Office of Public Integrity": exit
-    url: https://icac.sa.gov.au
-  - Restart: restart 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey90 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -2453,7 +2901,7 @@ subquestion: |
 
   As your complaint deals with **Public Trustee**, please contact the SA Ombudsman.
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -2465,11 +2913,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey91
+---
 event: endpoint['noareapubliclife_publictrustee']
-buttons:
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey91 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2480,7 +2932,7 @@ subquestion: |
 
   As your complaint deals with **State Government**, please contact the SA Ombudsman.
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -2492,11 +2944,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey92
+---
 event: endpoint['noareapubliclife_stategovernment']
-buttons:
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey92 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2507,7 +2963,7 @@ subquestion: |
 
   As your complaint deals with **Transport**, please contact the SA Ombudsman.
 
-  Please click on the link below to access the SA Ombudsman's website.
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -2519,11 +2975,15 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey93
+---
 event: endpoint['noareapubliclife_transport']
-buttons:
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey93 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
 question: |
@@ -2534,7 +2994,7 @@ subquestion: |
 
   As your complaint deals with **Victims of Crime**, please contact the Commissioner for Victims' Rights.
 
-  Please click on the link below to access the Commissioner for Victims' Rights website.
+  [Please click here to access the Commissioner for Victims' Rights website](${ url_of('https://www.voc.sa.gov.au') }).
   
   Here are your responses:
   
@@ -2546,12 +3006,16 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey94
+---
 event: endpoint['noareapubliclife_crimevictims']
-buttons:
-  - "Commissioner for Victims Rights": exit
-    url: https://www.voc.sa.gov.au
-  - Restart: restart 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey94 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -2559,9 +3023,9 @@ subquestion: |
 
   Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
 
-  As your complaint deals with **Water**, please contact the Energy and Water Ombudsman.
+  As your complaint deals with **Water**, please contact the SA Energy and Water Ombudsman.
 
-  Please click on the link below to access the Energy and Water Ombudsman.
+  [Please click here to access the SA Energy and Water Ombudsman website](${ url_of('https://ewosa.com.au') }).
   
   Here are your responses:
   
@@ -2573,12 +3037,17 @@ subquestion: |
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
     Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+
+continue button field: usergoto_survey95
+---
 event: endpoint['noareapubliclife_water']
-buttons:
-  - "Energy and Water Ombudsman SA": exit
-    url: https://ewosa.com.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey95 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
+
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -2587,10 +3056,17 @@ subquestion: |
   Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
 
   As your complaint deals with **ReturnToWorkSA**, please contact either of these complaint bodies:
-    - ReturnToWorkSA
-    - SA Ombudsman
+  
+  - ReturnToWorkSA
+    
+  - SA Ombudsman
 
-  Please click on the link below to access the complaint body's website.
+
+  **Please click on the link below to access the complaint body's website.**
+  
+  - [Please click here to access the ReturnToWorkSA website](${ url_of('https://www.rtwsa.com') }).
+  
+  - [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
   
   Here are your responses:
   
@@ -2601,13 +3077,17 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ area_public_life }
-  
+  Did the discrimination occur in an area of public life? | ${ area_public_life }
+
+continue button field: usergoto_survey96
+---
 event: endpoint['noareapubliclife_returntowork']
-buttons:
-  - "ReturnToWorkSA": exit
-    url: https://www.rtwsa.com
-  - "SA Ombudsman": exit
-    url: https://www.ombudsman.sa.gov.au
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey96 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
   - Restart: restart
 ---
+
+
