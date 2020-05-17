@@ -1,12 +1,12 @@
 question: |
-  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+  Thank you for completing the Application.
 subquestion: |
   
   Based on your responses, the EOC should have jurisdiction over your complaint. This means the EOC will be able to help and support you through your legal complaint.
   
   Please click on the link below to complete the EOC Application Form to officially begin the complaint process.
   
-  **Disclaimer:** *The conclusion made by the Equal Opportunity Commission's Complaint Directory is a tentative conclusion based on your responses to the questions. Once your application form is received and reviewed by the EOC, they may determine your complaint is in fact outside their jurisidction. The EOC will be in contact with you if this is the case and will provide alternative support where required.*
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your application form is received and reviewed by the EOC, they may determine your complaint is in fact outside their jurisidction. The EOC will be in contact with you if this is the case and will provide alternative support where required.*
   
   Here are your responses:
   
@@ -45,14 +45,14 @@ code: |
 ---
 template: notification
 subject: |
-  EOC Complaints directory has been accessed!
+  The 'Is my complaint covered under the Equal Oppertunity Act?' Application has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
   
   Have a nice day! 
 ---
 question: |
-  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+  Thank you for completing the Application.
 subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further suport. 
