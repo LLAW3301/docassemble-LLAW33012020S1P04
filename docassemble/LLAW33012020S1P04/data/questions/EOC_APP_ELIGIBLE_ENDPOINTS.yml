@@ -40,7 +40,7 @@ fields:
     datatype: yesnoradio
 ---
 code: |
-  send_email(to='rayn0066@flinders.edu.au', template=notification)
+  send_email(to='galp0015@flinders.edu.au', template=notification)
   survey_answer = True
 ---
 template: notification

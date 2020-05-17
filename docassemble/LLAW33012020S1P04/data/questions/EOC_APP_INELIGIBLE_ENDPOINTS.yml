@@ -7,25 +7,32 @@ subquestion: |
 
   If you believe a person has been aggrieved by an action of discrimination, please do not hesitate to show them the Equal Opportunity Commission website for further information. 
   
+  [Please click here to access the EOC Website](${ url_of('https://eoc.sa.gov.au') }).
+  
   Here are your responses:
   
   Question|Your Responses
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
-  
+ 
+continue button field: usergoto_survey97
+---
 event: endpoint['notpersonaggrieved']
+question: Thank you. We appreciate your feedback.
+subquestion: |
+  Thanks for your response ${ usergoto_survey97 } ${ hidden_responses } ${ survey_answer } 
 buttons:
  - Exit: exit
  - Restart: restart
- - EOC website: exit
-   url: https://eoc.sa.gov.au
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
 subquestion: |
   It is important to pinpoint when the action of discrimination occurred as it will effect whether your claim can proceed or if an exemption must be applied for first.
   
-  If the **incident occurred over 12 months ago,** you must apply to the court for an exemption. Please contact the EOC directly by the phone number or email address below for support. 
+  If the **incident occurred over 12 months ago,** you must provide EOC reasons for why your complaint was not made within 12 months. They will determine whether your complaint may still be accepted. Please contact the EOC directly by the phone number or email address below for support. 
+  
+  [Or please click here to access the EOC Website for further information](${ url_of('https://eoc.sa.gov.au') }).
   
   If you **cannot remember when the incident occurred**, please restart the EOC Complaint Directory once you have determined when the incident occurred.
  
@@ -35,13 +42,16 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
- 
+
+continue button field: usergoto_survey98
+---
 event: endpoint['notintimeframe']
+question: Thank you. We appreciate your feedback.
+subquestion: |
+  Thanks for your response ${ usergoto_survey98 } ${ hidden_responses } ${ survey_answer } 
 buttons:
  - Exit: exit
  - Restart: restart
- - EOC website: exit
-   url: https://eoc.sa.gov.au
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -50,6 +60,8 @@ subquestion: |
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**.
   
   Plese refer to the **VIC Equal Opportunity and Human Rights Commission** for support on your complaint. 
+  
+  [Please click here to access their Website](${ url_of('https://www.humanrightscommission.vic.gov.au') }).
 
   Here are your responses:
   
@@ -59,13 +71,17 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
- 
+
+continue button field: usergoto_survey99
+---
 event: endpoint['Victoria']
-buttons:
-  - "Victorian Website": exit
-    url: https://www.humanrightscommission.vic.gov.au
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey99 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -75,6 +91,8 @@ subquestion: |
 
    Please refer to the **NSW Anti-Discrimination Board** for support on your complaint.
   
+  [Please click here to access their Website](${ url_of('https://www.antidiscrimination.justice.nsw.gov.au') }).
+  
   Here are your responses:
   
   Question|Your Responses
@@ -83,13 +101,17 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
- 
+
+continue button field: usergoto_survey100
+---
 event: endpoint['NSW']
-buttons:
-  - "NSW Website": exit
-    url: https://www.antidiscrimination.justice.nsw.gov.au
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey100 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -98,6 +120,8 @@ subquestion: |
 
   Please refer to the **QLD Anti-Discrimination Commission** for support on your complaint.
   
+  [Please click here to their Website](${ url_of('https://www.qhrc.qld.gov.au') }).
+  
   Here are your responses:
   
   Question|Your Responses
@@ -106,13 +130,17 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
- 
+
+continue button field: usergoto_survey101
+---
 event: endpoint['Queensland']
-buttons:
-  - "Queensland Website": exit
-    url: https://www.qhrc.qld.gov.au
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey101 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -121,6 +149,7 @@ subquestion: |
 
   Please refer to the **Equal Opportunity Tasmania** for support on your complaint. 
 
+  [Please click here to access their Website](${ url_of('https://equalopportunity.tas.gov.au') }).
   
   Here are your responses:
   
@@ -130,13 +159,17 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
- 
+
+continue button field: usergoto_survey102
+---
 event: endpoint['Tasmania']
-buttons:
-  - "Tasmania Website": exit
-    url: https://equalopportunity.tas.gov.au
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey102 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -146,6 +179,7 @@ subquestion: |
 
   Please refer to the **ACT Human Rights Comission** for support on your complaint.
 
+  [Please click here to access their Website](${ url_of('https://hrc.act.gov.au') }).
 
   Here are your responses:
   
@@ -155,13 +189,17 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
- 
+
+continue button field: usergoto_survey103
+---
 event: endpoint['ACT']
-buttons:
-  - "ACT Website": exit
-    url: https://hrc.act.gov.au
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey103 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart  
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -170,6 +208,8 @@ subquestion: |
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
   Please refer to the **NT Anti-Discrimination Commission** for support on your complaint.
+  
+  [Please click here to access their Website](${ url_of('https://adc.nt.gov.au') }).
 
   Here are your responses:
   
@@ -179,13 +219,17 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
- 
+
+continue button field: usergoto_survey104
+---
 event: endpoint['NT']
-buttons:
-  - "Northern Territory Website": exit
-    url: https://adc.nt.gov.au
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey104 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart 
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -193,6 +237,8 @@ subquestion: |
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
   Please refer to the **WA Equal Opportunity Commission** for support on your complaint.
+  
+  [Please click here to access their Website](${ url_of('http://www.eoc.wa.gov.au') }).
   
   Here are your responses:
   
@@ -202,13 +248,17 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia? | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
- 
+
+continue button field: usergoto_survey105
+---
 event: endpoint['WA']
-buttons:
-  - "WA Website": exit
-    url: http://www.eoc.wa.gov.au
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey105 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -216,6 +266,8 @@ subquestion: |
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over   matters that occurred in **South Australia**. 
 
   Please refer to the **Australian Human Rights Commission** for support on your complaint. 
+
+  [Please click here to access their Website](${ url_of('https://www.humanrights.gov.au/about') }).
 
   Here are your responses:
   
@@ -225,13 +277,17 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
- 
+
+continue button field: usergoto_survey106
+---
 event: endpoint['outsideAus']
-buttons:
-  - "AHRC Website": exit
-    url: https://www.humanrights.gov.au/about
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey106 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
 ---
 question: |
   Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -239,10 +295,16 @@ subquestion: |
   
   Please contact the EOC directly via email or phone to help with your complaint.
 
+continue button field: usergoto_survey107
+---
 event: endpoint['victimisation']
-buttons:
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey107 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
 ---
 question: |
  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
@@ -250,7 +312,14 @@ subquestion: |
 
   Please contact the EOC directly via email or phone to help with your complaint.
 
+continue button field: usergoto_survey108
+---
 event: endpoint['sexualharrassment']
-buttons:
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Thanks for your response ${ usergoto_survey108 } ${ hidden_responses } ${ survey_answer } 
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
+---
