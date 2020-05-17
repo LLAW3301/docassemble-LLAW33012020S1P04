@@ -1,0 +1,281 @@
+---
+question: |
+  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+subquestion: |
+  
+  Unfortunately, the Equal Opportunity Commission can **only accept complaints from the aggrieved person themselves or a suitable representative for a child or intellectually incapable person.**
+
+  If you believe a person has been aggrieved by an action of discrimination, please do not hesitate to show them the Equal Opportunity Commission website for further information. 
+  
+  or they can contaced the EOC Via Phone on  882071997 or Email at eoc@agd.sa.gov.au for further information
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  
+event: endpoint['notpersonaggrieved']
+buttons:
+ - Exit: exit
+ - Restart: restart
+ - EOC website: exit
+   url: https://eoc.sa.gov.au
+---
+question: |
+  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+subquestion: |
+  It is important to pinpoint when the action of discrimination occurred as it will effect whether your claim can proceed or if an exemption must be applied for first.
+  
+  If the **incident occurred over 12 months ago,** you must apply to the court for an exemption. Please contact the EOC directly by the phone number or email address below for support. 
+  
+   EOC can be contaced Via Phone on  882071997 or Email at eoc@agd.sa.gov.au for further information 
+  
+  If you **cannot remember when the incident occurred**, please restart the EOC Complaint Directory once you have determined when the incident occurred.
+ 
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+ 
+event: endpoint['notintimeframe']
+buttons:
+ - Exit: exit
+ - Restart: restart
+ - EOC website: exit
+   url: https://eoc.sa.gov.au
+---
+question: |
+  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+subquestion: |
+
+  Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**.
+  
+  Plese refer to the **VIC Equal Opportunity and Human Rights Commission** for support on your complaint by contacting them at the website below.
+
+ or you may contact the EOC Via Phone on  882071997 or Email at eoc@agd.sa.gov.au for further information
+
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  In which South Australia state did the incident occur? | ${ different_state }
+ 
+event: endpoint['Victoria']
+buttons:
+  - "Victorian Website": exit
+    url: https://www.humanrightscommission.vic.gov.au
+  - "Exit": exit
+    url: http://www.courts.sa.gov.au/Pages/default.aspx
+---
+question: |
+  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+subquestion: |
+
+  Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
+
+   Please refer to the **NSW Anti-Discrimination Board** for support on your complaint by reffering to the website below.
+  
+   or you may contact the EOC Via Phone on  882071997 or Email at eoc@agd.sa.gov.au for further information
+
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  In which South Australia state did the incident occur? | ${ different_state }
+ 
+event: endpoint['NSW']
+buttons:
+  - "NSW Website": exit
+    url: https://www.antidiscrimination.justice.nsw.gov.au
+  - "Exit": exit
+    url: http://www.courts.sa.gov.au/Pages/default.aspx
+---
+question: |
+  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+subquestion: |
+  Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
+
+  Please refer to the **QLD Anti-Discrimination Commission** for support on your complaint by reffering to the website below.
+  
+   or you may contact the EOC Via Phone on  882071997 or Email at eoc@agd.sa.gov.au for further information
+
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  In which South Australia state did the incident occur? | ${ different_state }
+ 
+event: endpoint['Queensland']
+buttons:
+  - "Queensland Website": exit
+    url: https://www.qhrc.qld.gov.au
+  - "Exit": exit
+    url: http://www.courts.sa.gov.au/Pages/default.aspx
+---
+question: |
+  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+subquestion: |
+  Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
+
+  Please refer to the **Equal Opportunity Tasmania** for support on your complaint by acessing the website below.
+
+     or you may contact the EOC Via Phone on  882071997 or Email at eoc@agd.sa.gov.au for further information
+
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  In which South Australia state did the incident occur? | ${ different_state }
+ 
+event: endpoint['Tasmania']
+buttons:
+  - "Tasmania Website": exit
+    url: https://equalopportunity.tas.gov.au
+  - "Exit": exit
+    url: http://www.courts.sa.gov.au/Pages/default.aspx
+---
+question: |
+  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+subquestion: |
+  
+  Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
+
+  Please refer to the **ACT Human Rights Comission** for support on your complaint by acessing the website below.
+
+   or you may contact the EOC Via Phone on  882071997 or Email at eoc@agd.sa.gov.au for further information
+
+
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  In which South Australia state did the incident occur? | ${ different_state }
+ 
+event: endpoint['ACT']
+buttons:
+  - "ACT Website": exit
+    url: https://hrc.act.gov.au
+  - "Exit": exit
+    url: http://www.courts.sa.gov.au/Pages/default.aspx
+---
+question: |
+  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+subquestion: |
+  
+  Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
+
+  Please refer to the **NT Anti-Discrimination Commission** for support on your complaint by acessing the website below
+
+     or you may contact the EOC Via Phone on  882071997 or Email at eoc@agd.sa.gov.au for further information
+
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  In which South Australia state did the incident occur? | ${ different_state }
+ 
+event: endpoint['NT']
+buttons:
+  - "Northern Territory Website": exit
+    url: https://adc.nt.gov.au
+  - "Exit": exit
+    url: http://www.courts.sa.gov.au/Pages/default.aspx
+---
+question: |
+  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+subquestion: |
+  Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
+
+  Please refer to the **WA Equal Opportunity Commission** for support on your complaint by acessing the website below.
+  
+  
+     or you may contact the EOC Via Phone on  882071997 or Email at eoc@agd.sa.gov.au for further information
+
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia? | ${ which_state_answer }
+  In which South Australia state did the incident occur? | ${ different_state }
+ 
+event: endpoint['WA']
+buttons:
+  - "WA Website": exit
+    url: http://www.eoc.wa.gov.au
+  - "Exit": exit
+    url: http://www.courts.sa.gov.au/Pages/default.aspx
+---
+question: |
+  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+subquestion: |
+  Unfortunately, the Equal Opportunity Commission only has jurisdiction over   matters that occurred in **South Australia**. 
+
+  Please refer to the **Australian Human Rights Commission** for support on your complaint by acessing the website below.
+
+     or you may contact the EOC Via Phone on  882071997 or Email at eoc@agd.sa.gov.au for further information
+
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  In which South Australia state did the incident occur? | ${ different_state }
+ 
+event: endpoint['outsideAus']
+buttons:
+  - "AHRC Website": exit
+    url: https://www.humanrights.gov.au/about
+  - "Exit": exit
+    url: http://www.courts.sa.gov.au/Pages/default.aspx
+---
+question: |
+  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+subquestion: |
+  
+  Please contact the EOC directly via email at EOC@agd.sa.gov.au or phone 882071977 to help with your complaint.
+
+event: endpoint['victimisation']
+buttons:
+  - "Exit": exit
+    url: http://www.courts.sa.gov.au/Pages/default.aspx
+---
+question: |
+ Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+subquestion: |
+
+  Please contact the EOC Via Phone on  882071997 or Email at eoc@agd.sa.gov.au for further information and  to help with your complaint.
+
+event: endpoint['sexualharrassment']
+buttons:
+  - "Exit": exit
+    url: http://www.courts.sa.gov.au/Pages/default.aspx
