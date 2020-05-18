@@ -1,8 +1,12 @@
 # docassemble.LLAW33012020S1P04
 
-A docassemble extension.
+Equal Opportunity Jurisdiction FInder
 
-## Author
+## Authors
 
-Thomas Ramsey, rams0113@flinders.edu.au
+Amelia Galpin
+Holly Langford
+Jessica Milen
+Rebecca Rayner
+Thomas Ramsey
 
