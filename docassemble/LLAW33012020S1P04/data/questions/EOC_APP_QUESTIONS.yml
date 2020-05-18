@@ -1,7 +1,7 @@
 ---
 question: Are you yourself the person {aggrieved}?
 subquestion: |
-  *You are considered the **person aggrieved** if you are the person that is treated poorly. If your friend, colleague, partner or child is treated poorly, they are the person that is aggrieved, not you.*
+  *You are considered the **person aggrieved** if you are the person that is treated poorly. You are not the person aggrieved if your friend, colleague, partner or child is treated poorly.*
 fields: 
   - no label: person_aggrieved
     input type: radio
@@ -84,7 +84,7 @@ subquestion: |
   
   If someone is just being mean or treating you poorly, it may not be discrimination. 
   
-  Bullying is when someone misuses their power through verbal, physical or social abuse to harm you in any way. Bullying is only considered discrimination when someone treats you less favourably or different because of your personal characteristics, such as age, gender, race or religion.
+  Bullying is when someone misuses their power through verbal, physical or social abuse to harm you in any way. Bullying is only considered discrimination when someone treats another less favourably or different because of their personal characteristics, such as age, gender, race or religion.
 fields:
   - no label: discrimination
     input type: radio
@@ -187,5 +187,4 @@ fields:
     choices:
       - South Australian State Level: True
       - Australian Federal Level: False
----
 ---

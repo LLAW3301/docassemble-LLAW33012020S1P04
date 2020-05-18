@@ -47,8 +47,13 @@ setup(name='docassemble.LLAW33012020S1P04',
       description=('A docassemble extension.'),
       long_description='# docassemble.LLAW33012020S1P04\r\n\r\nA docassemble extension.\r\n\r\n## Author\r\n\r\nThomas Ramsey, rams0113@flinders.edu.au\r\n\r\n',
       long_description_content_type='text/markdown',
+
       author='Thomas Ramsey',
       author_email='rams0113@flinders.edu.au',
+
+      author='Holly Langford',
+      author_email='lang0370@flinders.edu.au',
+
       license='The MIT License (MIT)',
       url='https://docassemble.org',
       packages=find_packages(),
