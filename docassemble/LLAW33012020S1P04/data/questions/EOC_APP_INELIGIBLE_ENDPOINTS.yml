@@ -1,15 +1,15 @@
 ---
 question: |
-  Thank you for completing the Application.
+  Thank you for your responses. 
 subquestion: |
   
   Unfortunately, the Equal Opportunity Commission can **only accept complaints from the aggrieved person themselves or a suitable representative for a child or intellectually incapable person.**
 
-  If you believe a person has been aggrieved by an action of discrimination, please do not hesitate to show them the Equal Opportunity Commission website for further information. 
+  If you know someone who has been aggrieved by an act of discrimination, please direct them to the Equal Opportunity Commission website which provides further information on how we can help. 
   
-  [Please click here to access the EOC Website](${ url_of('https://eoc.sa.gov.au') }).
+  [Please click here to access the EOC website.](${ url_of('https://eoc.sa.gov.au') }).
 
-  Or they can contaced the EOC Via Phone on  8207 1997 or Email at eoc@agd.sa.gov.au for further information
+  Or you may call the Commission directly on 08 8207 1997 or email eoc@agd.sa.gov.au for further assistance. 
   
   Here are your responses:
   
@@ -28,17 +28,15 @@ buttons:
  - Restart: restart
 ---
 question: |
-  Thank you for completing the Application.
+  Thank you for your responses.
 subquestion: |
-  It is important to pinpoint when the action of discrimination occurred as it will effect whether your claim can proceed or if an exemption must be applied for first.
+  It is important to pinpoint when the discrimination occurred as it will effect whether your complaint can proceed. 
   
-  If the **incident occurred over 12 months ago,** you must provide EOC reasons for why your complaint was not made within 12 months. They will determine whether your complaint may still be accepted. Please contact the EOC directly by the phone number or email address below for support. 
+  If the **incident occurred over 12 months ago,** you must provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. Please contact the Equal Opportunity Commission directly on 08 8207 1997 or email eoc@agd.sa.gov.au for further support. 
   
-  [Or please click here to access the EOC Website for further information](${ url_of('https://eoc.sa.gov.au') }).
+  [You may access further information on this by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/complaint-process/time-limits-late-complaints') }).
   
-   EOC can be contaced Via Phone on  8207 1997 or Email at eoc@agd.sa.gov.au for further information 
-  
-  If you **cannot remember when the incident occurred**, please restart the EOC Complaint Directory once you have determined when the incident occurred.
+  If you **cannot remember when the incident occurred**, please restart the Application once you have determined when the incident occurred.
  
   Here are your responses:
   
@@ -58,7 +56,7 @@ buttons:
  - Restart: restart
 ---
 question: |
-  Thank you for completing the Application.
+  Thank you for your responses. 
 subquestion: |
 
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**.
@@ -89,12 +87,12 @@ buttons:
   - Restart: restart
 ---
 question: |
-  Thank you for completing the Application.
+  Thank you for your responses. 
 subquestion: |
 
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
-   Please refer to the **NSW Anti-Discrimination Board** for support on your complaint by reffering to the website below.
+   Please refer to the **NSW Anti-Discrimination Board** for support on your complaint.
   
   [Please click here to access their Website](${ url_of('https://www.antidiscrimination.justice.nsw.gov.au') }).
   
@@ -119,13 +117,13 @@ buttons:
   - Restart: restart
 ---
 question: |
-  Thank you for completing the Application.
+  Thank you for your responses.
 subquestion: |
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
-  Please refer to the **QLD Anti-Discrimination Commission** for support on your complaint by reffering to the website below.
+  Please refer to the **QLD Anti-Discrimination Commission** for support on your complaint. 
   
-  [Please click here to their Website](${ url_of('https://www.qhrc.qld.gov.au') }).
+  [Please click here to access their Website](${ url_of('https://www.qhrc.qld.gov.au') }).
   
   Here are your responses:
   
@@ -148,11 +146,11 @@ buttons:
   - Restart: restart
 ---
 question: |
-  Thank you for completing the Application.
+  Thank you for your responses. 
 subquestion: |
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
-  Please refer to the **Equal Opportunity Tasmania** for support on your complaint by acessing the website below.
+  Please refer to the **Equal Opportunity Tasmania** for support on your complaint. 
 
   [Please click here to access their Website](${ url_of('https://equalopportunity.tas.gov.au') }).
 
@@ -177,13 +175,13 @@ buttons:
   - Restart: restart
 ---
 question: |
-  Thank you for completing the Application.
+  Thank you for your responses. 
 subquestion: |
   
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
-  Please refer to the **ACT Human Rights Comission** for support on your complaint by acessing the website below.
-
+  Please refer to the **ACT Human Rights Comission** for support on your complaint. 
+  
   [Please click here to access their Website](${ url_of('https://hrc.act.gov.au') }).
 
 
@@ -208,12 +206,12 @@ buttons:
   - Restart: restart  
 ---
 question: |
-  Thank you for completing the Application
+  Thank you for your responses. 
 subquestion: |
   
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
-  Please refer to the **NT Anti-Discrimination Commission** for support on your complaint by acessing the website below
+  Please refer to the **NT Anti-Discrimination Commission** for support on your complaint.
   
   [Please click here to access their Website](${ url_of('https://adc.nt.gov.au') }).
 
@@ -238,11 +236,11 @@ buttons:
   - Restart: restart 
 ---
 question: |
-  Thank you for completing the Application.
+  Thank you for your responses. 
 subquestion: |
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
-  Please refer to the **WA Equal Opportunity Commission** for support on your complaint by acessing the website below.
+  Please refer to the **WA Equal Opportunity Commission** for support on your complaint.
   
   [Please click here to access their Website](${ url_of('http://www.eoc.wa.gov.au') }).
   
@@ -267,11 +265,11 @@ buttons:
   - Restart: restart
 ---
 question: |
-  Thank you for completing the Application.
+  Thank you for your responses. 
 subquestion: |
-  Unfortunately, the Equal Opportunity Commission only has jurisdiction over   matters that occurred in **South Australia**. 
+  Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
-  Please refer to the **Australian Human Rights Commission** for support on your complaint by acessing the website below.
+  Please refer to the **Australian Human Rights Commission** for support on your complaint.
 
   [Please click here to access their Website](${ url_of('https://www.humanrights.gov.au/about') }).
 
@@ -296,11 +294,22 @@ buttons:
   - Restart: restart
 ---
 question: |
-  Thank you for completing the Application.
+  Thank you for your responses. 
 subquestion: |
   
-  In order to continue processing your complaint the EOC requires further information about your situation in order to have a full understanding of this and to recieve support Please contact the EOC Via Phone on  8207 1997 or Email at eoc@agd.sa.gov.au for further information.
+  In order to continue processing your complaint the Equal Opportunity Commission requires further information about your situation. Please contact the Commission directly on 08 8207 1997 or email eoc@agd.sa.gov.au for support.
+  
+  [You may access further information on Victimisation by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/types-discrimination/victimisation-and-public-interest-disclosures') }).
 
+  Here are your responses:
+
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment2 }
+  
 continue button field: usergoto_survey107
 ---
 event: endpoint['victimisation']
@@ -313,10 +322,21 @@ buttons:
   - Restart: restart
 ---
 question: |
- Thank you for completing the Application.
+ Thank you for your responses. 
 subquestion: |
 
- In order to continue processing your complaint the EOC requires further information about your situation in order to have a full understanding of this and to recieve support Please contact the EOC Via Phone on  8207 1997 or Email at eoc@agd.sa.gov.au for further information.
+ In order to continue processing your complaint the Equal Opportunity Commission requires further information about your situation. Please contact the Commission directly on 08 8207 1997 or email eoc@agd.sa.gov.au for support.
+  
+  [You may access further information on Sexual Harrassment by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/types-discrimination/sexual-harassment') }).
+ 
+   Here are your responses:
+
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment2 }
 
 continue button field: usergoto_survey108
 ---
