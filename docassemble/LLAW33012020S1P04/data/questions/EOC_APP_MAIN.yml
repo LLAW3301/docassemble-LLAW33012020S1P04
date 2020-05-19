@@ -387,13 +387,13 @@ code: |
 ---
 # hides the survey response
 code: |
-  if usersurvey_response or usergoto_survey or survey_answer:
+  if usersurvey_response or survey_answer:
     hidden_responses = ''
   else:
     hidden_responses = ''
 ---
 code: |
-  send_email(to='galp0015@flinders.edu.au', template=notification)
+  send_email(to='rayn0066@flinders.edu.au', template=notification)
   survey_answer = True
 ---
 template: notification

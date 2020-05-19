@@ -45,15 +45,10 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
 setup(name='docassemble.LLAW33012020S1P04',
       version='0.0.1',
       description=('A docassemble extension.'),
-      long_description='# docassemble.LLAW33012020S1P04\r\n\r\nA docassemble extension.\r\n\r\n## Author\r\n\r\nThomas Ramsey, rams0113@flinders.edu.au\r\n\r\n',
+      long_description='# Equal Opportunity Jurisdiction Finder (docassemble.LLAW33012020S1P04)\r\n\r\n\r\n\r\n## Authors\r\n\r\nAmelia Galpin\r\n\r\nHolly Langford\r\n\r\nJessica Milen\r\n\r\nRebecca Rayner\r\n\r\nThomas Ramsey\r\n\r\n',
       long_description_content_type='text/markdown',
-
-      author='Thomas Ramsey',
-      author_email='rams0113@flinders.edu.au',
-
-      author='Holly Langford',
-      author_email='lang0370@flinders.edu.au',
-
+      author='Rebecca Rayner',
+      author_email='rayn0066@flinders.edu.au',
       license='The MIT License (MIT)',
       url='https://docassemble.org',
       packages=find_packages(),
