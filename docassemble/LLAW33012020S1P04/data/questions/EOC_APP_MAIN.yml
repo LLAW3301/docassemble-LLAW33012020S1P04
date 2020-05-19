@@ -17,13 +17,13 @@ mandatory: True
 question: |
 
   <span class="EOCtitle">
-    Welcome to the **'Is my complaint covered under the Equal Opportunity Act?'** Application
+    Welcome to **'Is my complaint covered under the Equal Opportunity Act?'** Application
   </span>
 
 subquestion: |
-  Thank you for using the **Application**. This application will help determine whether or not the Equal Opportunity Commission has the authority under the Equal Opportunity Act to assist with your complaint. Where the Equal Opportunity Commission is not able to assist you, this application will help determine other complaints bodies which may be able to.  
+  Thank you for visiting the application. This application will help determine whether or not the Equal Opportunity Commission has the authority under the Equal Opportunity Act to assist with your complaint. Where the Equal Opportunity Commission is not able to assist you, this application will help determine other complaints bodies which may be able to.  
   
-  If you are a business applying for an exemption to discriminate favourably on one particular group under the Equal Opportunity Act, please click the exemptions button below to find the EOC contact details.
+  If you are a business applying for an exemption to discriminate favourably on one particular group under the Equal Opportunity Act, please click the **exemptions button** below to find the contact details of the Commission. 
   
   **Disclaimer:**
   
@@ -32,14 +32,13 @@ subquestion: |
   *Please answer all questions honestly and correctly.* 
   
   *This application does not guarantee the Equal Opportunity Commission or another complaint body will help you with your complaint. The Equal Opportunity Commission, or another complaint body, **will make the final decision** about your complaint.*
- 
   
   If you click continue, you accept all these terms.
 
 buttons:
   - "Continue": continue
   - "Exemptions": exit
-    url: https://eoc.sa.gov.au
+    url: https://eoc.sa.gov.au/contact
   - "Exit": exit
     url: https://eoc.sa.gov.au
 ---
@@ -47,9 +46,9 @@ mandatory: True
 question: |
   Contact Information
 subquestion: |  
-  Please provide your personal contact information. 
+  Please provide your personal contact information below. 
   
-  *Please note: This personal information is **not** required to use the Equal Opportunity Commission's Complaint Directory. If you would prefer not to provide your personal details, please click continue.*
+  **Please note:** *Your personal information is **not** required to use this application. If you would prefer not to provide your personal details, please click continue.*
   
 fields:
    - Frist Name: EOC_first_name
@@ -60,7 +59,8 @@ fields:
      required: false
      
      note: |
-      **Privacy Statement**: *Personal information provided to the Equal Opportunity Commission is protected by the Information Privacy Principles (IPPS) Instruction.  Please see* http://www.archives.sa.gov.au/alias/privacy
+      **Privacy Statement**: Personal information provided to the Equal Opportunity Commission is protected by the Information Privacy Principles (IPPS) Instruction.      
+       [Please click here for further information](${ url_of('https://eoc.sa.gov.au/resources/privacy-policy') }).
 ---
 mandatory: True
 code: |

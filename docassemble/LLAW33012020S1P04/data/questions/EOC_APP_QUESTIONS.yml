@@ -174,13 +174,11 @@ fields:
 question: |
   Do you wish to make this complaint at a State or Federal Level? 
 subquestion: |
-  *There are some differences between South Australia and Commonwealth jurisdictions   that may help you decide where to lodge a complaint. There are differences in time limits for lodging complaints.*
+  If you want to lodge a complaint at a State level, the Equal Opportunity Commission will assist with your complaint. If you wish to lodge your complaint at a Federal level, this complaint will go to the National complaint body: the Australian Human Rights Commission. In deciding where your complaint will be made please note: 
   
-    *The Australian Human Rights Commission does not have offices in South Australia. The head office is in Sydney, but officers travel interstate when required.*
-    
-  *In some cases, the Commissioner for Equal Opportunity can arrange and pay for a party's lawyer if a complaint cannot be resolved and is referred to the South Australian Civil and Administrative Tribunal. This is not the case in the Commonwealth system.*
-  
-  *In cases of indirect discrimination under South Australian law, the person complaining has to show that a certain discriminatory requirement was unreasonable. Under Commonwealth law the reverse applies and the person complained about has to show that the requirement was reasonable.*
+    * *The Australian Human Rights Commission do **not** have offices in South Australia. The head office is in Sydney. Officers will travel interstate only if required.*
+  * *In some cases, the Commissioner for Equal Opportunity can arrange and pay for a party's lawyer if a complaint cannot be resolved and is referred to the Tribunal. This is not the case in the Federal system.*
+
 fields: 
   - no label: state_or_federal
     input type: radio
