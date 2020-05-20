@@ -25,7 +25,7 @@ continue button field: usergoto_survey2
 event: endpoint['housingdisputes']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey2 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey2 } ${ hidden_responses } ${ survey_answer2 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -54,7 +54,7 @@ continue button field: usergoto_survey3
 event: endpoint['mentalhealth']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey3 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey3 } ${ hidden_responses } ${ survey_answer3 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -83,7 +83,7 @@ continue button field: usergoto_survey4
 event: endpoint['consentmedical']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey4 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey4 } ${ hidden_responses } ${ survey_answer4 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -112,7 +112,7 @@ continue button field: usergoto_survey5
 event: endpoint['governmentreview']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey5 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey5 } ${ hidden_responses } ${ survey_answer5 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -142,7 +142,7 @@ continue button field: usergoto_survey6
 event: endpoint['protected_ground_housingdisputes']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey6 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey6 } ${ hidden_responses } ${ survey_answer6 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -172,7 +172,7 @@ continue button field: usergoto_survey7
 event: endpoint['protected_ground_mentalhealth']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey7 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey7 } ${ hidden_responses } ${ survey_answer7 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -202,7 +202,7 @@ continue button field: usergoto_survey8
 event: endpoint['protected_ground_consentmedical']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey8 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey8 } ${ hidden_responses } ${ survey_answer8 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -232,7 +232,7 @@ continue button field: usergoto_survey9
 event: endpoint['protected_ground_governmentreview']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey9 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey9 } ${ hidden_responses } ${ survey_answer9 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -263,7 +263,7 @@ continue button field: usergoto_survey10
 event: endpoint['noareapubliclife_housingdisputes']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey10 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey10 } ${ hidden_responses } ${ survey_answer10 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -294,7 +294,7 @@ continue button field: usergoto_survey11
 event: endpoint['noareapubliclife_mentalhealth']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey11 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey11 } ${ hidden_responses } ${ survey_answer11 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -325,7 +325,7 @@ continue button field: usergoto_survey12
 event: endpoint['noareapubliclife_consentmedical']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey12 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey12 } ${ hidden_responses } ${ survey_answer12 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -356,7 +356,7 @@ continue button field: usergoto_survey13
 event: endpoint['noareapubliclife_governmentreview']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey13 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey13 } ${ hidden_responses } ${ survey_answer13 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -385,7 +385,7 @@ continue button field: usergoto_survey14
 event: endpoint['advancecare']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey14 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey14 } ${ hidden_responses } ${ survey_answer14 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -414,7 +414,7 @@ continue button field: usergoto_survey15
 event: endpoint['personalaffairs']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey15 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey15 } ${ hidden_responses } ${ survey_answer15 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -444,7 +444,7 @@ continue button field: usergoto_survey16
 event: endpoint['workplacediscrimination']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey16 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey16 } ${ hidden_responses } ${ survey_answer16 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -474,7 +474,7 @@ continue button field: usergoto_survey17
 event: endpoint['hwsrelations']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey17 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey17 } ${ hidden_responses } ${ survey_answer17 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -517,7 +517,7 @@ continue button field: usergoto_survey18
 event: endpoint['banking']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey18 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey18 } ${ hidden_responses } ${ survey_answer18 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -547,7 +547,7 @@ continue button field: usergoto_survey19
 event: endpoint['consumerrights']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey19 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey19 } ${ hidden_responses } ${ survey_answer19 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -577,7 +577,7 @@ continue button field: usergoto_survey19A
 event: endpoint['administrativegovernment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey19A } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey19A } ${ hidden_responses } ${ survey_answer19A } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -628,7 +628,7 @@ continue button field: usergoto_survey20
 event: endpoint['education']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey20 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey20 } ${ hidden_responses } ${ survey_answer20 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -657,7 +657,7 @@ continue button field: usergoto_survey21
 event: endpoint['electricity']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey21 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey21 } ${ hidden_responses } ${ survey_answer21 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -686,7 +686,7 @@ continue button field: usergoto_survey22
 event: endpoint['emplyoment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey22 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey22 } ${ hidden_responses } ${ survey_answer22 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -715,7 +715,7 @@ continue button field: usergoto_survey23
 event: endpoint['gas']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey23 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey23 } ${ hidden_responses } ${ survey_answer23 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -744,7 +744,7 @@ continue button field: usergoto_survey24
 event: endpoint['guardianshipyoung']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey24 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey24 } ${ hidden_responses } ${ survey_answer24 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -786,7 +786,7 @@ continue button field: usergoto_survey25
 event: endpoint['healthcare']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey25 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey25 } ${ hidden_responses } ${ survey_answer25 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -816,7 +816,7 @@ continue button field: usergoto_survey26
 event: endpoint['humanrights']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey26 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey26 } ${ hidden_responses } ${ survey_answer26 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -845,7 +845,7 @@ continue button field: usergoto_survey27
 event: endpoint['land']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey27 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey27 } ${ hidden_responses } ${ survey_answer27 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -874,7 +874,7 @@ continue button field: usergoto_survey28
 event: endpoint['lawyers']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey28 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey28 } ${ hidden_responses } ${ survey_answer28 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -903,7 +903,7 @@ continue button field: usergoto_survey29
 event: endpoint['government']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey29 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey29 } ${ hidden_responses } ${ survey_answer29 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -932,7 +932,7 @@ continue button field: usergoto_survey30
 event: endpoint['media']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey30 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey30 } ${ hidden_responses } ${ survey_answer30 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -971,7 +971,7 @@ continue button field: usergoto_survey31
 event: endpoint['mentallyvulnerable']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey31 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey31 } ${ hidden_responses } ${ survey_answer31 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1000,7 +1000,7 @@ continue button field: usergoto_survey32
 event: endpoint['internet']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey32 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey32 } ${ hidden_responses } ${ survey_answer32 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1030,7 +1030,7 @@ continue button field: usergoto_survey33
 event: endpoint['infrastructure']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey33 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey33 } ${ hidden_responses } ${ survey_answer33 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1059,7 +1059,7 @@ continue button field: usergoto_survey34
 event: endpoint['police']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey34 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey34 } ${ hidden_responses } ${ survey_answer34 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1088,7 +1088,7 @@ continue button field: usergoto_survey35
 event: endpoint['publictrustee']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey35 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey35 } ${ hidden_responses } ${ survey_answer35 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1117,7 +1117,7 @@ continue button field: usergoto_survey36
 event: endpoint['stategovernment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey36 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey36 } ${ hidden_responses } ${ survey_answer36 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1146,7 +1146,7 @@ continue button field: usergoto_survey37
 event: endpoint['transport']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey37 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey37 } ${ hidden_responses } ${ survey_answer37 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1175,7 +1175,7 @@ continue button field: usergoto_survey38
 event: endpoint['crimevictims']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey38 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey38 } ${ hidden_responses } ${ survey_answer38 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1204,7 +1204,7 @@ continue button field: usergoto_survey39
 event: endpoint['water']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey39 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey39 } ${ hidden_responses } ${ survey_answer39 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1242,7 +1242,7 @@ continue button field: usergoto_survey40
 event: endpoint['returntowork']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey40 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey40 } ${ hidden_responses } ${ survey_answer40 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1272,7 +1272,7 @@ continue button field: usergoto_survey41
 event: endpoint['protected_ground_advancecare']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey41 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey41 } ${ hidden_responses } ${ survey_answer41 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1302,7 +1302,7 @@ continue button field: usergoto_survey42
 event: endpoint['protected_ground_personalaffairs']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey42 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey42 } ${ hidden_responses } ${ survey_answer42 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1332,7 +1332,7 @@ continue button field: usergoto_survey43
 event: endpoint['protected_ground_workplacediscrimination']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey43 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey43 } ${ hidden_responses } ${ survey_answer43 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1362,7 +1362,7 @@ continue button field: usergoto_survey44
 event: endpoint['protected_ground_hwsrelations']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey44 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey44 } ${ hidden_responses } ${ survey_answer44 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1405,7 +1405,7 @@ continue button field: usergoto_survey45
 event: endpoint['protected_ground_banking']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey45 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey45 } ${ hidden_responses } ${ survey_answer45 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1436,7 +1436,7 @@ continue button field: usergoto_survey46
 event: endpoint['protected_ground_consumerrights']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey46 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey46 } ${ hidden_responses } ${ survey_answer46 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1466,7 +1466,7 @@ continue button field: usergoto_survey47
 event: endpoint['protected_ground_administrativegovernment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey47 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey47 } ${ hidden_responses } ${ survey_answer47 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1517,7 +1517,7 @@ continue button field: usergoto_survey48
 event: endpoint['protected_ground_education']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey48 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey48 } ${ hidden_responses } ${ survey_answer48 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1547,7 +1547,7 @@ continue button field: usergoto_survey49
 event: endpoint['protected_ground_electricity']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey49 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey49 } ${ hidden_responses } ${ survey_answer49 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1577,7 +1577,7 @@ continue button field: usergoto_survey50
 event: endpoint['protected_ground_emplyoment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey50 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey50 } ${ hidden_responses } ${ survey_answer50 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1607,7 +1607,7 @@ continue button field: usergoto_survey51
 event: endpoint['protected_ground_gas']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey51 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey51 } ${ hidden_responses } ${ survey_answer51 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1637,7 +1637,7 @@ continue button field: usergoto_survey52
 event: endpoint['protected_ground_guardianshipyoung']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey52 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey52 } ${ hidden_responses } ${ survey_answer52 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1680,7 +1680,7 @@ continue button field: usergoto_survey53
 event: endpoint['protected_ground_healthcare']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey53 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey53 } ${ hidden_responses } ${ survey_answer53 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1710,7 +1710,7 @@ continue button field: usergoto_survey54
 event: endpoint['protected_ground_humanrights']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey54 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey54 } ${ hidden_responses } ${ survey_answer54 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1740,7 +1740,7 @@ continue button field: usergoto_survey55
 event: endpoint['protected_ground_land']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey55 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey55 } ${ hidden_responses } ${ survey_answer55 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1770,7 +1770,7 @@ continue button field: usergoto_survey56
 event: endpoint['protected_ground_lawyers']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey56 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey56 } ${ hidden_responses } ${ survey_answer56 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1800,7 +1800,7 @@ continue button field: usergoto_survey57
 event: endpoint['protected_ground_government']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey57 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey57 } ${ hidden_responses } ${ survey_answer57 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1830,7 +1830,7 @@ continue button field: usergoto_survey58
 event: endpoint['protected_ground_media']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey58 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey58 } ${ hidden_responses } ${ survey_answer58 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1869,7 +1869,7 @@ continue button field: usergoto_survey59
 event: endpoint['protected_ground_mentallyvulnerable']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey59 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey59 } ${ hidden_responses } ${ survey_answer59 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1899,7 +1899,7 @@ continue button field: usergoto_survey60
 event: endpoint['protected_ground_internet']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey60 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey60 } ${ hidden_responses } ${ survey_answer60 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1929,7 +1929,7 @@ continue button field: usergoto_survey61
 event: endpoint['protected_ground_infrastructure']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey61 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey61 } ${ hidden_responses } ${ survey_answer61 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1959,7 +1959,7 @@ continue button field: usergoto_survey62
 event: endpoint['protected_ground_police']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey62 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey62 } ${ hidden_responses } ${ survey_answer62 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -1989,7 +1989,7 @@ continue button field: usergoto_survey63
 event: endpoint['protected_ground_publictrustee']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey63 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey63 } ${ hidden_responses } ${ survey_answer63 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2019,7 +2019,7 @@ continue button field: usergoto_survey64
 event: endpoint['protected_ground_stategovernment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey64 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey64 } ${ hidden_responses } ${ survey_answer64 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2049,7 +2049,7 @@ continue button field: usergoto_survey65
 event: endpoint['protected_ground_transport']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey65 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey65 } ${ hidden_responses } ${ survey_answer65 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2079,7 +2079,7 @@ continue button field: usergoto_survey66
 event: endpoint['protected_ground_crimevictims']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey66 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey66 } ${ hidden_responses } ${ survey_answer66 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2109,7 +2109,7 @@ continue button field: usergoto_survey67
 event: endpoint['protected_ground_crimevictims']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey67 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey67 } ${ hidden_responses } ${ survey_answer67 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2148,7 +2148,7 @@ continue button field: usergoto_survey68
 event: endpoint['protected_ground_returntowork']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey68 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey68 } ${ hidden_responses } ${ survey_answer68 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2179,7 +2179,7 @@ continue button field: usergoto_survey69
 event: endpoint['noareapubliclife_advancecare']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey69 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey69 } ${ hidden_responses } ${ survey_answer69 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2210,7 +2210,7 @@ continue button field: usergoto_survey70
 event: endpoint['noareapubliclife_personalaffairs']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey70 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey70 } ${ hidden_responses } ${ survey_answer70 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2241,7 +2241,7 @@ continue button field: usergoto_survey71
 event: endpoint['noareapubliclife_workplacediscrimination']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey71 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey71 } ${ hidden_responses } ${ survey_answer71 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2272,7 +2272,7 @@ continue button field: usergoto_survey72
 event: endpoint['noareapubliclife_hwsrelations']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey72 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey72 } ${ hidden_responses } ${ survey_answer72 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2316,7 +2316,7 @@ continue button field: usergoto_survey73
 event: endpoint['noareapubliclife_banking']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey73 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey73 } ${ hidden_responses } ${ survey_answer73 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2347,7 +2347,7 @@ continue button field: usergoto_survey74
 event: endpoint['noareapubliclife_consumerrights']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey74 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey74 } ${ hidden_responses } ${ survey_answer74 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2379,7 +2379,7 @@ continue button field: usergoto_survey75
 event: endpoint['noareapubliclife_administrativegovernment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey75 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey75 } ${ hidden_responses } ${ survey_answer75 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2431,7 +2431,7 @@ continue button field: usergoto_survey76
 event: endpoint['noareapubliclife_education']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey76 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey76 } ${ hidden_responses } ${ survey_answer76 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2462,7 +2462,7 @@ continue button field: usergoto_survey77
 event: endpoint['noareapubliclife_electricity']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey77 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey77 } ${ hidden_responses } ${ survey_answer77 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2493,7 +2493,7 @@ continue button field: usergoto_survey78
 event: endpoint['noareapubliclife_emplyoment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey78 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey78 } ${ hidden_responses } ${ survey_answer78 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2524,7 +2524,7 @@ continue button field: usergoto_survey79
 event: endpoint['noareapubliclife_gas']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey79 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey79 } ${ hidden_responses } ${ survey_answer79 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2555,7 +2555,7 @@ continue button field: usergoto_survey80
 event: endpoint['noareapubliclife_guardianshipyoung']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey80 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey80 } ${ hidden_responses } ${ survey_answer80 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2600,7 +2600,7 @@ continue button field: usergoto_survey81
 event: endpoint['noareapubliclife_healthcare']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey81 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey81 } ${ hidden_responses } ${ survey_answer81 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2631,7 +2631,7 @@ continue button field: usergoto_survey82
 event: endpoint['noareapubliclife_humanrights']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey82 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey82 } ${ hidden_responses } ${ survey_answer82 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2662,7 +2662,7 @@ continue button field: usergoto_survey83
 event: endpoint['noareapubliclife_land']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey83 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey83 } ${ hidden_responses } ${ survey_answer83 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2693,7 +2693,7 @@ continue button field: usergoto_survey84
 event: endpoint['noareapubliclife_lawyers']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey84 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey84 } ${ hidden_responses } ${ survey_answer84 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2724,7 +2724,7 @@ continue button field: usergoto_survey85
 event: endpoint['noareapubliclife_government']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey85 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey85 } ${ hidden_responses } ${ survey_answer85 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2755,7 +2755,7 @@ continue button field: usergoto_survey86
 event: endpoint['noareapubliclife_media']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey86 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey86 } ${ hidden_responses } ${ survey_answer86 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2795,7 +2795,7 @@ continue button field: usergoto_survey87
 event: endpoint['noareapubliclife_mentallyvulnerable']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey87 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey87 } ${ hidden_responses } ${ survey_answer87 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2826,7 +2826,7 @@ continue button field: usergoto_survey88
 event: endpoint['noareapubliclife_internet']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey88 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey88 } ${ hidden_responses } ${ survey_answer88 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2857,7 +2857,7 @@ continue button field: usergoto_survey89
 event: endpoint['noareapubliclife_infrastructure']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey89 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey89 } ${ hidden_responses } ${ survey_answer89 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2888,7 +2888,7 @@ continue button field: usergoto_survey90
 event: endpoint['noareapubliclife_police']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey90 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey90 } ${ hidden_responses } ${ survey_answer90 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2919,7 +2919,7 @@ continue button field: usergoto_survey91
 event: endpoint['noareapubliclife_publictrustee']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey91 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey91 } ${ hidden_responses } ${ survey_answer91 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2950,7 +2950,7 @@ continue button field: usergoto_survey92
 event: endpoint['noareapubliclife_stategovernment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey92 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey92 } ${ hidden_responses } ${ survey_answer92 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -2981,7 +2981,7 @@ continue button field: usergoto_survey93
 event: endpoint['noareapubliclife_transport']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey93 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey93 } ${ hidden_responses } ${ survey_answer93 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -3012,7 +3012,7 @@ continue button field: usergoto_survey94
 event: endpoint['noareapubliclife_crimevictims']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey94 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey94 } ${ hidden_responses } ${ survey_answer94 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -3043,7 +3043,7 @@ continue button field: usergoto_survey95
 event: endpoint['noareapubliclife_water']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey95 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey95 } ${ hidden_responses } ${ survey_answer95 } 
 buttons: 
   - Exit: exit
   - Restart: restart
@@ -3084,7 +3084,7 @@ continue button field: usergoto_survey96
 event: endpoint['noareapubliclife_returntowork']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey96 } ${ hidden_responses } ${ survey_answer } 
+  Thanks for your response ${ usergoto_survey96 } ${ hidden_responses } ${ survey_answer96 } 
 buttons: 
   - Exit: exit
   - Restart: restart

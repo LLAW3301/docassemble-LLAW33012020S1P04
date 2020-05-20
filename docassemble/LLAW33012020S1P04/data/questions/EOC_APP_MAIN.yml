@@ -4,9 +4,18 @@ include:
   - EOC_APP_INELIGIBLE_ENDPOINTS.yml
   - EOC_APP_ELIGIBLE_ENDPOINTS.yml
   - EOC_APP_OTHER_BODIES_ENDPOINTS.yml
+  - EOC_APP_SURVEY_CODE.yml
 ---
 objects:
   - endpoint: DADict
+---
+objects:
+  - EOCLogo: DAStaticFile.using(filename='MicrosoftTeams-image-2.png')
+---
+mandatory: True
+code: |
+  TRlogo_string = '<img src="{}" height="40">'.format(EOCLogo.url_for())
+  set_parts(logo=TRlogo_string)
 ---
 features:
   css: EOCheader.css
@@ -384,23 +393,10 @@ code: |
   else:
     state_or_federal_answer = 'Australian Federal Level'
 ---
----
 # hides the survey response
 code: |
-  if usersurvey_response or survey_answer:
+  if usersurvey_response:
     hidden_responses = ''
   else:
     hidden_responses = ''
----
-code: |
-  send_email(to='rayn0066@flinders.edu.au', template=notification)
-  survey_answer = True
----
-template: notification
-subject: |
-  EOC Complaints directory has been accessed!
-content: | 
-  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
-  
-  Have a nice day! 
 ---
