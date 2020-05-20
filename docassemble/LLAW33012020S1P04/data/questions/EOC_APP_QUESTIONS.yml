@@ -186,3 +186,8 @@ fields:
       - South Australian State Level: True
       - Australian Federal Level: False
 ---
+question: Feedback opportunity
+fields:
+  - Was this information useful?: usersurvey_response
+    datatype: yesnoradio
+---

@@ -1,0 +1,615 @@
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer2 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer3 = True
+--- 
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer4 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer5 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer14 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer15 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer16 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer17 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer18 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer19 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer19A = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer20 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer21 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer22 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer23 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer24 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer25 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer26 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer27 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer28 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer29 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer30 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer31 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer32 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer33 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer34 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer35 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer36 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer37 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer38 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer39 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_5)
+  survey_answer40 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer6 = True
+--- 
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer7 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer8 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer9 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer41 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer42 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer43 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer44 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer45 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer46 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer47 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer48 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer49 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer50 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer51 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer52 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer53 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer54 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer55 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer56 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer57 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer58 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer59 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer60 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer61 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer62 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer63 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer64 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer65 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer66 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer67 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_6)
+  survey_answer68 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer10 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer11 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer12 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer13 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer69 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer70 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer71 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer72 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer73 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer74 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer75 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer76 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer77 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer78 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer79 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer80 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer81 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer82 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer83 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer84 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer85 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer86 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer87 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer88 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer89 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer90 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer91 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer92 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer93 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer94 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer95 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_7)
+  survey_answer96 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification)
+  survey_answer97 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_2)
+  survey_answer98 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_3)
+  survey_answer99 = True 
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_3)
+  survey_answer100 = True 
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_3)
+  survey_answer101 = True 
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_3)
+  survey_answer102 = True 
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_3)
+  survey_answer103 = True 
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_3)
+  survey_answer104 = True 
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_3)
+  survey_answer105 = True 
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_3)
+  survey_answer106 = True 
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_4)
+  survey_answer107 = True 
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_4)
+  survey_answer108 = True 
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_8)
+  survey_answer109 = True 
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_8)
+  survey_answer = True 
+---
+code: |
+  if usergoto_survey97 == True and person_aggrieved == False:
+    template['notification']
+  if usergoto_survey98 == True and person_aggrieved == True and incident_date == False:
+    template['notification_2']
+  if usergoto_survey99 == True or usergoto_survey100 == True or usergoto_survey101 == True or usergoto_survey102 == True or usergoto_survey103 == True or usergoto_survey104 == True or usergoto_survey105 == True or usergoto_survey106 and person_aggrieved == True and incident_date == True and which_state == False and different_state == True:
+    template['notification_3']
+  if usergoto_survey107 == True or usergoto_survey108 == True and person_aggrieved == True and incident_date == True and which_state == True and different_state == True and person_aggrieved == True and incident_date == True and which_state == True and victimisation_sexualharrassment == True:
+    template['notification_4']
+  if usergoto_survey2 == True or usergoto_survey3 == True or usergoto_survey4 == True or usergoto_survey5 == True or usergoto_survey14 == True or usergoto_survey15 == True or usergoto_survey16 == True or usergoto_survey17 == True or usergoto_survey18 == True or usergoto_survey19 == True or usergoto_survey19A == True or usergoto_survey20 == True or usergoto_survey21 == True or usergoto_survey22 == True or usergoto_survey23 == True or usergoto_survey24 == True or usergoto_survey25 == True or usergoto_survey26 == True or usergoto_survey27 == True or usergoto_survey28 == True or usergoto_survey29 == True or usergoto_survey30 == True or usergoto_survey31 == True or usergoto_survey32 == True or usergoto_survey33 == True or usergoto_survey34 == True or usergoto_survey35 == True or usergoto_survey36 == True or usergoto_survey37 == True or usergoto_survey38 == True or usergoto_survey39 == True or usergoto_survey40 == True and person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == False and other_complaint_bodies == True:
+    template['notification_5']
+  if usergoto_survey6 == True or usergoto_survey7 == True or usergoto_survey8 == True or usergoto_survey9 == True or usergoto_survey41 == True or usergoto_survey42 == True or usergoto_survey43 == True or usergoto_survey44 == True or usergoto_survey45 == True or usergoto_survey46 == True or usergoto_survey47 == True or usergoto_survey48 == True or usergoto_survey49 == True or usergoto_survey50 == True or usergoto_survey51 == True or usergoto_survey52 == True or usergoto_survey53 == True or usergoto_survey54 == True or usergoto_survey55 == True or usergoto_survey56 == True or usergoto_survey57 == True or usergoto_survey58 == True or usergoto_survey59 == True or usergoto_survey60 == True or usergoto_survey61 == True or usergoto_survey62 == True or usergoto_survey63 == True or usergoto_survey64 == True or usergoto_survey65 == True or usergoto_survey66 == True or usergoto_survey67 == True or usergoto_survey68 == True and person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == True and protected_ground_eligible == False and other_complaint_bodies == True:
+    template['notification_6']
+  if usergoto_survey10 == True or usergoto_survey11 == True or usergoto_survey12 == True or usergoto_survey13 == True or usergoto_survey69 == True or usergoto_survey70 == True or usergoto_survey71 == True or usergoto_survey72 == True or usergoto_survey73 == True or usergoto_survey74 == True or usergoto_survey75 == True or usergoto_survey76 == True or usergoto_survey77 == True or usergoto_survey78 == True or usergoto_survey79 == True or usergoto_survey80 == True or usergoto_survey81 == True or usergoto_survey82 == True or usergoto_survey83 == True or usergoto_survey84 == True or usergoto_survey85 == True or usergoto_survey86 == True or usergoto_survey87 == True or usergoto_survey88 == True or usergoto_survey89 == True or usergoto_survey90 == True or usergoto_survey91 == True or usergoto_survey92 == True or usergoto_survey93 == True or usergoto_survey94 == True or usergoto_survey95 == True or usergoto_survey96 == True and person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == True and protected_ground_eligible == True and area_public_life_eligible == False and other_complaint_bodies == True:
+    template['notification_7']
+  if usergoto_survey == True or usergoto_survey109 and person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == True and protected_ground_eligible == True and area_public_life_eligible == True and state_or_federal == False or state_or_federal == True:
+    template['notification_8']
+---
+template: notification
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
+  
+     Question      | User Responses
+  -----------------|-----------------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved? | ${ person_aggrieved }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+    
+---
+template: notification_2
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
+  
+  Question         | User Responses
+  -----------------|-----------------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+--- 
+template: notification_3
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
+  
+  Question         | User Responses
+  -----------------|-----------------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  In which South Australia state did the incident occur? | ${ different_state }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+---
+template: notification_4
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
+
+  Question|User Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment2 }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day!
+---
+template: notification_5
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
+
+  Question|User Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
+  Complaint based on other grounds                    | ${ other_complaint_bodies }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day!
+---
+template: notification_6
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
+
+  Question|User Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
+  Was discrimination based on protected ground? | ${ protected_ground }
+  Complaint is based on...       | ${ other_complaint_bodies }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day!
+---
+template: notification_7
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
+
+  Question|User Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
+  Was discrimination based on protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public life? | ${ area_public_life }
+  Complaint is based on...       | ${ other_complaint_bodies }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day!
+---
+template: notification_8
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
+
+  Question|User Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ area_public_life } 
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day!
+---
