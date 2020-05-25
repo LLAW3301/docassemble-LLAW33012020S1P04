@@ -20,7 +20,7 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ area_public_life } 
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
   
-  **Please click continue for an opportunity to provide feedback only after you have downloaded the complaint form below**
+  **Please click continue for an opportunity to provide feedback only after you have downloaded the complaint form below.**
 attachment:
   - name: Equal Opportunity Commission Complaint Form 
     docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
@@ -55,6 +55,7 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ area_public_life } 
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal }
 
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
 continue button field: usergoto_survey109
 ---
 event: endpoint['federal']

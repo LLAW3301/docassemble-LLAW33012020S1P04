@@ -7,7 +7,7 @@ subquestion: |
 
   If you know someone who has been aggrieved by an act of discrimination, please direct them to the Equal Opportunity Commission website which provides further information on how we can help. 
   
-  [Please click here to access the EOC website.](${ url_of('https://eoc.sa.gov.au') }).
+  [Please click here to access the EOC website](${ url_of('https://eoc.sa.gov.au') }).
 
   Or you may call the Commission directly on 08 8207 1997 or email eoc@agd.sa.gov.au for further assistance. 
   
@@ -16,13 +16,15 @@ subquestion: |
   Question|Your Responses
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
- 
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+  
 continue button field: usergoto_survey97
 ---
 event: endpoint['notpersonaggrieved']
 question: Thank you. We appreciate your feedback.
 subquestion: |
-  Thanks for your response ${ usergoto_survey97 } ${ hidden_responses } ${ survey_answer97 } 
+  Thanks for your response ${ usergoto_survey97 } ${ hidden_responses } ${ survey_answer97 }  
 buttons:
  - Exit: exit
  - Restart: restart
@@ -32,7 +34,7 @@ question: |
 subquestion: |
   It is important to pinpoint when the discrimination occurred as it will effect whether your complaint can proceed. 
   
-  If the **incident occurred over 12 months ago,** you must provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. Please contact the Equal Opportunity Commission directly on 08 8207 1997 or email eoc@agd.sa.gov.au for further support. 
+  If the **incident occurred over 12 months ago,** you must provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. Please contact the Equal Opportunity Commission directly on 08 8207 1997 or email (eoc@agd.sa.gov.au) for further support. 
   
   [You may access further information on this by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/complaint-process/time-limits-late-complaints') }).
   
@@ -45,6 +47,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
 
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
 continue button field: usergoto_survey98
 ---
 event: endpoint['notintimeframe']
@@ -75,6 +78,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
 
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
 continue button field: usergoto_survey99
 ---
 event: endpoint['Victoria']
@@ -104,7 +108,8 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
-
+ 
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
 continue button field: usergoto_survey100
 ---
 event: endpoint['NSW']
@@ -133,7 +138,8 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
-
+ 
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
 continue button field: usergoto_survey101
 ---
 event: endpoint['Queensland']
@@ -163,6 +169,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
 
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
 continue button field: usergoto_survey102
 ---
 event: endpoint['Tasmania']
@@ -194,6 +201,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
 
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
 continue button field: usergoto_survey103
 ---
 event: endpoint['ACT']
@@ -224,6 +232,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
 
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
 continue button field: usergoto_survey104
 ---
 event: endpoint['NT']
@@ -253,6 +262,7 @@ subquestion: |
   Did the incident occur in South Australia? | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
 
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
 continue button field: usergoto_survey105
 ---
 event: endpoint['WA']
@@ -282,6 +292,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
 
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
 continue button field: usergoto_survey106
 ---
 event: endpoint['outsideAus']
@@ -309,7 +320,8 @@ subquestion: |
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Does your complaint involve Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment2 }
-  
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
 continue button field: usergoto_survey107
 ---
 event: endpoint['victimisation']
@@ -338,6 +350,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Does your complaint involve Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment2 }
 
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
 continue button field: usergoto_survey108
 ---
 event: endpoint['sexualharrassment']
