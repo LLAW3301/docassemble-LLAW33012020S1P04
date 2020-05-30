@@ -1,23 +1,50 @@
 event: endpoint['extra_sections_eligible']
 question: |
-  TURN INTO PROPER ENDPOINT
+  Thank you for your responses. 
 subquestion: |
 
-  blah blah blah blah
+  Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission should be able to accept your complaint and assist you throughout the complaint process. 
+  
+  Please download and complete the Equal Opportunity Commission Complaint Form below, or [click here for access to the online form,](${url_of('https://forms.sa.gov.au/#/form/59964287ad9c5a332435b63f/page/3/subpage/63/app/5ed20faa4d433159fcdc299f ') }) to officially begin the complaint process.
+  
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
 
+    Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  
 attachment:
   - name: Equal Opportunity Commission Complaint Form 
     docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+continue button field: usergoto_survey
+---
+event: endpoint['eligible']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey
+  survey_answer
+  hidden_response = ''
 ---
 question: |
   Thank you for your responses. 
 subquestion: |
   
-  Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission will be able to help and support you through your legal complaint.
+  Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission should be able to accept your complaint and assist you throughout the complaint process. 
   
-  Please download and complete the Equal Opportunity Commission Complaint Form to officially begin the complaint process.
+  Please download and complete the Equal Opportunity Commission Complaint Form below, or [click here for access to the online form,](${url_of('https://forms.sa.gov.au/#/form/59964287ad9c5a332435b63f/page/3/subpage/63/app/5ed20faa4d433159fcdc299f ') }) to officially begin the complaint process.
   
-  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative support where required.*
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
   
   Here are your responses:
   

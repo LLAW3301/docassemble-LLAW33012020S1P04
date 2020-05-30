@@ -72,7 +72,7 @@ question: |
 subquestion: |
   **Sexual harassment** *is any unwanted verbal or physical conduct of a sexual nature. It can make you feel embarrassed, offended, intimidated or unsafe.* 
   
-  **Victimisation** is punishing or threatening to punish someone because they have made a complaint or reported behaviour for investigation. That complaint or report of inappropriate behaviour must relate to an alleged breach of Equal Opportunity Act 1984, the Public Interest Disclosure Act 2018  or the Independent Commission Against Corruption Act 2012. There are a number of other South Australian Acts that create a right to make a complaint to the EOC for victimisation, if your complaint of victimisation relates to an Act not mentioned above, please contact the EOC to speak about your complaint in more detail. 
+  **Victimisation** *is punishing or threatening to punish someone because they have made a complaint or reported behaviour for investigation.* 
   
   **Example:** An employee alleged that a client had sexually harassed her by making sexual comments while she was trying to do her job. The employee said that her employer offered her less shifts after she complained about this. This is victimisation.
 fields:
@@ -109,11 +109,11 @@ fields:
 question: |
   Was there discrimination?
 subquestion: |
-  **Discrimination happens when a person, or a group of people, are is treated less favourably than another person (or group of people) because of their background or certain characteristics.**
+  **Discrimination happens when a person is treated less favourably than another person (or group of people) because of their background or certain characteristics.**
   
   If someone is being mean or treating you poorly, it may not be discrimination. 
   
-  Bullying is when someone misuses their power through verbal, physical or social abuse to harm you in any way. Bullying is only considered discrimination when someone treats another less favourably or different because of their personal characteristics, such as their age, gender, race or religion religious dress.
+  Bullying is when someone misuses their power through verbal, physical or social abuse to harm you in any way. Bullying is only considered discrimination when someone treats another less favourably or different because of their personal characteristics, such as their age, gender, race or religious dress.
   
 fields:
   - no label: discrimination
