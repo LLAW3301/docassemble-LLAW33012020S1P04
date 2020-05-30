@@ -5,6 +5,22 @@ include:
   - EOC_APP_ELIGIBLE_ENDPOINTS.yml
   - EOC_APP_OTHER_BODIES_ENDPOINTS.yml
   - EOC_APP_SURVEY_CODE.yml
+  - EOC_APP_RELIGIOUS_PUBLIC_LIFE_ENDPOINTS.yml
+  - EOC_APP_DOMESTICPARTNER_PUBLIC_LIFE.yml
+  - EOC_APP_PARTNERIDENTITY_PUBLIC_LIFE.yml
+  - EOC_APP_ASSOCIATIONCHILD_PUBLIC_LIFE.yml
+  - EOC_APP_PREGNANCY_PUBLIC_LIFE.yml
+  - EOC_APP_CARING_PUBLIC_LIFE.yml
+---
+metadata:
+  title: Is my complaint covered under the Equal Opportunity Act?
+  authors:
+    - name: Amelia Galpin
+    - name: Holly Langford
+    - name: Jessica Milen
+    - name: Rebecca Rayner
+    - name: Thomas Ramsey
+  organisation:  Flinders University
 ---
 objects:
   - endpoint: DADict
@@ -20,7 +36,7 @@ code: |
 features:
   css: EOCheader.css
   debug: True
-  hide standard menu: False
+  hide standard menu: True
 ---
 mandatory: True
 question: |
@@ -32,15 +48,17 @@ question: |
 subquestion: |
   Thank you for visiting this application. This application will help determine whether or not the Equal Opportunity Commission has the authority under the Equal Opportunity Act to assist with your complaint. Where the Equal Opportunity Commission is not able to assist you, this application will help determine other complaints bodies which may be able to.  
   
-  If you are a **business applying for an exemption** to discriminate favourably on one particular group under the Equal Opportunity Act, this application may not help you. [Please click here to find the contact details of the Commission.](${ url_of('https://eoc.sa.gov.au/contact') })
+  If you are a **business applying for an exemption** to discriminate favourably on one particular group under the Equal Opportunity Act, this application may not help you. Please contact the Commission directly with your query. [Click here for their details.](${ url_of('https://eoc.sa.gov.au/contact') })
+  
   
   **Disclaimer:**
   
-  *This application **does not provide** legal advice.*
-  
-  *Please answer all questions honestly and correctly.* 
-  
-  *This application does not guarantee the Equal Opportunity Commission or another complaint body will help you with your complaint. The Equal Opportunity Commission, or another complaint body, **will make the final decision** about your complaint.*
+    - *This application **does not provide** legal advice.*
+      
+    - *Please answer all questions honestly and correctly.* 
+      
+    - *This application does not guarantee the Equal Opportunity Commission or another complaint body will help you with your complaint. The Equal Opportunity Commission, or another complaint body, **will make the final decision** about your complaint.*
+      
   
   If you click continue, you accept all these terms.
 
@@ -80,16 +98,76 @@ code: |
     endpoint['notinSA']
   if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == True ):
     endpoint['victimisation.sexualharrassment']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == True ):
+    endpoint['extra_sections_eligible']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == False ):
     endpoint['nodiscrimination']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == True and protected_ground_eligible == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Other grounds' ):
     endpoint['noprotectedground']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == True and protected_ground_eligible == True and area_public_life_eligible == False ):
+---
+mandatory: True
+code: |
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Religious appearance or dress' and religious_area_eligible == False ):
+    endpoint['religious_no_area_public_life']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Marital or domestic partnership status' and domestic_partner_area_public_life_eligible == False ):
+    endpoint['domestic_partnership_no_public_life']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Identity of a spouse or domestic partner' and identity_of_partner_area_public_life_eligible == False ):
+    endpoint['identity_of_partner_no_public_life'] 
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Association with a child' and association_with_child_area_public_life_eligible == False ):
+    endpoint['association_with_child_no_public_life'] 
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == True and protected_ground == 'Caring Responsibility' and caring_responsibility_area_public_life_eligible == False ):
+    endpoint['caring_responsibility_no_public_life'] 
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Pregnancy' and pregnancy_area_public_life_eligible == False ):
+    endpoint['pregnancy_no_public_life'] 
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Age' and area_public_life_eligible == False ): 
     endpoint['noareapubliclife']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == True and protected_ground_eligible == True and area_public_life_eligible == True and state_or_federal == False ):
-    endpoint['federal']
-  else:
-    endpoint['eligible']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Race' and area_public_life_eligible == False ): 
+    endpoint['noareapubliclife']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Disability' and area_public_life_eligible == False ): 
+    endpoint['noareapubliclife']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Sex' and area_public_life_eligible == False ): 
+    endpoint['noareapubliclife']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Sexual Identity' and area_public_life_eligible == False ): 
+    endpoint['noareapubliclife']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Sexual Orientation' and area_public_life_eligible == False ): 
+    endpoint['noareapubliclife']
+---
+mandatory: True
+code: |
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Age' or protected_ground == 'Disability' or protected_ground == 'Race' or protected_ground == 'Sex' or protected_ground == 'Sexual Identity' or protected_ground == 'Sexual Orientation' and area_public_life_eligible == True and state_or_federal == True ):
+   endpoint['eligible']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Age' or protected_ground == 'Disability' or protected_ground == 'Race' or protected_ground == 'Sex' or protected_ground == 'Sexual Identity' or protected_ground == 'Sexual Orientation' and area_public_life_eligible == True and state_or_federal == False ):
+   endpoint['federal_eligible']
+   
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Religious appearance or dress' and religious_area_eligible == True and state_or_federal == True ):
+    endpoint['eligible_religious_no_area_public_life']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Religious appearance or dress' and religious_area_eligible == True and state_or_federal == False ):
+    endpoint['federal_religious_no_area_public_life']
+    
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Marital or domestic partnership status' and domestic_partner_area_public_life_eligible == True and state_or_federal == True ):
+    endpoint['eligible_domestic_partnership_no_public_life']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Marital or domestic partnership status' and domestic_partner_area_public_life_eligible == True and state_or_federal == False ):
+    endpoint['federal_domestic_partnership_no_public_life']
+    
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Identity of a spouse or domestic partner' and identity_of_partner_area_public_life_eligible == True and state_or_federal == True ):
+    endpoint['eligible_identity_of_partner_no_public_life']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Identity of a spouse or domestic partner' and identity_of_partner_area_public_life_eligible == True and state_or_federal == False ):
+    endpoint['federal_identity_of_partner_no_public_life']
+    
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Association with a child' and association_with_child_area_public_life_eligible == True and state_or_federal == True ):
+    endpoint['eligible_association_with_child_no_public_life']   
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Association with a child' and association_with_child_area_public_life_eligible == True and state_or_federal == False ):
+    endpoint['federal_association_with_child_no_public_life'] 
+    
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Caring Responsibility' and caring_responsibility_area_public_life_eligible == True and state_or_federal == True ):
+    endpoint['eligible_caring_responsibility_no_public_life'] 
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Caring Responsibility' and caring_responsibility_area_public_life_eligible == True and state_or_federal == False ):
+    endpoint['federal_caring_responsibility_no_public_life'] 
+
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and  protected_ground == 'Pregnancy' and pregnancy_area_public_life_eligible == True and state_or_federal == True ):
+    endpoint['eligible_pregnancy_no_public_life']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == True and  protected_ground == 'Pregnancy' and pregnancy_area_public_life_eligible == True and state_or_federal == False ):
+    endpoint['federal_pregnancy_no_public_life']
 ---
 mandatory: True
 event: endpoint['notinSA']
@@ -186,7 +264,8 @@ code: |
     endpoint['water']
   if other_complaint_bodies == 'ReturnToWorkSA':
     endpoint['returntowork']
-
+  if other_complaint_bodies == 'None of the above':
+    endpoint['noneoftheabove']
 ---
 mandatory: True
 event: endpoint['noprotectedground']
@@ -255,9 +334,11 @@ code: |
     endpoint['protected_ground_water']
   if other_complaint_bodies == 'ReturnToWorkSA':
     endpoint['protected_ground_returntowork']
+  if other_complaint_bodies == 'None of the above':
+    endpoint['protected_ground_noneoftheabove']
 ---
 mandatory: True
-event: endpoint['noareapubliclife']
+event: endpoint['noareapubliclife'] 
 code: |
   if other_complaint_bodies == 'Housing Disputes':
     endpoint['noareapubliclife_housingdisputes']
@@ -323,6 +404,9 @@ code: |
     endpoint['noareapubliclife_water']
   if other_complaint_bodies == 'ReturnToWorkSA':
     endpoint['noareapubliclife_returntowork']
+  if other_complaint_bodies == 'None of the above':
+    endpoint['noareapubliclife_noneoftheabove']
+
 ---
 code: |
   if (person_aggrieved == 'Yes, I am the person aggrieved by the action' or 
@@ -333,9 +417,9 @@ code: |
     person_aggrieved_eligible = False 
 ---
 code: |
-  if incident_date == 'The incident occurred within the **last 12 months**':
+  if incident_date == 'The incident occurred within the **last 12 months**' or 'The incident occurred **over 12 months ago**':
     incident_date_eligible = True
-  else:
+  if incident_date == 'I do not remember when the incident occurred':
     incident_date_eligible = False
 ---
 code: |
@@ -367,35 +451,95 @@ code: |
     protected_ground == 'Identity of a spouse or domestic partner' or
     protected_ground == 'Pregnancy' or 
     protected_ground == 'Association with a child' or 
-    protected_ground == 'Caring Responsibility' or 
-    protected_ground == 'Religious appearance or dress'):
+    protected_ground == 'Caring Responsibility' or
+    protected_ground == 'Religious appearance or dress' ):
     protected_ground_eligible = True
   else:
     protected_ground_eligible = False
 ---
 code: |
-  if (area_public_life == 'Employment' or 
+  if ( religious_area_public_life == 'Education' or 
+    religious_area_public_life == 'Employment' ):
+    religious_area_eligible = True
+  else:
+    religious_area_eligible = False
+---
+code: |
+  if ( area_public_life == 'Employment' or 
   area_public_life == 'Customer Service' or 
   area_public_life == 'Accomodation' or 
   area_public_life == 'Selling Land' or 
   area_public_life == 'Clubs and Associations' or 
   area_public_life == 'Advertising' or 
   area_public_life == 'Education' or 
-  area_public_life == 'Granting Qualifications'):
+  area_public_life == 'Granting Qualifications' ):
     area_public_life_eligible = True
-  else: 
+  else:
     area_public_life_eligible = False
 ---
 code: |
-  if state_or_federal:
+  if ( domestic_partner_area_public_life == 'Employment' or
+  domestic_partner_area_public_life == 'Education' or
+  domestic_partner_area_public_life == 'Clubs and Associations' or
+  domestic_partner_area_public_life == 'Granting Qualifications' or
+  domestic_partner_area_public_life == 'Selling Land' or 
+  domestic_partner_area_public_life == 'Customer Service' or 
+  domestic_partner_area_public_life == 'Accomodation' ):
+    domestic_partner_area_public_life_eligible = True
+  else:
+    domestic_partner_area_public_life_eligible = False
+---
+code: |
+  if ( identity_of_partner_area_public_life == 'Employment' or
+  identity_of_partner_area_public_life == 'Associations and Clubs' or
+  identity_of_partner_area_public_life == 'Granting Qualifications' or 
+  identity_of_partner_area_public_life == 'Education' or
+  identity_of_partner_area_public_life == 'Selling Land' or
+  identity_of_partner_area_public_life == 'Customer Service' or
+  identity_of_partner_area_public_life == 'Accommodation' ):
+    identity_of_partner_area_public_life_eligible = True
+  else:
+    identity_of_partner_area_public_life_eligible = False
+---
+code: |
+  if association_with_child_area_public_life == 'Customer Service':
+    association_with_child_area_public_life_eligible = True
+  else:
+    association_with_child_area_public_life_eligible = False
+---
+code: |
+  if ( caring_responsibility_area_public_life == 'Employment' or
+  caring_responsibility_area_public_life == 'Association' or
+  caring_responsibility_area_public_life == 'Granting Qualifications' or 
+  caring_responsibility_area_public_life == 'Education' or 
+  caring_responsibility_area_public_life == 'Selling Land' or
+  caring_responsibility_area_public_life == 'Customer Service' or
+  caring_responsibility_area_public_life == 'Accommodation' ):
+    caring_responsibility_area_public_life_eligible = True
+  else:
+    caring_responsibility_area_public_life_eligible = False
+---
+code: |
+  if ( pregnancy_area_public_life == 'Employment' or pregnancy_area_public_life == 'Clubs and Associations' or pregnancy_area_public_life == 'Granting Qualifications' or pregnancy_area_public_life == 'Education' or pregnancy_area_public_life == 'Selling Land' or pregnancy_area_public_life == 'Customer Service' or pregnancy_area_public_life == 'Accomodation' ):
+    pregnancy_area_public_life_eligible = True
+  else: 
+    pregnancy_area_public_life_eligible = False
+---
+code: |
+  if state_or_federal == True:
     state_or_federal_answer = 'South Australian State Level'
   else:
     state_or_federal_answer = 'Australian Federal Level'
 ---
-# hides the survey response
-code: |
-  if usersurvey_response:
-    hidden_responses = ''
-  else:
-    hidden_responses = ''
+default screen parts:
+  post: |
+    <div style="display: flex; height: 200px; align-items: flex-end; flex- direction: row-reverse">
+    <div style="margin: 5px"><img src="https://staff.flinders.edu.au/etc.clientlibs/flinders/clientlibs/clientlib- site/resources/images/flinderuni_main_logo_black.png" height="40">
+    </div>
+    <div style="margin: 5px; text-align: center"> 
+    <cite><small><i>
+    Developed by Flinders University in collaboration with The Equal Opportunity Commission.
+    </i></small></cite>
+    </div>
+    </div>
 ---

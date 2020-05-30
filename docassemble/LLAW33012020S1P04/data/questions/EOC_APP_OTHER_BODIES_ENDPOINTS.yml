@@ -25,10 +25,15 @@ continue button field: usergoto_survey2
 event: endpoint['housingdisputes']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey2 } ${ hidden_responses } ${ survey_answer2 } 
+  Have a nice day! ${ hidden_response2 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey2
+  survey_answer2
+  hidden_response2 = ''
 ---
 question: |
   Thank you for your responses.
@@ -55,10 +60,15 @@ continue button field: usergoto_survey3
 event: endpoint['mentalhealth']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey3 } ${ hidden_responses } ${ survey_answer3 } 
+  Have a nice day! ${ hidden_response3 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey3
+  survey_answer3
+  hidden_response3 = ''
 ---
 question: |
   Thank you for your responses.
@@ -85,10 +95,15 @@ continue button field: usergoto_survey4
 event: endpoint['consentmedical']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey4 } ${ hidden_responses } ${ survey_answer4 } 
+  Have a nice day! ${ hidden_response4 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey4
+  survey_answer4
+  hidden_response4 = ''
 ---
 question: |
   Thank you for your responses.
@@ -115,10 +130,15 @@ continue button field: usergoto_survey5
 event: endpoint['governmentreview']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey5 } ${ hidden_responses } ${ survey_answer5 } 
+  Have a nice day! ${ hidden_response5 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey5
+  survey_answer5
+  hidden_response5 = ''
 ---
 question: |
   Thank you for your responses.
@@ -146,10 +166,15 @@ continue button field: usergoto_survey6
 event: endpoint['protected_ground_housingdisputes']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey6 } ${ hidden_responses } ${ survey_answer6 } 
+  Have a nice day! ${ hidden_response6 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey6
+  survey_answer6
+  hidden_response6 = ''
 ---
 question: |
   Thank you for your responses.
@@ -177,10 +202,15 @@ continue button field: usergoto_survey7
 event: endpoint['protected_ground_mentalhealth']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey7 } ${ hidden_responses } ${ survey_answer7 } 
+  Have a nice day! ${ hidden_response7 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey7
+  survey_answer7
+  hidden_response7 = ''
 ---
 question: |
   Thank you for your responses.
@@ -208,10 +238,15 @@ continue button field: usergoto_survey8
 event: endpoint['protected_ground_consentmedical']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey8 } ${ hidden_responses } ${ survey_answer8 } 
+  Have a nice day! ${ hidden_response8 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey8
+  survey_answer8
+  hidden_response8 = ''
 ---
 question: |
   Thank you for your responses.
@@ -239,10 +274,15 @@ continue button field: usergoto_survey9
 event: endpoint['protected_ground_governmentreview']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey9 } ${ hidden_responses } ${ survey_answer9 } 
+  Have a nice day! ${ hidden_response9 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey9
+  survey_answer9
+  hidden_response9 = ''
 ---
 question: |
   Thank you for your responses.
@@ -271,10 +311,15 @@ continue button field: usergoto_survey10
 event: endpoint['noareapubliclife_housingdisputes']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey10 } ${ hidden_responses } ${ survey_answer10 } 
+  Have a nice day! ${ hidden_response10 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey10
+  survey_answer10
+  hidden_response10 = ''
 ---
 question: |
   Thank you for your responses.
@@ -303,10 +348,15 @@ continue button field: usergoto_survey11
 event: endpoint['noareapubliclife_mentalhealth']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey11 } ${ hidden_responses } ${ survey_answer11 } 
+  Have a nice day! ${ hidden_response11 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey11
+  survey_answer11
+  hidden_response11 = ''
 ---
 question: |
   Thank you for your responses.
@@ -335,10 +385,15 @@ continue button field: usergoto_survey12
 event: endpoint['noareapubliclife_consentmedical']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey12 } ${ hidden_responses } ${ survey_answer12 } 
+  Have a nice day! ${ hidden_response12 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey12
+  survey_answer12
+  hidden_response12 = ''
 ---
 question: |
   Thank you for your responses.
@@ -367,10 +422,15 @@ continue button field: usergoto_survey13
 event: endpoint['noareapubliclife_governmentreview']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey13 } ${ hidden_responses } ${ survey_answer13 } 
+  Have a nice day! ${ hidden_response13 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey13
+  survey_answer13
+  hidden_response13 = ''
 ---
 question: |
   Thank you for your responses.
@@ -397,10 +457,15 @@ continue button field: usergoto_survey14
 event: endpoint['advancecare']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey14 } ${ hidden_responses } ${ survey_answer14 } 
+  Have a nice day! ${ hidden_response14 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey14
+  survey_answer14
+  hidden_response14 = ''
 ---
 question: |
   Thank you for your responses.
@@ -427,11 +492,15 @@ continue button field: usergoto_survey15
 event: endpoint['personalaffairs']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey15 } ${ hidden_responses } ${ survey_answer15 } 
+  Have a nice day! ${ hidden_response15 } 
 buttons: 
   - Exit: exit
   - Restart: restart
-
+---
+code: |
+  usergoto_survey15
+  survey_answer15
+  hidden_response15 = ''
 ---
 question: |
   Thank you for your responses.
@@ -458,11 +527,16 @@ continue button field: usergoto_survey16
 event: endpoint['workplacediscrimination']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey16 } ${ hidden_responses } ${ survey_answer16 } 
+  Have a nice day! ${ hidden_response16 } 
 buttons: 
   - Exit: exit
   - Restart: restart
 
+---
+code: |
+  usergoto_survey16
+  survey_answer16
+  hidden_response16 = ''
 ---
 question: |
   Thank you for your responses.
@@ -489,11 +563,15 @@ continue button field: usergoto_survey17
 event: endpoint['hwsrelations']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey17 } ${ hidden_responses } ${ survey_answer17 } 
+  Have a nice day! ${ hidden_response17 } 
 buttons: 
   - Exit: exit
   - Restart: restart
-
+---
+code: |
+  usergoto_survey17
+  survey_answer17
+  hidden_response17 = ''
 ---
 question: |
   Thank you for your responses.
@@ -524,11 +602,15 @@ continue button field: usergoto_survey18
 event: endpoint['banking']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey18 } ${ hidden_responses } ${ survey_answer18 } 
+  Have a nice day! ${ hidden_response18 } 
 buttons: 
   - Exit: exit
   - Restart: restart
-
+---
+code: |
+  usergoto_survey18
+  survey_answer18
+  hidden_response18 = ''
 ---
 question: |
   Thank you for your responses.
@@ -555,11 +637,15 @@ continue button field: usergoto_survey19
 event: endpoint['consumerrights']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey19 } ${ hidden_responses } ${ survey_answer19 } 
+  Have a nice day! ${ hidden_response19 } 
 buttons: 
   - Exit: exit
   - Restart: restart
- 
+---
+code: |
+  usergoto_survey19
+  survey_answer19
+  hidden_response19 = ''
 ---
 question: |
   Thank you for your responses.
@@ -586,11 +672,15 @@ continue button field: usergoto_survey19A
 event: endpoint['administrativegovernment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey19A } ${ hidden_responses } ${ survey_answer19A } 
+  Have a nice day! ${ hidden_response19A } 
 buttons: 
   - Exit: exit
   - Restart: restart
-
+---
+code: |
+  usergoto_survey19A
+  survey_answer19A
+  hidden_response19A = ''
 ---
 question: |
   Thank you for your responses.
@@ -625,11 +715,16 @@ continue button field: usergoto_survey20
 event: endpoint['education']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey20 } ${ hidden_responses } ${ survey_answer20 } 
+  Have a nice day! ${ hidden_response20 } 
 buttons: 
   - Exit: exit
   - Restart: restart
 --- 
+code: |
+  usergoto_survey20
+  survey_answer20
+  hidden_response20 = ''
+---
 question: |
   Thank you for your responses.
 subquestion: |
@@ -655,10 +750,15 @@ continue button field: usergoto_survey21
 event: endpoint['electricity']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey21 } ${ hidden_responses } ${ survey_answer21 } 
+  Have a nice day! ${ hidden_response21 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey21
+  survey_answer21
+  hidden_response21 = ''
 ---
 question: |
   Thank you for your responses.
@@ -685,10 +785,15 @@ continue button field: usergoto_survey22
 event: endpoint['emplyoment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey22 } ${ hidden_responses } ${ survey_answer22 } 
+  Have a nice day! ${ hidden_response22 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey22
+  survey_answer22
+  hidden_response22 = ''
 ---
 question: |
   Thank you for your responses.
@@ -715,10 +820,15 @@ continue button field: usergoto_survey23
 event: endpoint['gas']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey23 } ${ hidden_responses } ${ survey_answer23 } 
+  Have a nice day! ${ hidden_response23 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey23
+  survey_answer23
+  hidden_response23 = ''
 ---
 question: |
   Thank you for your responses.
@@ -745,11 +855,15 @@ continue button field: usergoto_survey24
 event: endpoint['guardianshipyoung']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey24 } ${ hidden_responses } ${ survey_answer24 } 
+  Have a nice day! ${ hidden_response24 } 
 buttons: 
   - Exit: exit
   - Restart: restart
-
+---
+code: |
+  usergoto_survey24
+  survey_answer24
+  hidden_response24 = ''
 ---
 question: |
   Thank you for your responses.
@@ -780,11 +894,15 @@ continue button field: usergoto_survey25
 event: endpoint['healthcare']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey25 } ${ hidden_responses } ${ survey_answer25 } 
+  Have a nice day! ${ hidden_response25 } 
 buttons: 
   - Exit: exit
   - Restart: restart
-
+---
+code: |
+  usergoto_survey25
+  survey_answer25
+  hidden_response25 = ''
 ---
 question: |
   Thank you for your responses.
@@ -811,10 +929,15 @@ continue button field: usergoto_survey26
 event: endpoint['humanrights']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey26 } ${ hidden_responses } ${ survey_answer26 } 
+  Have a nice day! ${ hidden_response26 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey26
+  survey_answer26
+  hidden_response26 = ''
 ---
 question: |
   Thank you for your responses.
@@ -841,10 +964,15 @@ continue button field: usergoto_survey27
 event: endpoint['land']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey27 } ${ hidden_responses } ${ survey_answer27 } 
+ Have a nice day! ${ hidden_response27 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey27
+  survey_answer27
+  hidden_response27 = ''
 ---
 question: |
   Thank you for your responses.
@@ -871,10 +999,15 @@ continue button field: usergoto_survey28
 event: endpoint['lawyers']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey28 } ${ hidden_responses } ${ survey_answer28 } 
+  Have a nice day! ${ hidden_response28 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey28
+  survey_answer28
+  hidden_response28 = ''
 ---
 question: |
   Thank you for your responses.
@@ -901,10 +1034,15 @@ continue button field: usergoto_survey29
 event: endpoint['government']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey29 } ${ hidden_responses } ${ survey_answer29 } 
+  Have a nice day! ${ hidden_response29 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey29
+  survey_answer29
+  hidden_response29 = ''
 ---
 question: |
   Thank you for your responses.
@@ -931,10 +1069,15 @@ continue button field: usergoto_survey30
 event: endpoint['media']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey30 } ${ hidden_responses } ${ survey_answer30 } 
+  Have a nice day! ${ hidden_response30 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey30
+  survey_answer30
+  hidden_response30 = ''
 ---
 question: |
   Thank you for your responses.
@@ -964,10 +1107,15 @@ continue button field: usergoto_survey31
 event: endpoint['mentallyvulnerable']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey31 } ${ hidden_responses } ${ survey_answer31 } 
+   Have a nice day! ${ hidden_response31 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey31
+  survey_answer31
+  hidden_response31 = ''
 ---
 question: |
   Thank you for your responses.
@@ -994,10 +1142,15 @@ continue button field: usergoto_survey32
 event: endpoint['internet']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey32 } ${ hidden_responses } ${ survey_answer32 } 
+  Have a nice day! ${ hidden_response32 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey32
+  survey_answer32
+  hidden_response32 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1025,10 +1178,15 @@ continue button field: usergoto_survey33
 event: endpoint['infrastructure']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey33 } ${ hidden_responses } ${ survey_answer33 } 
+  Have a nice day! ${ hidden_response33 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey33
+  survey_answer33
+  hidden_response33 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1055,10 +1213,15 @@ continue button field: usergoto_survey34
 event: endpoint['police']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey34 } ${ hidden_responses } ${ survey_answer34 } 
+  Have a nice day! ${ hidden_response34 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey34
+  survey_answer34
+  hidden_response34 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1085,10 +1248,15 @@ continue button field: usergoto_survey35
 event: endpoint['publictrustee']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey35 } ${ hidden_responses } ${ survey_answer35 } 
+  Have a nice day! ${ hidden_response35 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey35
+  survey_answer35
+  hidden_response35 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1115,10 +1283,15 @@ continue button field: usergoto_survey36
 event: endpoint['stategovernment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey36 } ${ hidden_responses } ${ survey_answer36 } 
+  Have a nice day! ${ hidden_response36 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey36
+  survey_answer36
+  hidden_response36 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1145,10 +1318,15 @@ continue button field: usergoto_survey37
 event: endpoint['transport']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey37 } ${ hidden_responses } ${ survey_answer37 } 
+  Have a nice day! ${ hidden_response37 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey37
+  survey_answer37
+  hidden_response37 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1175,10 +1353,15 @@ continue button field: usergoto_survey38
 event: endpoint['crimevictims']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey38 } ${ hidden_responses } ${ survey_answer38 } 
+  Have a nice day! ${ hidden_response38 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey38
+  survey_answer38
+  hidden_response38 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1205,10 +1388,15 @@ continue button field: usergoto_survey39
 event: endpoint['water']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey39 } ${ hidden_responses } ${ survey_answer39 } 
+  Have a nice day! ${ hidden_response39 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey39
+  survey_answer39
+  hidden_response39 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1238,10 +1426,15 @@ continue button field: usergoto_survey40
 event: endpoint['returntowork']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey40 } ${ hidden_responses } ${ survey_answer40 } 
+  Have a nice day! ${ hidden_response40 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey40
+  survey_answer40
+  hidden_response40 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1269,10 +1462,15 @@ continue button field: usergoto_survey41
 event: endpoint['protected_ground_advancecare']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey41 } ${ hidden_responses } ${ survey_answer41 } 
+  Have a nice day! ${ hidden_response41 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey41
+  survey_answer41
+  hidden_response41 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1300,10 +1498,15 @@ continue button field: usergoto_survey42
 event: endpoint['protected_ground_personalaffairs']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey42 } ${ hidden_responses } ${ survey_answer42 } 
+  Have a nice day! ${ hidden_response42 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey42
+  survey_answer42
+  hidden_response42 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1331,10 +1534,15 @@ continue button field: usergoto_survey43
 event: endpoint['protected_ground_workplacediscrimination']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey43 } ${ hidden_responses } ${ survey_answer43 } 
+  Have a nice day! ${ hidden_response43 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey43
+  survey_answer43
+  hidden_response43 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1362,10 +1570,15 @@ continue button field: usergoto_survey44
 event: endpoint['protected_ground_hwsrelations']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey44 } ${ hidden_responses } ${ survey_answer44 } 
+  Have a nice day! ${ hidden_response44 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey44
+  survey_answer44
+  hidden_response44 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1398,10 +1611,15 @@ continue button field: usergoto_survey45
 event: endpoint['protected_ground_banking']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey45 } ${ hidden_responses } ${ survey_answer45 } 
+  Have a nice day! ${ hidden_response45 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey45
+  survey_answer45
+  hidden_response45 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1430,10 +1648,15 @@ continue button field: usergoto_survey46
 event: endpoint['protected_ground_consumerrights']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey46 } ${ hidden_responses } ${ survey_answer46 } 
+  Have a nice day! ${ hidden_response46 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey46
+  survey_answer46
+  hidden_response46 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1461,10 +1684,15 @@ continue button field: usergoto_survey47
 event: endpoint['protected_ground_administrativegovernment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey47 } ${ hidden_responses } ${ survey_answer47 } 
+  Have a nice day! ${ hidden_response47 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey47
+  survey_answer47
+  hidden_response47 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1501,10 +1729,15 @@ continue button field: usergoto_survey48
 event: endpoint['protected_ground_education']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey48 } ${ hidden_responses } ${ survey_answer48 } 
+  Have a nice day! ${ hidden_response48 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey48
+  survey_answer48
+  hidden_response48 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1532,10 +1765,15 @@ continue button field: usergoto_survey49
 event: endpoint['protected_ground_electricity']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey49 } ${ hidden_responses } ${ survey_answer49 } 
+  Have a nice day! ${ hidden_response49 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey49
+  survey_answer49
+  hidden_response49 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1563,10 +1801,15 @@ continue button field: usergoto_survey50
 event: endpoint['protected_ground_emplyoment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey50 } ${ hidden_responses } ${ survey_answer50 } 
+  Have a nice day! ${ hidden_response50 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey50
+  survey_answer50
+  hidden_response50 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1594,10 +1837,15 @@ continue button field: usergoto_survey51
 event: endpoint['protected_ground_gas']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey51 } ${ hidden_responses } ${ survey_answer51 } 
+  Have a nice day! ${ hidden_response51 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey51
+  survey_answer51
+  hidden_response51 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1625,10 +1873,15 @@ continue button field: usergoto_survey52
 event: endpoint['protected_ground_guardianshipyoung']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey52 } ${ hidden_responses } ${ survey_answer52 } 
+  Have a nice day! ${ hidden_response52 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey52
+  survey_answer52
+  hidden_response52 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1660,10 +1913,15 @@ continue button field: usergoto_survey53
 event: endpoint['protected_ground_healthcare']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey53 } ${ hidden_responses } ${ survey_answer53 } 
+  Have a nice day! ${ hidden_response53 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey53
+  survey_answer53
+  hidden_response53 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1691,10 +1949,15 @@ continue button field: usergoto_survey54
 event: endpoint['protected_ground_humanrights']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey54 } ${ hidden_responses } ${ survey_answer54 } 
+  Have a nice day! ${ hidden_response54 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey54
+  survey_answer54
+  hidden_response54 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1722,10 +1985,15 @@ continue button field: usergoto_survey55
 event: endpoint['protected_ground_land']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey55 } ${ hidden_responses } ${ survey_answer55 } 
+  Have a nice day! ${ hidden_response55 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey55
+  survey_answer55
+  hidden_response55 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1753,10 +2021,15 @@ continue button field: usergoto_survey56
 event: endpoint['protected_ground_lawyers']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey56 } ${ hidden_responses } ${ survey_answer56 } 
+  Have a nice day! ${ hidden_response56 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey56
+  survey_answer56
+  hidden_response56 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1784,10 +2057,15 @@ continue button field: usergoto_survey57
 event: endpoint['protected_ground_government']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey57 } ${ hidden_responses } ${ survey_answer57 } 
+  Have a nice day! ${ hidden_response57 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey57
+  survey_answer57
+  hidden_response57 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1815,10 +2093,15 @@ continue button field: usergoto_survey58
 event: endpoint['protected_ground_media']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey58 } ${ hidden_responses } ${ survey_answer58 } 
+  Have a nice day! ${ hidden_response58 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey58
+  survey_answer58
+  hidden_response58 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1848,10 +2131,15 @@ continue button field: usergoto_survey59
 event: endpoint['protected_ground_mentallyvulnerable']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey59 } ${ hidden_responses } ${ survey_answer59 } 
+  Have a nice day! ${ hidden_response59 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey59
+  survey_answer59
+  hidden_response59 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1879,10 +2167,15 @@ continue button field: usergoto_survey60
 event: endpoint['protected_ground_internet']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey60 } ${ hidden_responses } ${ survey_answer60 } 
+  Have a nice day! ${ hidden_response60 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey60
+  survey_answer60
+  hidden_response60 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1910,10 +2203,15 @@ continue button field: usergoto_survey61
 event: endpoint['protected_ground_infrastructure']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey61 } ${ hidden_responses } ${ survey_answer61 } 
+  Have a nice day! ${ hidden_response61 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey61
+  survey_answer61
+  hidden_response61 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1941,10 +2239,15 @@ continue button field: usergoto_survey62
 event: endpoint['protected_ground_police']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey62 } ${ hidden_responses } ${ survey_answer62 } 
+  Have a nice day! ${ hidden_response62 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey62
+  survey_answer62
+  hidden_response62 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1972,10 +2275,15 @@ continue button field: usergoto_survey63
 event: endpoint['protected_ground_publictrustee']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey63 } ${ hidden_responses } ${ survey_answer63 } 
+  Have a nice day! ${ hidden_response63 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey63
+  survey_answer63
+  hidden_response63 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2003,10 +2311,15 @@ continue button field: usergoto_survey64
 event: endpoint['protected_ground_stategovernment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey64 } ${ hidden_responses } ${ survey_answer64 } 
+  Have a nice day! ${ hidden_response64 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey64
+  survey_answer64
+  hidden_response64 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2034,10 +2347,15 @@ continue button field: usergoto_survey65
 event: endpoint['protected_ground_transport']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey65 } ${ hidden_responses } ${ survey_answer65 } 
+  Have a nice day! ${ hidden_response65 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey65
+  survey_answer65
+  hidden_response65 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2065,10 +2383,15 @@ continue button field: usergoto_survey66
 event: endpoint['protected_ground_crimevictims']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey66 } ${ hidden_responses } ${ survey_answer66 } 
+  Have a nice day! ${ hidden_response66 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey66
+  survey_answer66
+  hidden_response66 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2096,10 +2419,15 @@ continue button field: usergoto_survey67
 event: endpoint['protected_ground_crimevictims']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey67 } ${ hidden_responses } ${ survey_answer67 } 
+  Have a nice day! ${ hidden_response67 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey67
+  survey_answer67
+  hidden_response67 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2129,10 +2457,15 @@ continue button field: usergoto_survey68
 event: endpoint['protected_ground_returntowork']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey68 } ${ hidden_responses } ${ survey_answer68 } 
+  Have a nice day! ${ hidden_response68 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey68
+  survey_answer68
+  hidden_response68 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2161,10 +2494,15 @@ continue button field: usergoto_survey69
 event: endpoint['noareapubliclife_advancecare']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey69 } ${ hidden_responses } ${ survey_answer69 } 
+  Have a nice day! ${ hidden_response69 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey69
+  survey_answer69
+  hidden_response69 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2193,10 +2531,15 @@ continue button field: usergoto_survey70
 event: endpoint['noareapubliclife_personalaffairs']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey70 } ${ hidden_responses } ${ survey_answer70 } 
+  Have a nice day! ${ hidden_response70 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey70
+  survey_answer70
+  hidden_response70 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2225,10 +2568,15 @@ continue button field: usergoto_survey71
 event: endpoint['noareapubliclife_workplacediscrimination']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey71 } ${ hidden_responses } ${ survey_answer71 } 
+  Have a nice day! ${ hidden_response71 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey71
+  survey_answer71
+  hidden_response71 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2257,10 +2605,15 @@ continue button field: usergoto_survey72
 event: endpoint['noareapubliclife_hwsrelations']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey72 } ${ hidden_responses } ${ survey_answer72 } 
+  Have a nice day! ${ hidden_response72 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey72
+  survey_answer72
+  hidden_response72 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2293,10 +2646,15 @@ continue button field: usergoto_survey73
 event: endpoint['noareapubliclife_banking']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey73 } ${ hidden_responses } ${ survey_answer73 } 
+  Have a nice day! ${ hidden_response73 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey73
+  survey_answer73
+  hidden_response73 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2325,10 +2683,15 @@ continue button field: usergoto_survey74
 event: endpoint['noareapubliclife_consumerrights']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey74 } ${ hidden_responses } ${ survey_answer74 } 
+  Have a nice day! ${ hidden_response74 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey74
+  survey_answer74
+  hidden_response74 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2358,10 +2721,15 @@ continue button field: usergoto_survey75
 event: endpoint['noareapubliclife_administrativegovernment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey75 } ${ hidden_responses } ${ survey_answer75 } 
+  Have a nice day! ${ hidden_response75 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey75
+  survey_answer75
+  hidden_response75 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2398,10 +2766,15 @@ continue button field: usergoto_survey76
 event: endpoint['noareapubliclife_education']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey76 } ${ hidden_responses } ${ survey_answer76 } 
+  Have a nice day! ${ hidden_response76 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey76
+  survey_answer76
+  hidden_response76 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2430,10 +2803,15 @@ continue button field: usergoto_survey77
 event: endpoint['noareapubliclife_electricity']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey77 } ${ hidden_responses } ${ survey_answer77 } 
+  Have a nice day! ${ hidden_response77 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey77
+  survey_answer77
+  hidden_response77 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2462,10 +2840,15 @@ continue button field: usergoto_survey78
 event: endpoint['noareapubliclife_emplyoment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey78 } ${ hidden_responses } ${ survey_answer78 } 
+  Have a nice day! ${ hidden_response78 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey78
+  survey_answer78
+  hidden_response78 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2494,10 +2877,15 @@ continue button field: usergoto_survey79
 event: endpoint['noareapubliclife_gas']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey79 } ${ hidden_responses } ${ survey_answer79 } 
+  Have a nice day! ${ hidden_response79 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey79
+  survey_answer79
+  hidden_response79 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2526,10 +2914,15 @@ continue button field: usergoto_survey80
 event: endpoint['noareapubliclife_guardianshipyoung']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey80 } ${ hidden_responses } ${ survey_answer80 } 
+  Have a nice day! ${ hidden_response80 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey80
+  survey_answer80
+  hidden_response80 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2562,10 +2955,15 @@ continue button field: usergoto_survey81
 event: endpoint['noareapubliclife_healthcare']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey81 } ${ hidden_responses } ${ survey_answer81 } 
+  Have a nice day! ${ hidden_response81 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey81
+  survey_answer81
+  hidden_response81 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2594,10 +2992,15 @@ continue button field: usergoto_survey82
 event: endpoint['noareapubliclife_humanrights']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey82 } ${ hidden_responses } ${ survey_answer82 } 
+  Have a nice day! ${ hidden_response82 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey82
+  survey_answer82
+  hidden_response82 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2626,10 +3029,15 @@ continue button field: usergoto_survey83
 event: endpoint['noareapubliclife_land']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey83 } ${ hidden_responses } ${ survey_answer83 } 
+  Have a nice day! ${ hidden_response83 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey83
+  survey_answer83
+  hidden_response83 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2658,10 +3066,15 @@ continue button field: usergoto_survey84
 event: endpoint['noareapubliclife_lawyers']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey84 } ${ hidden_responses } ${ survey_answer84 } 
+  Have a nice day! ${ hidden_response84 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey84
+  survey_answer84
+  hidden_response84 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2690,10 +3103,15 @@ continue button field: usergoto_survey85
 event: endpoint['noareapubliclife_government']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey85 } ${ hidden_responses } ${ survey_answer85 } 
+  Have a nice day! ${ hidden_response85 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey85
+  survey_answer85
+  hidden_response85 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2722,10 +3140,15 @@ continue button field: usergoto_survey86
 event: endpoint['noareapubliclife_media']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey86 } ${ hidden_responses } ${ survey_answer86 } 
+  Have a nice day! ${ hidden_response86 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey86
+  survey_answer86
+  hidden_response86 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2756,10 +3179,15 @@ continue button field: usergoto_survey87
 event: endpoint['noareapubliclife_mentallyvulnerable']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey87 } ${ hidden_responses } ${ survey_answer87 } 
+  Have a nice day! ${ hidden_response87 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey87
+  survey_answer87
+  hidden_response87 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2788,10 +3216,15 @@ continue button field: usergoto_survey88
 event: endpoint['noareapubliclife_internet']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey88 } ${ hidden_responses } ${ survey_answer88 } 
+  Have a nice day! ${ hidden_response88 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey88
+  survey_answer88
+  hidden_response88 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2820,10 +3253,15 @@ continue button field: usergoto_survey89
 event: endpoint['noareapubliclife_infrastructure']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey89 } ${ hidden_responses } ${ survey_answer89 } 
+  Have a nice day! ${ hidden_response89 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey89
+  survey_answer89
+  hidden_response89 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2852,10 +3290,15 @@ continue button field: usergoto_survey90
 event: endpoint['noareapubliclife_police']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey90 } ${ hidden_responses } ${ survey_answer90 } 
+  Have a nice day! ${ hidden_response90 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey90
+  survey_answer90
+  hidden_response90 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2884,10 +3327,15 @@ continue button field: usergoto_survey91
 event: endpoint['noareapubliclife_publictrustee']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey91 } ${ hidden_responses } ${ survey_answer91 } 
+  Have a nice day! ${ hidden_response91 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey91
+  survey_answer91
+  hidden_response91 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2916,10 +3364,15 @@ continue button field: usergoto_survey92
 event: endpoint['noareapubliclife_stategovernment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey92 } ${ hidden_responses } ${ survey_answer92 } 
+  Have a nice day! ${ hidden_response92 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey92
+  survey_answer92
+  hidden_response92 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2948,10 +3401,15 @@ continue button field: usergoto_survey93
 event: endpoint['noareapubliclife_transport']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey93 } ${ hidden_responses } ${ survey_answer93 } 
+  Have a nice day! ${ hidden_response93 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey93
+  survey_answer93
+  hidden_response93 = ''
 ---
 question: |
   Thank you for your responses.
@@ -2980,10 +3438,15 @@ continue button field: usergoto_survey94
 event: endpoint['noareapubliclife_crimevictims']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey94 } ${ hidden_responses } ${ survey_answer94 } 
+  Have a nice day! ${ hidden_response94 } 
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey94
+  survey_answer94
+  hidden_response94 = ''
 ---
 question: |
   Thank you for your responses.
@@ -3012,11 +3475,15 @@ continue button field: usergoto_survey95
 event: endpoint['noareapubliclife_water']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey95 } ${ hidden_responses } ${ survey_answer95 } 
+  Have a nice day! ${ hidden_response95 } 
 buttons: 
   - Exit: exit
   - Restart: restart
-
+---
+code: |
+  usergoto_survey95
+  survey_answer95
+  hidden_response95 = ''
 ---
 question: |
   Thank you for your responses.
@@ -3047,10 +3514,119 @@ continue button field: usergoto_survey96
 event: endpoint['noareapubliclife_returntowork']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey96 } ${ hidden_responses } ${ survey_answer96 } 
+  Have a nice day! ${ hidden_response96 }
 buttons: 
   - Exit: exit
   - Restart: restart
 ---
+code: |
+  usergoto_survey96
+  survey_answer96
+  hidden_response96 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+ 
+  Unfortunately, the Equal Opportunity Commission only deals with **complaints of discriminaion**. 
+  
+  As your complaint does not involve any of the suggested areas, please contact SACAT for further support on your complaint.
 
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey111
+---
+event: endpoint['noneoftheabove']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response111 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey111
+  survey_answer111
+  hidden_response111 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+ 
+  Unfortunately, as you have not selected a protected ground, the Equal Opportunity Commission is unable to process your complaint. 
+  
+  As your complaint does not involve any of the suggested areas, please contact SACAT for further support on your complaint.
+
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey112
+---
+event: endpoint['protected_ground_noneoftheabove']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response112 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey112
+  survey_answer112
+  hidden_response112 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+ 
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+  
+  As your complaint does not involve any of the suggested areas, please contact SACAT for further support on your complaint.
+
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Was there discrimination?                | ${ discrimination_answer }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey113
+---
+event: endpoint['noareapubliclife_noneoftheabove']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response113 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey113
+  survey_answer113
+  hidden_response113 = ''
+---
 

@@ -5,9 +5,9 @@ subquestion: |
   
   Unfortunately, the Equal Opportunity Commission can **only accept complaints from the aggrieved person themselves or a suitable representative for a child or intellectually incapable person.**
 
-  If you know someone who has been aggrieved by an act of discrimination, please direct them to the Equal Opportunity Commission website which provides further information on how we can help. 
+  If you know someone who has been aggrieved by an act of discrimination, please direct them to the Equal Opportunity Commission website which provides further information on how the Commission can help. 
   
-  [Please click here to access the EOC website](${ url_of('https://eoc.sa.gov.au') }).
+  [Please click here to access the EOC website](${ url_of('https://eoc.sa.gov.au/index.php/about-us/charter-service ') }).
 
   Or you may call the Commission directly on 08 8207 1997 or email eoc@agd.sa.gov.au for further assistance. 
   
@@ -24,17 +24,22 @@ continue button field: usergoto_survey97
 event: endpoint['notpersonaggrieved']
 question: Thank you. We appreciate your feedback.
 subquestion: |
-  Thanks for your response ${ usergoto_survey97 } ${ hidden_responses } ${ survey_answer97 }  
+  Have a nice day! ${ hidden_response97 }  
 buttons:
  - Exit: exit
  - Restart: restart
+---
+code: |
+  usergoto_survey97
+  survey_answer97
+  hidden_response97 = ''
 ---
 question: |
   Thank you for your responses.
 subquestion: |
   It is important to pinpoint when the discrimination occurred as it will effect whether your complaint can proceed. 
   
-  If the **incident occurred over 12 months ago,** you must provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. Please contact the Equal Opportunity Commission directly on 08 8207 1997 or email (eoc@agd.sa.gov.au) for further support. 
+  If the **incident occurred over 12 months ago,** you must provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. Please contact the Equal Opportunity Commission directly on 08 8207 1997 or email eoc@agd.sa.gov.au for further support. 
   
   [You may access further information on this by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/complaint-process/time-limits-late-complaints') }).
   
@@ -53,10 +58,15 @@ continue button field: usergoto_survey98
 event: endpoint['notintimeframe']
 question: Thank you. We appreciate your feedback.
 subquestion: |
-  Thanks for your response ${ usergoto_survey98 } ${ hidden_responses } ${ survey_answer98 } 
+  Have a nice day! ${ hidden_response98 }
 buttons:
  - Exit: exit
  - Restart: restart
+---
+code: |
+  usergoto_survey98
+  survey_answer98
+  hidden_response98 = ''
 ---
 question: |
   Thank you for your responses. 
@@ -84,11 +94,16 @@ continue button field: usergoto_survey99
 event: endpoint['Victoria']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey99 } ${ hidden_responses } ${ survey_answer99 } 
+  Have a nice day! ${ hidden_response99 }
 buttons: 
   - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
   - Restart: restart
+---
+code: |
+  usergoto_survey99
+  survey_answer99
+  hidden_response99 = ''
 ---
 question: |
   Thank you for your responses. 
@@ -115,11 +130,16 @@ continue button field: usergoto_survey100
 event: endpoint['NSW']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey100 } ${ hidden_responses } ${ survey_answer100 } 
+  Have a nice day! ${ hidden_response100 }
 buttons: 
   - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
   - Restart: restart
+---
+code: |
+  usergoto_survey100
+  survey_answer100
+  hidden_response100 = ''
 ---
 question: |
   Thank you for your responses.
@@ -145,11 +165,16 @@ continue button field: usergoto_survey101
 event: endpoint['Queensland']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey101 } ${ hidden_responses } ${ survey_answer101 } 
+  Have a nice day! ${ hidden_response101 }
 buttons: 
   - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
   - Restart: restart
+---
+code: |
+  usergoto_survey101
+  survey_answer101
+  hidden_response101 = ''
 ---
 question: |
   Thank you for your responses. 
@@ -175,11 +200,16 @@ continue button field: usergoto_survey102
 event: endpoint['Tasmania']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey102 } ${ hidden_responses } ${ survey_answer102 } 
+  Have a nice day! ${ hidden_response102 }
 buttons: 
   - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
   - Restart: restart
+---
+code: |
+  usergoto_survey102
+  survey_answer102
+  hidden_response102 = ''
 ---
 question: |
   Thank you for your responses. 
@@ -207,11 +237,16 @@ continue button field: usergoto_survey103
 event: endpoint['ACT']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey103 } ${ hidden_responses } ${ survey_answer103 } 
+  Have a nice day! ${ hidden_response103 }
 buttons: 
   - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
   - Restart: restart  
+---
+code: |
+  usergoto_survey103
+  survey_answer103
+  hidden_response103 = ''
 ---
 question: |
   Thank you for your responses. 
@@ -238,11 +273,16 @@ continue button field: usergoto_survey104
 event: endpoint['NT']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey104 } ${ hidden_responses } ${ survey_answer104 } 
+  Have a nice day! ${ hidden_response104 }
 buttons: 
   - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
   - Restart: restart 
+---
+code: |
+  usergoto_survey104
+  survey_answer104
+  hidden_response104 = ''
 ---
 question: |
   Thank you for your responses. 
@@ -268,11 +308,16 @@ continue button field: usergoto_survey105
 event: endpoint['WA']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey105 } ${ hidden_responses } ${ survey_answer105 } 
+  Have a nice day! ${ hidden_response105 }
 buttons: 
   - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
   - Restart: restart
+---
+code: |
+  usergoto_survey105
+  survey_answer105
+  hidden_response105 = ''
 ---
 question: |
   Thank you for your responses. 
@@ -298,11 +343,16 @@ continue button field: usergoto_survey106
 event: endpoint['outsideAus']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey106 } ${ hidden_responses } ${ survey_answer106 } 
+  Have a nice day! ${ hidden_response106 }
 buttons: 
   - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
   - Restart: restart
+---
+code: |
+  usergoto_survey106
+  survey_answer106
+  hidden_response106 = ''
 ---
 question: |
   Thank you for your responses. 
@@ -327,11 +377,16 @@ continue button field: usergoto_survey107
 event: endpoint['victimisation']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey107 } ${ hidden_responses } ${ survey_answer107 } 
+  Have a nice day! ${ hidden_response107 }
 buttons: 
   - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
   - Restart: restart
+---
+code: |
+  usergoto_survey107
+  survey_answer107
+  hidden_response107 = ''
 ---
 question: |
  Thank you for your responses. 
@@ -356,9 +411,14 @@ continue button field: usergoto_survey108
 event: endpoint['sexualharrassment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey108 } ${ hidden_responses } ${ survey_answer108 } 
+  Have a nice day! ${ hidden_response108 }
 buttons: 
   - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
   - Restart: restart
+---
+code: |
+  usergoto_survey108
+  survey_answer108
+  hidden_response108 = ''
 ---
