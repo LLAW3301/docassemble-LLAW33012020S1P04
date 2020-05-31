@@ -45,7 +45,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
 setup(name='docassemble.LLAW33012020S1P04',
       version='0.0.1',
       description=('A docassemble extension.'),
-      long_description='# Equal Opportunity Jurisdiction Finder (docassemble.LLAW33012020S1P04)\r\n\r\n\r\n\r\n## Authors\r\n\r\nAmelia Galpin\r\n\r\nHolly Langford\r\n\r\nJessica Milen\r\n\r\nRebecca Rayner\r\n\r\nThomas Ramsey\r\n\r\n',
+      long_description='# Equal Opportunity Jurisdiction Finder (docassemble.LLAW33012020S1P04)\r\n\r\n\r\n\r\n## Authors\r\n\r\nAmelia Galpin\r\n\r\nHolly Langford\r\n\r\nRebecca Rayner\r\n\r\nThomas Ramsey\r\n\r\n',
       long_description_content_type='text/markdown',
       author='Rebecca Rayner',
       author_email='rayn0066@flinders.edu.au',

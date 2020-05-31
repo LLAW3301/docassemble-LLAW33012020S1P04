@@ -37,13 +37,11 @@ code: |
 question: |
   Thank you for your responses.
 subquestion: |
-  It is important to pinpoint when the discrimination occurred as it will effect whether your complaint can proceed. 
+  It is important to pinpoint when the discrimination occurred as it will effect whether your complaint can proceed. If you **cannot remember when the incident occurred**, please restart the Application once you have determined when the incident occurred.
   
-  If the **incident occurred over 12 months ago,** you must provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. Please contact the Equal Opportunity Commission directly on 08 8207 1997 or email [eoc@agd.sa.gov.au](mailto:eoc@agd.sa.gov.au) for further support. 
+  Please note if the **incident occurred over 12 months ago,** you must provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. Please contact the Equal Opportunity Commission directly on 08 8207 1997 or email [eoc@agd.sa.gov.au](mailto:eoc@agd.sa.gov.au) for further support. 
   
   [You may access further information on this by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/complaint-process/time-limits-late-complaints') }).
-  
-  If you **cannot remember when the incident occurred**, please restart the Application once you have determined when the incident occurred.
  
   Here are your responses:
   
@@ -395,8 +393,11 @@ question: |
  Thank you for your responses. 
 subquestion: |
 
- In order to continue processing your complaint the Equal Opportunity Commission requires further information about your situation. Please contact the Commission directly on 08 8207 1997 or email [eoc@agd.sa.gov.au](mailto:eoc@agd.sa.gov.au).
- for support.
+ Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint of **Sexual Harrassment.** This means the Commission should be able to accept your complaint and assist you throughout the complaint process. 
+  
+  Please download and complete the Equal Opportunity Commission Complaint Form below, or [click here for access to the online form,](${url_of('https://forms.sa.gov.au/#/form/59964287ad9c5a332435b63f/app/5ed379c14d43317668245f0d') }) to officially begin the complaint process.
+  
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
   
   [You may access further information on Sexual Harrassment by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/types-discrimination/sexual-harassment') }).
  
