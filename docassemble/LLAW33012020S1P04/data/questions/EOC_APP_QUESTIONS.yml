@@ -38,7 +38,9 @@ terms:
     The act which caused you harm
 
 under: |
-  **Please note:** If the **incident occurred over 12 months ago,** you will be required to provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. However, please continue with this application. 
+  **Please note:** If the **incident occurred over 12 months ago,** you will be required to provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. 
+  
+  *Please continue through this Application to work out if the Equal Opportunity Commission is the complaints body to assist you. You will be prompted to provide reasoning for your late complaint when/if the Commission has authority under the Equal Opportunity Act to assist.*
 ---
 question: |
   Did the incident occur in South Australia?
@@ -111,8 +113,6 @@ question: |
 subquestion: |
   **Discrimination happens when a person is treated less favourably than another person (or group of people) because of their background or certain characteristics.**
   
-  If someone is being mean or treating you poorly, it may not be discrimination. 
-  
   Bullying is when someone misuses their power through verbal, physical or social abuse to harm you in any way. Bullying is only considered discrimination when someone treats another less favourably or different because of their personal characteristics, such as their age, gender, race or religious dress.
   
 fields:
@@ -136,13 +136,14 @@ fields:
       - Association with a child: 'Association with a child'
       - Caring Responsibility: 'Caring Responsibility'
       - Disability: 'Disability' #
+      - Gender Identity: 'Sexual Identity' #
       - Identity of a spouse or domestic partner: 'Identity of a spouse or domestic partner'
+      - Intersex Status: 'Intersex status' #
       - Marital or domestic partnership status: 'Marital or domestic partnership status'
       - Pregnancy: 'Pregnancy'
       - Race: 'Race' # 
       - Religious appearance or dress: 'Religious appearance or dress'
       - Sex: 'Sex' #
-      - Sexual Identity: 'Sexual Identity' #
       - Sexual Orientation: 'Sexual Orientation' #
       - None of the above: 'Other grounds'
 ---
