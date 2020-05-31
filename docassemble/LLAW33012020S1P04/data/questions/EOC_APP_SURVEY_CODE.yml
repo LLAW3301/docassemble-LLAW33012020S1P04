@@ -1416,6 +1416,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   Does your complaint involve Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment2 }
   Was this information useful?             | ${ usersurvey_response }
   
@@ -1435,6 +1436,8 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Complaint based on other grounds                    | ${ other_complaint_bodies }
   Was this information useful?             | ${ usersurvey_response }
@@ -1455,6 +1458,8 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Was discrimination based on protected ground? | ${ protected_ground }
   Complaint is based on...       | ${ other_complaint_bodies }
@@ -1476,6 +1481,8 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Was discrimination based on protected ground? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | ${ area_public_life }
@@ -1498,6 +1505,8 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
   Did the discrimination occur in an area of public? | ${ area_public_life } 
@@ -1520,6 +1529,8 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
@@ -1542,6 +1553,8 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | ${ domestic_partner_area_public_life }
@@ -1563,6 +1576,8 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | ${ identity_of_partner_area_public_life }
@@ -1584,6 +1599,8 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | ${ association_with_child_area_public_life }
@@ -1605,6 +1622,8 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
@@ -1626,6 +1645,8 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | ${ caring_responsibility_area_public_life }
@@ -1647,6 +1668,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was this information useful?             | ${ usersurvey_response }
   
@@ -1666,6 +1688,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1689,6 +1712,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1712,6 +1736,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1735,6 +1760,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1758,6 +1784,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1781,6 +1808,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1803,7 +1831,8 @@ content: |
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1826,7 +1855,8 @@ content: |
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1849,7 +1879,8 @@ content: |
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1872,7 +1903,8 @@ content: |
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1895,7 +1927,8 @@ content: |
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1916,7 +1949,8 @@ content: |
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
