@@ -82,7 +82,7 @@ fields:
     input type: radio
     choices:
       - Yes: True
-        default: False
+        default: No
       - No: False
 ---
 question: |
