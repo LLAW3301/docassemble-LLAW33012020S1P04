@@ -8,8 +8,6 @@ Amelia Galpin
 
 Holly Langford
 
-Jessica Milen
-
 Rebecca Rayner
 
 Thomas Ramsey
