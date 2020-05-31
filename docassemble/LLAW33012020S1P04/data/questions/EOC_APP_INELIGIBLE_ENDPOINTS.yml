@@ -7,9 +7,9 @@ subquestion: |
 
   If you know someone who has been aggrieved by an act of discrimination, please direct them to the Equal Opportunity Commission website which provides further information on how the Commission can help. 
   
-  [Please click here to access the EOC website](${ url_of('https://eoc.sa.gov.au/index.php/about-us/charter-service ') }).
+  [Please click here to access the EOC website](${ url_of('https://eoc.sa.gov.au/index.php/about-us/charter-service ')}).
 
-  Or you may call the Commission directly on 08 8207 1997 or email eoc@agd.sa.gov.au for further assistance. 
+  Or you may call the Commission directly on 08 8207 1997 or email [eoc@agd.sa.gov.au](mailto:eoc@agd.sa.gov.au) for further assistance.
   
   Here are your responses:
   
@@ -39,7 +39,7 @@ question: |
 subquestion: |
   It is important to pinpoint when the discrimination occurred as it will effect whether your complaint can proceed. 
   
-  If the **incident occurred over 12 months ago,** you must provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. Please contact the Equal Opportunity Commission directly on 08 8207 1997 or email eoc@agd.sa.gov.au for further support. 
+  If the **incident occurred over 12 months ago,** you must provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. Please contact the Equal Opportunity Commission directly on 08 8207 1997 or email [eoc@agd.sa.gov.au](mailto:eoc@agd.sa.gov.au) for further support. 
   
   [You may access further information on this by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/complaint-process/time-limits-late-complaints') }).
   
@@ -78,7 +78,6 @@ subquestion: |
   
   [Please click here to access their Website](${ url_of('https://www.humanrightscommission.vic.gov.au') }).
 
-
   Here are your responses:
   
   Question|Your Responses
@@ -113,7 +112,7 @@ subquestion: |
 
    Please refer to the **NSW Anti-Discrimination Board** for support on your complaint.
   
-  [Please click here to access their Website](${ url_of('https://www.antidiscrimination.justice.nsw.gov.au') }).
+  [Please click here to access their Website](${ url_of('https://www.antidiscrimination.justice.nsw.gov.au')}).
   
   Here are your responses:
   
@@ -362,7 +361,7 @@ subquestion: |
   
   There are also a number of other South Australian Acts that create a right to make a complaint to the Equal Opportunity Commission for victimisation. If your complaint of victimisation relates to an Act not mentioned above, please contact the EOC to speak about your complaint in more detail. 
   
-  You may contact the EOC directly on 08 8207 1997 or email eoc@agd.sa.gov.au for support.
+  You may contact the EOC directly on 08 8207 1997 or email [eoc@agd.sa.gov.au](mailto:eoc@agd.sa.gov.au) for support.
   
   [You may also access further information on Victimisation by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/types-discrimination/victimisation-and-public-interest-disclosures') }).
 
@@ -396,7 +395,8 @@ question: |
  Thank you for your responses. 
 subquestion: |
 
- In order to continue processing your complaint the Equal Opportunity Commission requires further information about your situation. Please contact the Commission directly on 08 8207 1997 or email eoc@agd.sa.gov.au for support.
+ In order to continue processing your complaint the Equal Opportunity Commission requires further information about your situation. Please contact the Commission directly on 08 8207 1997 or email [eoc@agd.sa.gov.au](mailto:eoc@agd.sa.gov.au).
+ for support.
   
   [You may access further information on Sexual Harrassment by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/types-discrimination/sexual-harassment') }).
  
