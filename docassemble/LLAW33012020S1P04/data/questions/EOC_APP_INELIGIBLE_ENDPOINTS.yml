@@ -357,10 +357,13 @@ question: |
   Thank you for your responses. 
 subquestion: |
   
-  In order to continue processing your complaint the Equal Opportunity Commission requires further information about your situation. Please contact the Commission directly on 08 8207 1997 or email [eoc@agd.sa.gov.au](mailto:eoc@agd.sa.gov.au)
- for support.
+  Please note, a complaint of vicitimisation or report of inappropriate behaviour must relate to an alleged breach of Equal Opportunity Act 1984, the Public Interest Disclosure Act 2018  or the Independent Commission Against Corruption Act 2012. 
   
-  [You may access further information on Victimisation by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/types-discrimination/victimisation-and-public-interest-disclosures') }).
+  There are also a number of other South Australian Acts that create a right to make a complaint to the Equal Opportunity Commission for victimisation. If your complaint of victimisation relates to an Act not mentioned above, please contact the EOC to speak about your complaint in more detail. 
+  
+  You may contact the EOC directly on 08 8207 1997 or email [eoc@agd.sa.gov.au](mailto:eoc@agd.sa.gov.au) for support.
+  
+  [You may also access further information on Victimisation by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/types-discrimination/victimisation-and-public-interest-disclosures') }).
 
   Here are your responses:
 

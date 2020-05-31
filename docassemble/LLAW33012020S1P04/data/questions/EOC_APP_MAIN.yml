@@ -98,75 +98,100 @@ code: |
     endpoint['notinSA']
   if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == True ):
     endpoint['victimisation.sexualharrassment']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == True ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == True ):
     endpoint['extra_sections_eligible']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == False ):
     endpoint['nodiscrimination']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Other grounds' ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Other grounds' ):
     endpoint['noprotectedground']
 ---
 mandatory: True
 code: |
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Religious appearance or dress' and religious_area_eligible == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Religious appearance or dress' and religious_area_eligible == False ):
     endpoint['religious_no_area_public_life']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Marital or domestic partnership status' and domestic_partner_area_public_life_eligible == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Marital or domestic partnership status' and domestic_partner_area_public_life_eligible == False ):
     endpoint['domestic_partnership_no_public_life']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Identity of a spouse or domestic partner' and identity_of_partner_area_public_life_eligible == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Identity of a spouse or domestic partner' and identity_of_partner_area_public_life_eligible == False ):
     endpoint['identity_of_partner_no_public_life'] 
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Association with a child' and association_with_child_area_public_life_eligible == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Association with a child' and association_with_child_area_public_life_eligible == False ):
     endpoint['association_with_child_no_public_life'] 
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == True and protected_ground == 'Caring Responsibility' and caring_responsibility_area_public_life_eligible == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Caring Responsibility' and caring_responsibility_area_public_life_eligible == False ):
     endpoint['caring_responsibility_no_public_life'] 
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Pregnancy' and pregnancy_area_public_life_eligible == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Pregnancy' and pregnancy_area_public_life_eligible == False ):
     endpoint['pregnancy_no_public_life'] 
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Age' and area_public_life_eligible == False ): 
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Age' and area_public_life_eligible == False ): 
     endpoint['noareapubliclife']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Race' and area_public_life_eligible == False ): 
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Race' and area_public_life_eligible == False ): 
     endpoint['noareapubliclife']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Disability' and area_public_life_eligible == False ): 
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Disability' and area_public_life_eligible == False ): 
     endpoint['noareapubliclife']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Sex' and area_public_life_eligible == False ): 
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Sex' and area_public_life_eligible == False ): 
     endpoint['noareapubliclife']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Sexual Identity' and area_public_life_eligible == False ): 
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Sexual Identity' and area_public_life_eligible == False ): 
     endpoint['noareapubliclife']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Sexual Orientation' and area_public_life_eligible == False ): 
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Sexual Orientation' and area_public_life_eligible == False ): 
     endpoint['noareapubliclife']
 ---
 mandatory: True
 code: |
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Age' or protected_ground == 'Disability' or protected_ground == 'Race' or protected_ground == 'Sex' or protected_ground == 'Sexual Identity' or protected_ground == 'Sexual Orientation' and area_public_life_eligible == True and state_or_federal == True ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Age' and state_or_federal == True ):
+    endpoint['eligible']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Age' and state_or_federal == False ):
+   endpoint['federal_eligible']
+
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Race' and state_or_federal == True ):
    endpoint['eligible']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Age' or protected_ground == 'Disability' or protected_ground == 'Race' or protected_ground == 'Sex' or protected_ground == 'Sexual Identity' or protected_ground == 'Sexual Orientation' and area_public_life_eligible == True and state_or_federal == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Race' and state_or_federal == False ):
    endpoint['federal_eligible']
    
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Religious appearance or dress' and religious_area_eligible == True and state_or_federal == True ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Disability' and state_or_federal == True ):
+   endpoint['eligible']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Disability' and state_or_federal == False ):
+   endpoint['federal_eligible']
+  
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Sex' and state_or_federal == True ):
+   endpoint['eligible']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Sex' and state_or_federal == False ):
+   endpoint['federal_eligible']
+ 
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Sexual Identity' and state_or_federal == True ):
+   endpoint['eligible']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Sexual Identity' and state_or_federal == False ):
+   endpoint['federal_eligible']
+   
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Sexual Orientation' and state_or_federal == True ):
+   endpoint['eligible']
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Sexual Orientation' and state_or_federal == False ):
+   endpoint['federal_eligible']
+   
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Religious appearance or dress' and religious_area_eligible == True and state_or_federal == True ):
     endpoint['eligible_religious_no_area_public_life']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Religious appearance or dress' and religious_area_eligible == True and state_or_federal == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Religious appearance or dress' and religious_area_eligible == True and state_or_federal == False ):
     endpoint['federal_religious_no_area_public_life']
     
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Marital or domestic partnership status' and domestic_partner_area_public_life_eligible == True and state_or_federal == True ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Marital or domestic partnership status' and domestic_partner_area_public_life_eligible == True and state_or_federal == True ):
     endpoint['eligible_domestic_partnership_no_public_life']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Marital or domestic partnership status' and domestic_partner_area_public_life_eligible == True and state_or_federal == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Marital or domestic partnership status' and domestic_partner_area_public_life_eligible == True and state_or_federal == False ):
     endpoint['federal_domestic_partnership_no_public_life']
     
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Identity of a spouse or domestic partner' and identity_of_partner_area_public_life_eligible == True and state_or_federal == True ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Identity of a spouse or domestic partner' and identity_of_partner_area_public_life_eligible == True and state_or_federal == True ):
     endpoint['eligible_identity_of_partner_no_public_life']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Identity of a spouse or domestic partner' and identity_of_partner_area_public_life_eligible == True and state_or_federal == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Identity of a spouse or domestic partner' and identity_of_partner_area_public_life_eligible == True and state_or_federal == False ):
     endpoint['federal_identity_of_partner_no_public_life']
     
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Association with a child' and association_with_child_area_public_life_eligible == True and state_or_federal == True ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Association with a child' and association_with_child_area_public_life_eligible == True and state_or_federal == True ):
     endpoint['eligible_association_with_child_no_public_life']   
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Association with a child' and association_with_child_area_public_life_eligible == True and state_or_federal == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Association with a child' and association_with_child_area_public_life_eligible == True and state_or_federal == False ):
     endpoint['federal_association_with_child_no_public_life'] 
     
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Caring Responsibility' and caring_responsibility_area_public_life_eligible == True and state_or_federal == True ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Caring Responsibility' and caring_responsibility_area_public_life_eligible == True and state_or_federal == True ):
     endpoint['eligible_caring_responsibility_no_public_life'] 
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and protected_ground == 'Caring Responsibility' and caring_responsibility_area_public_life_eligible == True and state_or_federal == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Caring Responsibility' and caring_responsibility_area_public_life_eligible == True and state_or_federal == False ):
     endpoint['federal_caring_responsibility_no_public_life'] 
 
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections == False and discrimination == True and  protected_ground == 'Pregnancy' and pregnancy_area_public_life_eligible == True and state_or_federal == True ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and  protected_ground == 'Pregnancy' and pregnancy_area_public_life_eligible == True and state_or_federal == True ):
     endpoint['eligible_pregnancy_no_public_life']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == True and  protected_ground == 'Pregnancy' and pregnancy_area_public_life_eligible == True and state_or_federal == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and extra_sections_answer == False and discrimination == True and  protected_ground == 'Pregnancy' and pregnancy_area_public_life_eligible == True and state_or_federal == False ):
     endpoint['federal_pregnancy_no_public_life']
 ---
 mandatory: True
@@ -435,6 +460,12 @@ code: |
     victimisation_sexualharrassment_answer = 'No'
 ---
 code: |
+  if extra_sections == 'Refusal or deferral of an application for accommodation on the basis that it would be shared accommodation with a child' or extra_sections == 'Refusal or deferral of an application for accommodation on the basis that a therapeutic animal would be kept at that accommodation' or extra_sections == 'An educational authority discriminates against a student by denying or limiting access to the educational services provided on the ground that the student is breast feeding an infant or proposes to do so' or extra_sections == 'A condition or requirement was imposed that resulted in you being separated from your disability assistance animal':
+    extra_sections_answer = True
+  else:
+    extra_sections_answer = False
+---
+code: |
   if discrimination:
     discrimination_answer = 'Yes'
   else:
@@ -526,7 +557,7 @@ code: |
     pregnancy_area_public_life_eligible = False
 ---
 code: |
-  if state_or_federal == True:
+  if state_or_federal:
     state_or_federal_answer = 'South Australian State Level'
   else:
     state_or_federal_answer = 'Australian Federal Level'
