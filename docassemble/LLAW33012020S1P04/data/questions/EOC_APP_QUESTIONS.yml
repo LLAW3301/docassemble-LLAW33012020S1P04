@@ -99,12 +99,12 @@ fields:
   - no label: extra_sections
     input type: radio
     choices:
-      - Refusal or deferral of an application for accommodation on the basis that it would be shared accommodation with a child: True
-      - Refusal or deferral of an application for accommodation on the basis that a therapeutic animal would be kept at that accommodation: True
-      - An educational authority discriminates against a student by denying or limiting access to the educational services provided on the ground that the student is breast feeding an infant or proposes to do so: True
-      - A condition or requirement was imposed that resulted in you being separated from your disability assistance animal: True
-      - None of the above: False
-        default: False
+      - Refusal or deferral of an application for accommodation on the basis that it would be shared accommodation with a child: 'Refusal or deferral of an application for accommodation on the basis that it would be shared accommodation with a child'
+      - Refusal or deferral of an application for accommodation on the basis that a therapeutic animal would be kept at that accommodation: 'Refusal or deferral of an application for accommodation on the basis that a therapeutic animal would be kept at that accommodation'
+      - An educational authority discriminates against a student by denying or limiting access to the educational services provided on the ground that the student is breast feeding an infant or proposes to do so: 'An educational authority discriminates against a student by denying or limiting access to the educational services provided on the ground that the student is breast feeding an infant or proposes to do so'
+      - A condition or requirement was imposed that resulted in you being separated from your disability assistance animal: 'A condition or requirement was imposed that resulted in you being separated from your disability assistance animal'
+      - None of the above: 'None of the above'
+        default: 'None of the above'
 ---
 question: |
   Was there discrimination?

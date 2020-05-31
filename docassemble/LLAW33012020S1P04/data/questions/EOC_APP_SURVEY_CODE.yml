@@ -1236,6 +1236,62 @@ code: |
   survey_answer409 = True
 ---
 code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_15)
+  survey_answer410 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_8)
+  survey_answer411 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_16)
+  survey_answer365 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_17)
+  survey_answer366 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_18)
+  survey_answer367 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_19)
+  survey_answer368 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_20)
+  survey_answer369 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_21)
+  survey_answer370 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_22)
+  survey_answer371 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_23)
+  survey_answer372 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_24)
+  survey_answer373 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_25)
+  survey_answer374 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_26)
+  survey_answer375 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_27)
+  survey_answer376 = True
+---
+code: |
   if usergoto_survey97 == True and person_aggrieved == False:
     template['notification']
   if usergoto_survey98 == True and person_aggrieved == True and incident_date == False:
@@ -1258,12 +1314,40 @@ code: |
     template['notification_10']
   if usergoto_survey263 == True or usergoto_survey264 == True or usergoto_survey265 == True or usergoto_survey266 == True or usergoto_survey267 == True or usergoto_survey268 == True or usergoto_survey269 == True or usergoto_survey270 == True or usergoto_survey271 == True or usergoto_survey272 == True or usergoto_survey273 == True or usergoto_survey274 == True or usergoto_survey275 == True or usergoto_survey276 == True or usergoto_survey277 == True or usergoto_survey278 == True or usergoto_survey279 == True or usergoto_survey280 == True or usergoto_survey281 == True or usergoto_survey282 == True or usergoto_survey283 == True or usergoto_survey284 == True or usergoto_survey285 == True or usergoto_survey286 == True or usergoto_survey287 == True or usergoto_survey288 == True or usergoto_survey289 == True or usergoto_survey290 == True or usergoto_survey291 == True or usergoto_survey292 == True or usergoto_survey293 == True or usergoto_survey294 == True or usergoto_survey295 == True or usergoto_survey362:
     template['notification_11']
-  if usergoto_survey296 == True or usergoto_survey297 == True or usergoto_survey298 == True or usergoto_survey299 == True or usergoto_survey300 == True or usergoto_survey301 == True or usergoto_survey302 == True or usergoto_survey303 == True or usergoto_survey304 == True or usergoto_survey305 == True or usergoto_survey306 == True or usergoto_survey307 == True or usergoto_survey308 == True or usergoto_survey309 == True or usergoto_survey310 == True or usergoto_survey311 == True or usergoto_survey312 == True or usergoto_survey313 == True or usergoto_survey314 == True or usergoto_survey315 == True or usergoto_survey316 == True or usergoto_survey317 == True or usergoto_survey318 == True or usergoto_survey319 == True or usergoto_survey320 == True or usergoto_survey321 == True or usergoto_survey322 == True or usergoto_survey323 == True or usergoto_survey324 == True or usergoto_survey325 == True or usergoto_survey326 == True or usergoto_survey327 == True or usegoto_survey360 == True:
+  if usergoto_survey296 == True or usergoto_survey297 == True or usergoto_survey298 == True or usergoto_survey299 == True or usergoto_survey300 == True or usergoto_survey301 == True or usergoto_survey302 == True or usergoto_survey303 == True or usergoto_survey304 == True or usergoto_survey305 == True or usergoto_survey306 == True or usergoto_survey307 == True or usergoto_survey308 == True or usergoto_survey309 == True or usergoto_survey310 == True or usergoto_survey311 == True or usergoto_survey312 == True or usergoto_survey313 == True or usergoto_survey314 == True or usergoto_survey315 == True or usergoto_survey316 == True or usergoto_survey317 == True or usergoto_survey318 == True or usergoto_survey319 == True or usergoto_survey320 == True or usergoto_survey321 == True or usergoto_survey322 == True or usergoto_survey323 == True or usergoto_survey324 == True or usergoto_survey325 == True or usergoto_survey326 == True or usergoto_survey327 == True or usergoto_survey360 == True:
     template['notification_12']
   if usergoto_survey328 == True or usergoto_survey329 == True or usergoto_survey330 == True or usergoto_survey331 == True or usergoto_survey332 == True or usergoto_survey333 == True or usergoto_survey334 == True or usergoto_survey335 == True or usergoto_survey336 == True or usergoto_survey337 == True or usergoto_survey338 == True or usergoto_survey339 == True or usergoto_survey340 == True or usergoto_survey341 == True or usergoto_survey342 == True or usergoto_survey343 == True or usergoto_survey344 == True or usergoto_survey345 == True or usergoto_survey346 == True or usergoto_survey347 == True or usergoto_survey348 == True or usergoto_survey349 == True or usergoto_survey350 == True or usergoto_survey351 == True or usergoto_survey352 == True or usergoto_survey353 == True or usergoto_survey354 == True or usergoto_survey355 == True or usergoto_survey356 == True or usergoto_survey357 == True or usergoto_survey358 == True or usergoto_survey359 == True or usergoto_survey363 == True:
     template['notification_13']
   if usergoto_survey377 == True or usergoto_survey378 == True or usergoto_survey379 == True or usergoto_survey380 == True or usergoto_survey381 == True or usergoto_survey382 == True or usergoto_survey383 == True or usergoto_survey384 == True or usergoto_survey385 == True or usergoto_survey386 == True or usergoto_survey387 == True or usergoto_survey388 == True or usergoto_survey389 == True or usergoto_survey390 == True or usergoto_survey391 == True or usergoto_survey392 == True or usergoto_survey393 == True or usergoto_survey394 == True or usergoto_survey395 == True or usergoto_survey396 == True or usergoto_survey397 == True or usergoto_survey398 == True or usergoto_survey399 == True or usergoto_survey400 == True or usergoto_survey401 == True or usergoto_survey402 == True or usergoto_survey403 == True or usergoto_survey404 == True or usergoto_survey405 == True or usergoto_survey406 == True or usergoto_survey407 == True or usergoto_survey408 == True or usergoto_survey409 == True:
     template['notification_14']
+  if usergoto_survey410 == True:
+    template['notification_15']
+  if usergoto_survey411 == True:
+    template['notification_8']
+  if usergoto_survey365 == True:
+    template['notification_16']
+  if usergoto_survey366 == True:
+    template['notification_17']
+  if usergoto_survey367 == True:
+    template['notification_18']
+  if usergoto_survey368 == True:
+    template['notification_19']
+  if usergoto_survey369 == True:
+    template['notification_20']
+  if usergoto_survey370 == True:
+    template['notification_21']
+  if usergoto_survey371 == True:
+    template['notification_22']
+  if usergoto_survey372 == True:
+    template['notification_23']
+  if usergoto_survey373 == True:
+    template['notification_24']
+  if usergoto_survey374 == True:
+    template['notification_25']
+  if usergoto_survey375 == True:
+    template['notification_26']
+  if usergoto_survey376 == True:
+    template['notification_27']
 ---
 template: notification
 subject: |
@@ -1430,6 +1514,9 @@ content: |
   
   Question|Your Responses
   --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
@@ -1437,6 +1524,8 @@ content: |
   On what ground is the discrimination in question based on? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
   Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
 ---
 template: notification_10
 subject: |
@@ -1447,6 +1536,9 @@ content: |
 
   Question|Your Responses
   --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
@@ -1454,6 +1546,8 @@ content: |
   On what ground is the discrimination in question based on? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | ${ domestic_partner_area_public_life }
   Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
 ---
 template: notification_11
 subject: |
@@ -1463,6 +1557,9 @@ content: |
   
   Question|Your Responses
   --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
@@ -1470,6 +1567,8 @@ content: |
   On what ground is the discrimination in question based on? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | ${ identity_of_partner_area_public_life }
   Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
 ---
 template: notification_12
 subject: |
@@ -1479,6 +1578,9 @@ content: |
   
   Question|Your Responses
   --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
@@ -1486,6 +1588,8 @@ content: |
   On what ground is the discrimination in question based on? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | ${ association_with_child_area_public_life }
   Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
 ---
 template: notification_13
 subject: |
@@ -1495,6 +1599,9 @@ content: |
 
   Question|Your Responses
   --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
@@ -1502,6 +1609,8 @@ content: |
   On what ground is the discrimination in question based on? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
   Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
 ---
 template: notification_14
 subject: |
@@ -1511,11 +1620,307 @@ content: |
   
   Question|Your Responses
   --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
   Did the discrimination occur in an area of public life? | ${ caring_responsibility_area_public_life }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+---
+template: notification_15
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+
+  Question|Your Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+---
+template: notification_16
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+  
+  Question|Your Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ religious_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+---
+template: notification_17
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+  
+  Question|Your Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ domestic_partner_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+---
+template: notification_18
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+  
+  Question|Your Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ identity_of_partner_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+---
+template: notification_19
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+  
+  Question|Your Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ association_with_child_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+---
+template: notification_20
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+  
+  Question|Your Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ caring_responsibility_area_public_life  }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+---
+template: notification_21
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+  
+  Question|Your Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ pregnancy_area_public_life  }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+---
+template: notification_22
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+  
+  Question|Your Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ religious_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+---
+template: notification_23
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+  
+  Question|Your Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ domestic_partner_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+---
+template: notification_24
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+ 
+  Question|Your Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ identity_of_partner_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+---
+template: notification_25
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+  
+  Question|Your Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ association_with_child_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day! 
+---
+template: notification_26
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+  
+  Question|Your Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ caring_responsibility_area_public_life  }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+  Was this information useful?             | ${ usersurvey_response }
+---
+template: notification_27
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+  
+  Question|Your Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ pregnancy_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
   Was this information useful?             | ${ usersurvey_response }
 ---
