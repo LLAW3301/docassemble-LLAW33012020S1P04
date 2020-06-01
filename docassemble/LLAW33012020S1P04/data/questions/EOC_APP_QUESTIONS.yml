@@ -14,13 +14,20 @@ fields:
      - No, but the person aggrieved is a child (under 18): 'No, but the person aggrieved is a child (under 18)'
      - No, but the person aggrieved has an intellectually disability: 'No, but the person aggrieved is intellectually incapable'
      - No, I have no connection with the person aggrieved: 'No, I have no connection with the person aggrieved'
+     
+  - note: 
+      '**Please note:** The EOC will determine if you are a suitable representative for the interests of the aggrieved person.'
+    js show if: |
+      val("person_aggrieved") == "No, but the person aggrieved is a child (under 18)" 
+  - note: 
+      '**Please note:** The EOC will determine if you are a suitable representative for the interests of the aggrieved person.'
+    js show if: |
+      val("person_aggrieved") == "No, but the person aggrieved is intellectually incapable"
 
 terms:
   aggrieved: |
     The word aggrieved describes someone who is upset or distressed about being treated poorly. 
-
-under: |
-  **Please note:** The EOC will determine if you are a suitable representative for the interests of the aggrieved person.
+  
 ---
 question: |
   When did the {incident} occur?
