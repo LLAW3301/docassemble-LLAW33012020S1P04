@@ -1598,7 +1598,7 @@ subquestion: |
 
   Unfortunately, as you have not selected a protected ground, the Equal Opportunity Commission is unable to process your complaint. 
 
-  As your complaint deals with **Workplace Discriminatio**, please contact the South Australian Employment Tribunal.
+  As your complaint deals with **Workplace Discrimination**, please contact the South Australian Employment Tribunal.
 
   [Please click here to access the South Australian Employment Tribunal website](${ url_of('https://www.saet.sa.gov.au') }).
   
@@ -2687,7 +2687,7 @@ subquestion: |
 
   Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
 
-  As your complaint deals with **Workplace Discriminatio**, please contact the South Australian Employment Tribunal.
+  As your complaint deals with **Workplace Discrimination**, please contact the South Australian Employment Tribunal.
 
   [Please click here to access the SAET website](${ url_of('https://www.saet.sa.gov.au') }).
   
