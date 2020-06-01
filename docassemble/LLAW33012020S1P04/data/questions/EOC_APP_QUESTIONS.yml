@@ -136,7 +136,7 @@ fields:
       - Association with a child: 'Association with a child'
       - Caring Responsibility: 'Caring Responsibility'
       - Disability: 'Disability' #
-      - Gender Identity: 'Sexual Identity' #
+      - Gender Identity: 'Gender Identity' #
       - Identity of a spouse or domestic partner: 'Identity of a spouse or domestic partner'
       - Intersex Status: 'Intersex status' #
       - Marital or domestic partnership status: 'Marital or domestic partnership status'
