@@ -342,6 +342,7 @@ subquestion: |
   Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
   
   [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  
   Here are your responses:
   
   Question|Your Responses
@@ -382,6 +383,7 @@ subquestion: |
   Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
   
   [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+ 
   Here are your responses:
   
   Question|Your Responses
@@ -422,6 +424,7 @@ subquestion: |
   Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
   
   [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  
   Here are your responses:
   
   Question|Your Responses
@@ -462,6 +465,7 @@ subquestion: |
   Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
   
   [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  
   Here are your responses:
   
   Question|Your Responses
@@ -502,6 +506,7 @@ subquestion: |
   Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
   
   [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  
   Here are your responses:
   
   Question|Your Responses
@@ -542,6 +547,7 @@ subquestion: |
   Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
   
   [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  
   Here are your responses:
   
   Question|Your Responses
@@ -582,6 +588,7 @@ subquestion: |
   Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
   
   [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  
   Here are your responses:
   
   Question|Your Responses
