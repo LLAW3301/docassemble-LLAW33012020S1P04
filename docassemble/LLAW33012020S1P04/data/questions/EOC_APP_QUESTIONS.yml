@@ -33,10 +33,8 @@ fields:
       - The incident occurred **over 12 months ago**: 'The incident occurred **over 12 months ago**'
       - I do not remember when the incident occurred: 'I do not remember when the incident occurred'
       
-  - note: Please
-      *note:* If the **incident occurred over 12 months ago,** you will be required to provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. 
-      
-      *You will be prompted to provide these reasons when you are completing your complaint.*
+  - note: 
+      '*Please note:* If the **incident occurred over 12 months ago,** you will be required to provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. *You will be prompted to provide these reasons when you are completing your complaint.*'
     js show if: |
       val("incident_date") == "The incident occurred **over 12 months ago**"
    
