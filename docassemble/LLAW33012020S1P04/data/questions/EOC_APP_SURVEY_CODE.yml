@@ -399,7 +399,7 @@ code: |
   survey_answer97 = True
 ---
 code: |
-  send_email(to='rayn0066@flinders.edu.au', template=notification_2)
+  send_email(to='rayn0066@flinders.edu.au', template=notification_4A)
   survey_answer98 = True
 ---
 code: |
@@ -439,7 +439,7 @@ code: |
   survey_answer107 = True 
 ---
 code: |
-  send_email(to='rayn0066@flinders.edu.au', template=notification_4)
+  send_email(to='rayn0066@flinders.edu.au', template=notification_4A)
   survey_answer108 = True 
 ---
 code: |
@@ -1298,8 +1298,10 @@ code: |
     template['notification_2']
   if usergoto_survey99 == True or usergoto_survey100 == True or usergoto_survey101 == True or usergoto_survey102 == True or usergoto_survey103 == True or usergoto_survey104 == True or usergoto_survey105 == True or usergoto_survey106 and person_aggrieved == True and incident_date == True and which_state == False and different_state == True:
     template['notification_3']
-  if usergoto_survey107 == True or usergoto_survey108 == True and person_aggrieved == True and incident_date == True and which_state == True and different_state == True and person_aggrieved == True and incident_date == True and which_state == True and victimisation_sexualharrassment == True:
+  if usergoto_survey107 == True:
     template['notification_4']
+  if usergoto_survey98 == True or usergoto_survey108 == True:
+    template['notification_4A']
   if usergoto_survey2 == True or usergoto_survey3 == True or usergoto_survey4 == True or usergoto_survey5 == True or usergoto_survey14 == True or usergoto_survey15 == True or usergoto_survey16 == True or usergoto_survey17 == True or usergoto_survey18 == True or usergoto_survey19 == True or usergoto_survey19A == True or usergoto_survey20 == True or usergoto_survey21 == True or usergoto_survey22 == True or usergoto_survey23 == True or usergoto_survey24 == True or usergoto_survey25 == True or usergoto_survey26 == True or usergoto_survey27 == True or usergoto_survey28 == True or usergoto_survey29 == True or usergoto_survey30 == True or usergoto_survey31 == True or usergoto_survey32 == True or usergoto_survey33 == True or usergoto_survey34 == True or usergoto_survey35 == True or usergoto_survey36 == True or usergoto_survey37 == True or usergoto_survey38 == True or usergoto_survey39 == True or usergoto_survey40 == True and person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == False and other_complaint_bodies == True:
     template['notification_5']
   if usergoto_survey6 == True or usergoto_survey7 == True or usergoto_survey8 == True or usergoto_survey9 == True or usergoto_survey41 == True or usergoto_survey42 == True or usergoto_survey43 == True or usergoto_survey44 == True or usergoto_survey45 == True or usergoto_survey46 == True or usergoto_survey47 == True or usergoto_survey48 == True or usergoto_survey49 == True or usergoto_survey50 == True or usergoto_survey51 == True or usergoto_survey52 == True or usergoto_survey53 == True or usergoto_survey54 == True or usergoto_survey55 == True or usergoto_survey56 == True or usergoto_survey57 == True or usergoto_survey58 == True or usergoto_survey59 == True or usergoto_survey60 == True or usergoto_survey61 == True or usergoto_survey62 == True or usergoto_survey63 == True or usergoto_survey64 == True or usergoto_survey65 == True or usergoto_survey66 == True or usergoto_survey67 == True or usergoto_survey68 == True and person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == True and protected_ground_eligible == False and other_complaint_bodies == True:
@@ -1418,6 +1420,27 @@ content: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   Does your complaint involve Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment2 }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day!
+---
+template: notification_4A
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
+
+  Question|User Responses
+  --------|--------
+  Frist Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment2 }
+  Did your Sexual Harassment occur in an area of public life? | ${ sexual_harassment_areapubliclife }
   Was this information useful?             | ${ usersurvey_response }
   
   Have a nice day!

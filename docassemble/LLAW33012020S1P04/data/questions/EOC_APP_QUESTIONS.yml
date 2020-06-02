@@ -3,7 +3,7 @@ question: Are you yourself the person {aggrieved}?
 subquestion: |
   You are considered the **person aggrieved** if you are the person that is treated poorly. You are not the person aggrieved if the person who is treated poorly is your friend, colleague, partner, child, or someone else who you have seen, read about or heard about.
   
-  You are also **not the person aggrieved** if a discriminatory statement is generalised or sweeping, for example *“all green people need to move to the moon”*. Statements such as this may be dealt with by other areas of the law. Please seek legal advice for more information.
+  If a discriminatory statement is generalised or sweeping, and doesn't relate to you specifically, it is less likely that you would meet the test of being a person aggrieved. These sorts of statements may be dealt with by other areas of the law. Please seek legal advice for more information. 
   
 fields: 
   - no label: person_aggrieved
@@ -41,9 +41,14 @@ fields:
       - I do not remember when the incident occurred: 'I do not remember when the incident occurred'
       
   - note: 
-      '*Please note:* If the **incident occurred over 12 months ago,** you will be required to provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. *You will be prompted to provide these reasons when you are completing your complaint.*'
+      "*Please note:* If the **incident occurred over 12 months ago,** you will be required to provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. *You will be prompted to provide these reasons when you are completing your complaint.* [You may access further information on this by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/complaint-process/time-limits-late-complaints') })."
     js show if: |
       val("incident_date") == "The incident occurred **over 12 months ago**"
+      
+  - note: 
+      "*Please note:* If you **do not remember when the incident occurred**, you should review the details of your complaint further. The Equal Opportunity Commission need as many details as possible to assist. [You may access further information on this by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/complaint-process/time-limits-late-complaints') })."
+    js show if: |
+      val("incident_date") == "I do not remember when the incident occurred"
    
 terms:
   incident: |
@@ -77,30 +82,53 @@ fields:
       - Outside Australia: 'Outside Australia'
 ---
 question: |
-  Does your complaint involve either Sexual Harrassment or Victimisation?
+  Does your complaint involve either Sexual Harassment or Victimisation?
 subquestion: |
-  **Sexual harassment** *is any unwanted verbal or physical conduct of a sexual nature. It can make you feel embarrassed, offended, intimidated or unsafe.* 
+  **Sexual harassment** is any unwanted verbal or physical conduct of a sexual nature. It can make you feel embarrassed, offended, intimidated or unsafe. 
   
-  **Victimisation** *is punishing or threatening to punish someone because they have made a complaint or reported behaviour for investigation.* 
+  **Victimisation** occurs when you have made a complaint or reported that you or some other person has experienced or reported:
+  
+    - Discrimination
+  
+    - Sexual harassment
+  
+    - Misconduct, maladministration or corrupt conduct in public administration 
+    
+    to someone who then treats you unfavourably because you reported, or complained of these things.
   
   **Example:** An employee alleged that a client had sexually harassed her by making sexual comments while she was trying to do her job. The employee said that her employer offered her less shifts after she complained about this. This is victimisation.
+  
 fields:
   - no label: victimisation_sexualharrassment
     input type: radio
     choices:
-      - Yes: True
-        default: No
-      - No: False
+      - Yes: 'Yes'
+      - No: 'No'
+        default: 'No'
 ---
 question: |
-  Does your complaint involve Sexual Harrassment or Victimisation?
+  Does your complaint involve Sexual Harassment or Victimisation?
 fields:
   - no label: victimisation_sexualharrassment2
     input type: radio
     choices:
-      - Sexual Harrassment: 'Sexual Harrassment'
-        default: 'Sexual Harrassment'
+      - Sexual Harassment: 'Sexual Harassment'
+        default: 'Sexual Harassment'
       - Victimisation: 'Victimisation'
+---
+question: |
+  Did the Sexual Harassment occur in an area of public life?  
+fields: 
+  - no label: sexual_harassment_areapubliclife
+    input type: radio
+    choices:
+      - Accommodation: 'Accommodation'
+      - An authority or body which grants qualifications: 'An authority or body which grants qualifications'
+      - Associations: 'Associations'
+      - Customer Service: 'Customer Service'
+      - Education: 'Education'
+      - Employment: 'Employment'
+      - None of the above: 'None of the above' 
 ---
 question: |
   Does your complaint relate to any of the following?

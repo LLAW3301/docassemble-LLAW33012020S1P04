@@ -5,9 +5,11 @@ subquestion: |
 
   Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission should be able to accept your complaint and assist you throughout the complaint process. 
   
-  Please download and complete the Equal Opportunity Commission Complaint Form below, or [click here for access to the online form,](${url_of('https://forms.sa.gov.au/#/form/59964287ad9c5a332435b63f/app/5ed379c14d43317668245f0d') }) to officially begin the complaint process.
+  The completion of this application **does not** trigger the complaint process. You will need to complete the complaint form, [please click here to access to this form](${url_of('https://eoc.sa.gov.au/what-discrimination/making-complaint') }) to officially begin the process. 
   
-  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
+  If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
+  
+  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
 
     Here are your responses:
   
@@ -18,10 +20,7 @@ subquestion: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
-  
-attachment:
-  - name: Equal Opportunity Commission Complaint Form 
-    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+
 continue button field: usergoto_survey410
 ---
 event: endpoint['extra_sections_eligible']
@@ -43,9 +42,11 @@ subquestion: |
   
   Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission should be able to accept your complaint and assist you throughout the complaint process. 
   
-  Please download and complete the Equal Opportunity Commission Complaint Form below, or [click here for access to the online form,](${url_of('https://forms.sa.gov.au/#/form/59964287ad9c5a332435b63f/app/5ed379c14d43317668245f0d') }) to officially begin the complaint process.
+   The completion of this application **does not** trigger the complaint process. You will need to complete the complaint form, [please click here to access to this form](${url_of('https://eoc.sa.gov.au/what-discrimination/making-complaint') }) to officially begin the process. 
   
-  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
+  If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
+  
+  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
   
   Here are your responses:
   
@@ -60,11 +61,7 @@ subquestion: |
   Is the discrimination based on a protected ground? | ${ protected_ground }
   Did the discrimination occur in an area of public? | ${ area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
-  
-  **Please click continue for an opportunity to provide feedback only after you have downloaded the complaint form below.**
-attachment:
-  - name: Equal Opportunity Commission Complaint Form 
-    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+
 continue button field: usergoto_survey411
 ---
 event: endpoint['eligible']
@@ -86,9 +83,11 @@ subquestion: |
   
   Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission will be able to help and support you through your legal complaint.
   
-  Please download and complete the Equal Opportunity Commission Complaint Form to officially begin the complaint process.
+   The completion of this application **does not** trigger the complaint process. You will need to complete the complaint form, [please click here to access to this form](${url_of('https://eoc.sa.gov.au/what-discrimination/making-complaint') }) to officially begin the process. 
   
-  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative support where required.*
+  If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
+  
+  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
   
   Here are your responses:
   
@@ -104,9 +103,7 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ religious_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
-attachment:
-  - name: Equal Opportunity Commission Complaint Form 
-    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+
 continue button field: usergoto_survey365
 ---
 event: endpoint['eligible_religious_no_area_public_life']
@@ -128,9 +125,11 @@ subquestion: |
   
   Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission will be able to help and support you through your legal complaint.
   
-  Please download and complete the Equal Opportunity Commission Complaint Form to officially begin the complaint process.
+   The completion of this application **does not** trigger the complaint process. You will need to complete the complaint form, [please click here to access to this form](${url_of('https://eoc.sa.gov.au/what-discrimination/making-complaint') }) to officially begin the process. 
   
-  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative support where required.*
+  If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
+  
+  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
   
   Here are your responses:
   
@@ -146,10 +145,7 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ domestic_partner_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
-  **Please click continue for an opportunity to provide feedback only after you have downloaded the complaint form below.**
-attachment:
-  - name: Equal Opportunity Commission Complaint Form 
-    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+
 continue button field: usergoto_survey366
 ---
 event: endpoint['eligible_domestic_partnership_no_public_life']
@@ -171,9 +167,11 @@ subquestion: |
   
   Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission will be able to help and support you through your legal complaint.
   
-  Please download and complete the Equal Opportunity Commission Complaint Form to officially begin the complaint process.
+  The completion of this application **does not** trigger the complaint process. You will need to complete the complaint form, [please click here to access to this form](${url_of('https://eoc.sa.gov.au/what-discrimination/making-complaint') }) to officially begin the process. 
   
-  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative support where required.*
+  If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
+  
+  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
   
   Here are your responses:
   
@@ -189,9 +187,7 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ identity_of_partner_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
-attachment:
-  - name: Equal Opportunity Commission Complaint Form 
-    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+
 continue button field: usergoto_survey367
 ---
 event: endpoint['eligible_identity_of_partner_no_public_life']
@@ -213,9 +209,11 @@ subquestion: |
   
   Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission will be able to help and support you through your legal complaint.
   
-  Please download and complete the Equal Opportunity Commission Complaint Form to officially begin the complaint process.
+   The completion of this application **does not** trigger the complaint process. You will need to complete the complaint form, [please click here to access to this form](${url_of('https://eoc.sa.gov.au/what-discrimination/making-complaint') }) to officially begin the process. 
   
-  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative support where required.*
+  If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
+  
+  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
   
   Here are your responses:
   
@@ -231,9 +229,7 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ association_with_child_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
-attachment:
-  - name: Equal Opportunity Commission Complaint Form 
-    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+
 continue button field: usergoto_survey368
 ---
 event: endpoint['eligible_association_with_child_no_public_life']  
@@ -255,9 +251,11 @@ subquestion: |
   
   Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission will be able to help and support you through your legal complaint.
   
-  Please download and complete the Equal Opportunity Commission Complaint Form to officially begin the complaint process.
+   The completion of this application **does not** trigger the complaint process. You will need to complete the complaint form, [please click here to access to this form](${url_of('https://eoc.sa.gov.au/what-discrimination/making-complaint') }) to officially begin the process. 
   
-  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative support where required.*
+  If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
+  
+  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
   
   Here are your responses:
   
@@ -273,9 +271,7 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ caring_responsibility_area_public_life  }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
-attachment:
-  - name: Equal Opportunity Commission Complaint Form 
-    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+
 continue button field: usergoto_survey369
 ---
 event: endpoint['eligible_caring_responsibility_no_public_life']  
@@ -297,9 +293,11 @@ subquestion: |
   
   Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission will be able to help and support you through your legal complaint.
   
-  Please download and complete the Equal Opportunity Commission Complaint Form to officially begin the complaint process.
+   The completion of this application **does not** trigger the complaint process. You will need to complete the complaint form, [please click here to access to this form](${url_of('https://eoc.sa.gov.au/what-discrimination/making-complaint') }) to officially begin the process. 
   
-  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative support where required.*
+  If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
+  
+  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
   
   Here are your responses:
   
@@ -315,9 +313,7 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ pregnancy_area_public_life  }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
-attachment:
-  - name: Equal Opportunity Commission Complaint Form 
-    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+
 continue button field: usergoto_survey370
 ---
 event: endpoint['eligible_pregnancy_no_public_life']  
