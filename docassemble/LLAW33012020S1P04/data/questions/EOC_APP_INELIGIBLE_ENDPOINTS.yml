@@ -323,11 +323,13 @@ question: |
   Thank you for your responses. 
 subquestion: |
 
+  Based on the information you have provided, the Equal Opportunity Commission **may** have jurisdiction over your complaint of **Victimisation**.
+  
   Please note, a complaint of victimisation or report of inappropriate behaviour must relate to an alleged breach of *Equal Opportunity Act 1984*, the *Public Interest Disclosure Act 2018* or the *Independent Commission Against Corruption Act 2012*.
  
   There are also a number of other South Australian Acts that create a right to make a complaint to the Equal Opportunity Commission for victimisation. If your complaint of victimisation relates to an Act not mentioned above, please contact the Equal Opportunity Commission to speak about your complaint in more detail.
  
-  Victimisation is complex, has very specific definitions, and requires careful consideration. You may contact the Equal Opportunity Commission directly on 08 8207 1997 or email [eoc@agd.sa.gov.au](mailto:eoc@agd.sa.gov.au) for support information on whether your complaint meets the definitions of victimisation.
+  Victimisation is complex, has very specific definitions, and requires careful consideration. You may contact the Equal Opportunity Commission directly on 08 8207 1997 or email [eoc@agd.sa.gov.au](mailto:eoc@agd.sa.gov.au) for information on whether your complaint meets the definitions of victimisation.
   
   [You may also access further information on Victimisation by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/types-discrimination/victimisation-and-public-interest-disclosures') }).
 
