@@ -335,9 +335,7 @@ subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
   
-  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
-  
-  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  [Please click here to access the Australian Human Rights Commission website for further information](${ url_of('https://www.humanrights.gov.au/about') }).
   
   Here are your responses:
   
@@ -376,9 +374,7 @@ subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
   
-  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
-  
-  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  [Please click here to access the Australian Human Rights Commission website for further information](${ url_of('https://www.humanrights.gov.au/about') }).
  
   Here are your responses:
   
@@ -417,9 +413,7 @@ subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
   
-  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
-  
-  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  [Please click here to access the Australian Human Rights Commission website for further information](${ url_of('https://www.humanrights.gov.au/about') }).
   
   Here are your responses:
   
@@ -458,9 +452,7 @@ subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
   
-  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
-  
-  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  [Please click here to access the Australian Human Rights Commission website for further information](${ url_of('https://www.humanrights.gov.au/about') }).
   
   Here are your responses:
   
@@ -499,9 +491,7 @@ subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
   
-  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
-  
-  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  [Please click here to access the Australian Human Rights Commission website for further information](${ url_of('https://www.humanrights.gov.au/about') }).
   
   Here are your responses:
   
@@ -540,9 +530,7 @@ subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
   
-  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
-  
-  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  [Please click here to access the Australian Human Rights Commission website for further information](${ url_of('https://www.humanrights.gov.au/about') }).
   
   Here are your responses:
   
@@ -580,10 +568,8 @@ question: |
 subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
-  
-  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
-  
-  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+ 
+  [Please click here to access the Australian Human Rights Commission website for further information](${ url_of('https://www.humanrights.gov.au/about') }).
   
   Here are your responses:
   
