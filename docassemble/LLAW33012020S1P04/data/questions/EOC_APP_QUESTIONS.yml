@@ -16,11 +16,11 @@ fields:
      - No, I have no connection with the person aggrieved: 'No, I have no connection with the person aggrieved'
      
   - note: 
-      '**Please note:** The EOC will determine if you are a suitable representative for the interests of the aggrieved person.'
+      '**Please note:** The Equal Opportunity Commission will determine if you are a suitable representative for the interests of the aggrieved person.'
     js show if: |
       val("person_aggrieved") == "No, but the person aggrieved is a child (under 18)" 
   - note: 
-      '**Please note:** The EOC will determine if you are a suitable representative for the interests of the aggrieved person.'
+      '**Please note:** The Equal Opportunity Commission will determine if you are a suitable representative for the interests of the aggrieved person.'
     js show if: |
       val("person_aggrieved") == "No, but the person aggrieved is intellectually incapable"
 

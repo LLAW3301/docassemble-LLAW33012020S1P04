@@ -21,6 +21,8 @@ subquestion: |
   Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
 
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+  
 continue button field: usergoto_survey410
 ---
 event: endpoint['extra_sections_eligible']
@@ -62,6 +64,8 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+  
 continue button field: usergoto_survey411
 ---
 event: endpoint['eligible']
@@ -103,7 +107,8 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ religious_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
-
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+  
 continue button field: usergoto_survey365
 ---
 event: endpoint['eligible_religious_no_area_public_life']
@@ -145,7 +150,8 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ domestic_partner_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
-
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+  
 continue button field: usergoto_survey366
 ---
 event: endpoint['eligible_domestic_partnership_no_public_life']
@@ -187,6 +193,7 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ identity_of_partner_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
 
 continue button field: usergoto_survey367
 ---
@@ -229,7 +236,8 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ association_with_child_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
-
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+  
 continue button field: usergoto_survey368
 ---
 event: endpoint['eligible_association_with_child_no_public_life']  
@@ -271,7 +279,8 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ caring_responsibility_area_public_life  }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
-
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+  
 continue button field: usergoto_survey369
 ---
 event: endpoint['eligible_caring_responsibility_no_public_life']  
@@ -313,7 +322,8 @@ subquestion: |
   Did the discrimination occur in an area of public? | ${ pregnancy_area_public_life  }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
-
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+  
 continue button field: usergoto_survey370
 ---
 event: endpoint['eligible_pregnancy_no_public_life']  
