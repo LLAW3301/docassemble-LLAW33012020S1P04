@@ -34,7 +34,7 @@ code: |
 ---
 features:
   css: EOCheader.css
-  debug: False
+  debug: True
   hide standard menu: True
 ---
 mandatory: True
