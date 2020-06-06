@@ -23,6 +23,7 @@ metadata:
 ---
 objects:
   - endpoint: DADict
+  - template: DADict
 ---
 objects:
   - EOCLogo: DAStaticFile.using(filename='MicrosoftTeams-image-2.png')
@@ -34,22 +35,22 @@ code: |
 ---
 features:
   css: EOCheader.css
-  debug: True
+  debug: False
   hide standard menu: True
 ---
 mandatory: True
 question: |
 
   <span class="EOCtitle">
-   **Is my complaint covered under the Equal Opportunity Act?** 
+   **Is my complaint covered under the *Equal Opportunity Act*? **
   </span>
 
 subquestion: |
-  Thank you for visiting this application. This application will help determine whether or not the Equal Opportunity Commission has the authority under the *Equal Opportunity Act* to assist with your complaint. Where the Equal Opportunity Commission is not able to assist you, this application will help determine other complaints bodies which may be able to.
+  Thank you for visiting this application. This application will help determine whether or not the Equal Opportunity Commission has the authority under the *Equal Opportunity Act 1984* (SA) to assist with your complaint. Where the Equal Opportunity Commission is not able to assist you, this application will help determine other complaints bodies which may be able to.
  
   Please note you might have a complaint of more than one type of discrimination, sexual harassment or victimisation by the same person or organisation. If you put in a complaint form, you can outline all of your complaints on the same form.
   
-  If you are a **business applying for an exemption** to discriminate favourably on one particular group under the *Equal Opportunity Act*, this application may not help you. Please contact the Commission directly with your query. [Click here for their details.](${ url_of('https://eoc.sa.gov.au/contact') })
+  If you are a **business applying for an exemption** to discriminate favourably on one particular group under the *Equal Opportunity Act*, this application may not help you. Please contact the Equal Opportunity Commission directly with your query. [Click here for their details.](${ url_of('https://eoc.sa.gov.au/contact') })
   
   
   **Disclaimer:**
@@ -526,7 +527,7 @@ code: |
 code: |
   if ( area_public_life == 'Employment' or 
   area_public_life == 'Customer Service' or 
-  area_public_life == 'Accomodation' or 
+  area_public_life == 'Accommodation' or 
   area_public_life == 'Selling Land' or 
   area_public_life == 'Clubs and Associations' or 
   area_public_life == 'Advertising' or 
@@ -543,7 +544,7 @@ code: |
   domestic_partner_area_public_life == 'Granting Qualifications' or
   domestic_partner_area_public_life == 'Selling Land' or 
   domestic_partner_area_public_life == 'Customer Service' or 
-  domestic_partner_area_public_life == 'Accomodation' ):
+  domestic_partner_area_public_life == 'Accommodation' ):
     domestic_partner_area_public_life_eligible = True
   else:
     domestic_partner_area_public_life_eligible = False
@@ -579,7 +580,7 @@ code: |
     caring_responsibility_area_public_life_eligible = False
 ---
 code: |
-  if ( pregnancy_area_public_life == 'Employment' or pregnancy_area_public_life == 'Clubs and Associations' or pregnancy_area_public_life == 'Granting Qualifications' or pregnancy_area_public_life == 'Education' or pregnancy_area_public_life == 'Selling Land' or pregnancy_area_public_life == 'Customer Service' or pregnancy_area_public_life == 'Accomodation' ):
+  if ( pregnancy_area_public_life == 'Employment' or pregnancy_area_public_life == 'Clubs and Associations' or pregnancy_area_public_life == 'Granting Qualifications' or pregnancy_area_public_life == 'Education' or pregnancy_area_public_life == 'Selling Land' or pregnancy_area_public_life == 'Customer Service' or pregnancy_area_public_life == 'Accommodation' ):
     pregnancy_area_public_life_eligible = True
   else: 
     pregnancy_area_public_life_eligible = False

@@ -70,7 +70,7 @@
    /* Set the colour to red */
     color: rgb(0, 0, 102);
     /* Make the font bigger.  This increases the font size by 20% */
-    font-size: 1em;
+    font-size: 1.2em;
     /* Make it bold */
-    font-weight: bold;
+    font-weight: normal;
 }

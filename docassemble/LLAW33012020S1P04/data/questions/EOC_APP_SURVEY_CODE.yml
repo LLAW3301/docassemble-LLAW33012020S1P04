@@ -1308,7 +1308,7 @@ code: |
     template['notification_6']
   if usergoto_survey10 == True or usergoto_survey11 == True or usergoto_survey12 == True or usergoto_survey13 == True or usergoto_survey69 == True or usergoto_survey70 == True or usergoto_survey71 == True or usergoto_survey72 == True or usergoto_survey73 == True or usergoto_survey74 == True or usergoto_survey75 == True or usergoto_survey76 == True or usergoto_survey77 == True or usergoto_survey78 == True or usergoto_survey79 == True or usergoto_survey80 == True or usergoto_survey81 == True or usergoto_survey82 == True or usergoto_survey83 == True or usergoto_survey84 == True or usergoto_survey85 == True or usergoto_survey86 == True or usergoto_survey87 == True or usergoto_survey88 == True or usergoto_survey89 == True or usergoto_survey90 == True or usergoto_survey91 == True or usergoto_survey92 == True or usergoto_survey93 == True or usergoto_survey94 == True or usergoto_survey95 == True or usergoto_survey96 == True and person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == True and protected_ground_eligible == True and area_public_life_eligible == False and other_complaint_bodies == True:
     template['notification_7']
-  if usergoto_survey == True or usergoto_survey109 and person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == True and protected_ground_eligible == True and area_public_life_eligible == True and state_or_federal == False or state_or_federal == True:
+  if usergoto_survey109 and person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment == False and discrimination == True and protected_ground_eligible == True and area_public_life_eligible == True and state_or_federal == False or state_or_federal == True:
     template['notification_8']
   if usergoto_survey201 == True or usergoto_survey202 == True or usergoto_survey203 == True or usergoto_survey204 == True or usergoto_survey205 == True or usergoto_survey206 == True or usergoto_survey207 == True or usergoto_survey208 == True or usergoto_survey209 == True or usergoto_survey210 == True or usergoto_survey211 == True or usergoto_survey212 == True or usergoto_survey213 == True or usergoto_survey214 == True or usergoto_survey215 == True or usergoto_survey216 == True or usergoto_survey217 == True or usergoto_survey218 == True or usergoto_survey219 == True or usergoto_survey220 == True or usergoto_survey221 == True or usergoto_survey222 == True or usergoto_survey223 == True or usergoto_survey224 == True or usergoto_survey225 == True or usergoto_survey226 == True or usergoto_survey227 == True or usergoto_survey228 == True or usergoto_survey229 == True or usergoto_survey230 == True or usergoto_survey231 == True or usergoto_survey364 == True:
     template['notification_9']
@@ -1544,7 +1544,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1568,7 +1568,7 @@ content: |
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
 
 
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1591,7 +1591,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1614,7 +1614,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1637,7 +1637,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
 
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1660,7 +1660,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1683,7 +1683,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
 
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1703,7 +1703,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1727,7 +1727,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1751,7 +1751,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1775,7 +1775,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1799,7 +1799,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1823,7 +1823,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1847,7 +1847,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1871,7 +1871,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1895,7 +1895,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
  
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1919,7 +1919,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1943,7 +1943,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
@@ -1965,7 +1965,7 @@ subject: |
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
-  Question|Your Responses
+  Question|User Responses
   --------|--------
   Frist Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }

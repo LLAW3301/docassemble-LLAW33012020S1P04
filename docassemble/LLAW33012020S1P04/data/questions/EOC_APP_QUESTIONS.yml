@@ -41,12 +41,12 @@ fields:
       - I do not remember when the incident occurred: 'I do not remember when the incident occurred'
       
   - note: 
-      "*Please note:* If the **incident occurred over 12 months ago,** you will be required to provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. *You will be prompted to provide these reasons when you are completing your complaint.* [You may access further information on this by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/complaint-process/time-limits-late-complaints') })."
+      "**Please note:** If the **incident occurred over 12 months ago,** you will be required to provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. *You will be prompted to provide these reasons when you are completing your complaint.* [You may access further information on this by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/complaint-process/time-limits-late-complaints') })."
     js show if: |
       val("incident_date") == "The incident occurred **over 12 months ago**"
       
   - note: 
-      "*Please note:* If you **do not remember when the incident occurred**, you should review the details of your complaint further. The Equal Opportunity Commission need as many details as possible to assist. [You may access further information on this by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/complaint-process/time-limits-late-complaints') })."
+      "**Please note:** If you **do not remember when the incident occurred**, you should review the details of your complaint further. The Equal Opportunity Commission need as many details as possible to assist. [You may access further information on this by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/complaint-process/time-limits-late-complaints') })."
     js show if: |
       val("incident_date") == "I do not remember when the incident occurred"
    
@@ -123,11 +123,37 @@ fields:
     input type: radio
     choices:
       - Accommodation: 'Accommodation'
+        help: |
+          - In the terms or conditions for which accommodation is offered
+          - By refusing an application for accommodation
+          - By deferring an application or accoding the applicant a lower order of preference on a list of applicants for that accommodation
       - An authority or body which grants qualifications: 'An authority or body which grants qualifications'
+        help: |
+          It is unlawful for an authority or body empowered to confer an authorisation or qualification that is needed for, or facilitates, the practice of a profession, or the carrying on or engaging in of a trade or occupation, to discriminate against a person.
       - Associations: 'Associations'
+        help: |
+          - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
+          - In the terms by which the applicant is, or may be, admitted to membership
+          - By refusing or failing to provide a particular service or benefit is provided to that member
+          - By expelling that member from the association or subjecting him or her to other detriment
       - Customer Service: 'Customer Service'
+        help: |
+          - By refusing or failing to supply the goods or perform the services
+          - In the terms or conditions on which or the manner in which the goods are supplied or the services are performed
       - Education: 'Education'
+        help: |
+          - By refusing or failing to accept an application for admission as a student
+          - Discriminate in the terms or conditions on which it provides the student with training or education 
+          - By denying or limiting access to a benefit provided by the authority
+          - By expelling the student
+          - By subjecting the student to other detriment
       - Employment: 'Employment'
+        help: |
+          - In determining who should be offered employment
+          - In the terms or conditions of employment
+          - By denying or limiting access to opportunities for promotion, transfer or training, or to other benefits connect with employment
+          - By dismissing the employee
+          - By subjecting the employee to other detriment
       - None of the above: 'None of the above' 
 ---
 question: |
@@ -192,7 +218,19 @@ fields:
     choices:
       - Education: 'Education'
         default: 'Education'
+        help: |
+          - By refusing or failing to accept an application for admission as a student
+          - Discriminate in the terms or conditions on which it provides the student with training or education 
+          - By denying or limiting access to a benefit provided by the authority
+          - By expelling the student
+          - By subjecting the student to other detriment
       - Employment: 'Employment'
+        help: |
+          - In determining who should be offered employment
+          - In the terms or conditions of employment
+          - By denying or limiting access to opportunities for promotion, transfer or training, or to other benefits connect with employment
+          - By dismissing the employee
+          - By subjecting the employee to other detriment
       - None of the above: 'No'
 ---
 question: |
@@ -203,14 +241,43 @@ fields:
   - no label: domestic_partner_area_public_life
     input type: radio
     choices:
-      - Employment: 'Employment'
-        default: 'Employment'
-      - Education: 'Education'
+      - Accommodation: 'Accommodation'
+        default: 'Accommodation'
+        help: |
+          - In the terms or conditions for which accommodation is offered
+          - By refusing an application for accommodation
+          - By deferring an application or accoding the applicant a lower order of preference on a list of applicants for that accommodation
       - Clubs and Associations: 'Clubs and Associations'
-      - Granting Qualifications: 'Granting Qualifications'
-      - Selling Land: 'Selling Land'
+        help: |
+          - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
+          - In the terms by which the applicant is, or may be, admitted to membership
+          - By refusing or failing to provide a particular service or benefit is provided to that member
+          - By expelling that member from the association or subjecting him or her to other detriment
       - Customer Service: 'Customer Service'
-      - Accomodation: 'Accomodation'
+        help: |
+          - By refusing or failing to supply the goods or perform the services
+          - In the terms or conditions on which or the manner in which the goods are supplied or the services are performed
+      - Education: 'Education'
+        help: |
+          - By refusing or failing to accept an application for admission as a student
+          - Discriminate in the terms or conditions on which it provides the student with training or education 
+          - By denying or limiting access to a benefit provided by the authority
+          - By expelling the student
+          - By subjecting the student to other detriment
+      - Employment: 'Employment'
+        help: |
+          - In determining who should be offered employment
+          - In the terms or conditions of employment
+          - By denying or limiting access to opportunities for promotion, transfer or training, or to other benefits connect with employment
+          - By dismissing the employee
+          - By subjecting the employee to other detriment
+      - Granting Qualifications: 'Granting Qualifications'
+        help: |
+          It is unlawful for an authority or body empowered to confer an authorisation or qualification that is needed for, or facilitates, the practice of a profession, or the carrying on or engaging in of a trade or occupation, to discriminate against a person.
+      - Selling Land: 'Selling Land'
+        help: |
+          - By refusing or failing to sell land to the other person
+          - In the terms or conditions on which the sale of land is offered to the other person
       - None of the above: 'No'
 ---
 question: |
@@ -221,14 +288,43 @@ fields:
   - no label: identity_of_partner_area_public_life
     input type: radio
     choices:
-      - Employment: 'Employment'
-        default: 'Employment'
+      - Accommodation: 'Accommodation'
+        default: 'Accommodation'
+        help: |
+          - In the terms or conditions for which accommodation is offered
+          - By refusing an application for accommodation
+          - By deferring an application or accoding the applicant a lower order of preference on a list of applicants for that accommodation
       - Associations and Clubs: 'Associations and Clubs'
-      - Granting Qualifications: 'Granting Qualifications'
-      - Education: 'Education'
-      - Selling Land: 'Selling Land'
+        help: |
+          - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
+          - In the terms by which the applicant is, or may be, admitted to membership
+          - By refusing or failing to provide a particular service or benefit is provided to that member
+          - By expelling that member from the association or subjecting him or her to other detriment
       - Customer Service: 'Customer Service'
-      - Accomodation: 'Accomodation'
+        help: |
+          - By refusing or failing to supply the goods or perform the services
+          - In the terms or conditions on which or the manner in which the goods are supplied or the services are performed
+      - Education: 'Education'
+        help: |
+          - By refusing or failing to accept an application for admission as a student
+          - Discriminate in the terms or conditions on which it provides the student with training or education 
+          - By denying or limiting access to a benefit provided by the authority
+          - By expelling the student
+          - By subjecting the student to other detriment
+      - Employment: 'Employment'
+        help: |
+          - In determining who should be offered employment
+          - In the terms or conditions of employment
+          - By denying or limiting access to opportunities for promotion, transfer or training, or to other benefits connect with employment
+          - By dismissing the employee
+          - By subjecting the employee to other detriment
+      - Granting Qualifications: 'Granting Qualifications'
+        help: |
+          It is unlawful for an authority or body empowered to confer an authorisation or qualification that is needed for, or facilitates, the practice of a profession, or the carrying on or engaging in of a trade or occupation, to discriminate against a person.
+      - Selling Land: 'Selling Land'
+        help: |
+          - By refusing or failing to sell land to the other person
+          - In the terms or conditions on which the sale of land is offered to the other person
       - None of the above: 'No'
 ---
 question: |
@@ -241,6 +337,9 @@ fields:
     choices:
       - Customer Service: 'Customer Service'
         default: 'Customer Service'
+        help: |
+          - By refusing or failing to supply the goods or perform the services
+          - In the terms or conditions on which or the manner in which the goods are supplied or the services are performed
       - None of the above: 'No'
 ---
 question: |
@@ -251,14 +350,43 @@ fields:
   - no label: caring_responsibility_area_public_life 
     input type: radio
     choices:
-      - Employment: 'Employment'
-        default: 'Employment'
+      - Accommodation: 'Accommodation'
+        default: 'Accommodation'
+        help: |
+           - In the terms or conditions for which accommodation is offered
+           - By refusing an application for accommodation
+           - By deferring an application or accoding the applicant a lower order of preference on a list of applicants for that accommodation
       - Association: 'Association'
-      - Granting Qualifications: 'Granting Qualifications'
-      - Education: 'Education'
-      - Selling Land: 'Selling Land'
+        help: |
+           - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
+           - In the terms by which the applicant is, or may be, admitted to membership
+           - By refusing or failing to provide a particular service or benefit is provided to that member
+           - By expelling that member from the association or subjecting him or her to other detriment
       - Customer Service: 'Customer Service'
-      - Accomodation: 'Accomodation'
+        help: |
+           - By refusing or failing to supply the goods or perform the services
+           - In the terms or conditions on which or the manner in which the goods are supplied or the services are performed
+      - Education: 'Education'
+        help: |
+           - By refusing or failing to accept an application for admission as a student
+           - Discriminate in the terms or conditions on which it provides the student with training or education 
+           - By denying or limiting access to a benefit provided by the authority
+           - By expelling the student
+           - By subjecting the student to other detriment
+      - Employment: 'Employment'
+        help: |
+           - In determining who should be offered employment
+           - In the terms or conditions of employment
+           - By denying or limiting access to opportunities for promotion, transfer or training, or to other benefits connect with employment
+           - By dismissing the employee
+           - By subjecting the employee to other detriment
+      - Granting Qualifications: 'Granting Qualifications'
+        help: |
+           It is unlawful for an authority or body empowered to confer an authorisation or qualification that is needed for, or facilitates, the practice of a profession, or the carrying on or engaging in of a trade or occupation, to discriminate against a person.
+      - Selling Land: 'Selling Land'
+        help: |
+           - By refusing or failing to sell land to the other person
+           - In the terms or conditions on which the sale of land is offered to the other person
       - None of the above: 'No'
 ---
 question: |
@@ -269,14 +397,43 @@ fields:
   - no label: pregnancy_area_public_life
     input type: radio
     choices:
-      - Employment: 'Employment'
-        default: 'Employment'
+      - Accommodation: 'Accommodation'
+        default: 'Accommodation'
+        help: |
+          - In the terms or conditions for which accommodation is offered
+          - By refusing an application for accommodation
+          - By deferring an application or accoding the applicant a lower order of preference on a list of applicants for that accommodation
       - Clubs and Associations: 'Clubs and Associations'
-      - Granting Qualifications: 'Granting Qualifications'
-      - Education: 'Education'
-      - Selling Land: 'Selling Land'
+        help: |
+          - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
+          - In the terms by which the applicant is, or may be, admitted to membership
+          - By refusing or failing to provide a particular service or benefit is provided to that member
+          - By expelling that member from the association or subjecting him or her to other detriment
       - Customer Service: 'Customer Service'
-      - Accomodation: 'Accomodation'
+        help: |
+          - By refusing or failing to supply the goods or perform the services
+          - In the terms or conditions on which or the manner in which the goods are supplied or the services are performed
+      - Education: 'Education'
+        help: |
+          - By refusing or failing to accept an application for admission as a student
+          - Discriminate in the terms or conditions on which it provides the student with training or education 
+          - By denying or limiting access to a benefit provided by the authority
+          - By expelling the student
+          - By subjecting the student to other detriment
+      - Employment: 'Employment'
+        help: |
+          - In determining who should be offered employment
+          - In the terms or conditions of employment
+          - By denying or limiting access to opportunities for promotion, transfer or training, or to other benefits connect with employment
+          - By dismissing the employee
+          - By subjecting the employee to other detriment
+      - Granting Qualifications: 'Granting Qualifications'
+        help: |
+          It is unlawful for an authority or body empowered to confer an authorisation or qualification that is needed for, or facilitates, the practice of a profession, or the carrying on or engaging in of a trade or occupation, to discriminate against a person.
+      - Selling Land: 'Selling Land'
+        help: |
+          - By refusing or failing to sell land to the other person
+          - In the terms or conditions on which the sale of land is offered to the other person
       - None of the above: 'No'
 ---
 question: |
@@ -287,7 +444,7 @@ fields:
   - no label: area_public_life
     input type: radio
     choices:
-      - Accomodation: 'Accomodation'
+      - Accommodation: 'Accommodation'
         default: 'Accomodation'
         help: |
           - In the terms or conditions for which accommodation is offered
