@@ -551,7 +551,7 @@ code: |
 ---
 code: |
   if ( identity_of_partner_area_public_life == 'Employment' or
-  identity_of_partner_area_public_life == 'Associations and Clubs' or
+  identity_of_partner_area_public_life == 'Clubs and Associations' or
   identity_of_partner_area_public_life == 'Granting Qualifications' or 
   identity_of_partner_area_public_life == 'Education' or
   identity_of_partner_area_public_life == 'Selling Land' or
@@ -569,7 +569,7 @@ code: |
 ---
 code: |
   if ( caring_responsibility_area_public_life == 'Employment' or
-  caring_responsibility_area_public_life == 'Association' or
+  caring_responsibility_area_public_life == 'Clubs and Associations' or
   caring_responsibility_area_public_life == 'Granting Qualifications' or 
   caring_responsibility_area_public_life == 'Education' or 
   caring_responsibility_area_public_life == 'Selling Land' or

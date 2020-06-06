@@ -247,6 +247,9 @@ fields:
           - In the terms or conditions for which accommodation is offered
           - By refusing an application for accommodation
           - By deferring an application or accoding the applicant a lower order of preference on a list of applicants for that accommodation
+          - By denying or limiting access to a benefit connected with the accommodation
+          - By evicting the person
+          - By subjecting the person to other detriment
       - Clubs and Associations: 'Clubs and Associations'
         help: |
           - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
@@ -273,7 +276,9 @@ fields:
           - By subjecting the employee to other detriment
       - Granting Qualifications: 'Granting Qualifications'
         help: |
-          It is unlawful for an authority or body empowered to confer an authorisation or qualification that is needed for, or facilitates, the practice of a profession, or the carrying on or engaging in of a trade or occupation, to discriminate against a person.
+          - By refusing or failing to confer or renew an authorisation or qualification
+          - In the terms or conditions on which it confers the authorisation or qualification
+          - By withdrawing the authorisation or qualification, or varying the terms or conditions on which it is held
       - Selling Land: 'Selling Land'
         help: |
           - By refusing or failing to sell land to the other person
@@ -294,7 +299,10 @@ fields:
           - In the terms or conditions for which accommodation is offered
           - By refusing an application for accommodation
           - By deferring an application or accoding the applicant a lower order of preference on a list of applicants for that accommodation
-      - Associations and Clubs: 'Associations and Clubs'
+          - By denying or limiting access to a benefit connected with the accommodation
+          - By evicting the person
+          - By subjecting the person to other detriment
+      - Clubs and Associations: 'Clubs and Associations'
         help: |
           - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
           - In the terms by which the applicant is, or may be, admitted to membership
@@ -320,7 +328,9 @@ fields:
           - By subjecting the employee to other detriment
       - Granting Qualifications: 'Granting Qualifications'
         help: |
-          It is unlawful for an authority or body empowered to confer an authorisation or qualification that is needed for, or facilitates, the practice of a profession, or the carrying on or engaging in of a trade or occupation, to discriminate against a person.
+          - By refusing or failing to confer or renew an authorisation or qualification
+          - In the terms or conditions on which it confers the authorisation or qualification
+          - By withdrawing the authorisation or qualification, or varying the terms or conditions on which it is held
       - Selling Land: 'Selling Land'
         help: |
           - By refusing or failing to sell land to the other person
@@ -353,10 +363,13 @@ fields:
       - Accommodation: 'Accommodation'
         default: 'Accommodation'
         help: |
-           - In the terms or conditions for which accommodation is offered
-           - By refusing an application for accommodation
-           - By deferring an application or accoding the applicant a lower order of preference on a list of applicants for that accommodation
-      - Association: 'Association'
+          - In the terms or conditions for which accommodation is offered
+          - By refusing an application for accommodation
+          - By deferring an application or accoding the applicant a lower order of preference on a list of applicants for that accommodation
+          - By denying or limiting access to a benefit connected with the accommodation
+          - By evicting the person
+          - By subjecting the person to other detriment
+      - Clubs and Associations: 'Clubs and Associations'
         help: |
            - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
            - In the terms by which the applicant is, or may be, admitted to membership
@@ -382,7 +395,9 @@ fields:
            - By subjecting the employee to other detriment
       - Granting Qualifications: 'Granting Qualifications'
         help: |
-           It is unlawful for an authority or body empowered to confer an authorisation or qualification that is needed for, or facilitates, the practice of a profession, or the carrying on or engaging in of a trade or occupation, to discriminate against a person.
+          - By refusing or failing to confer or renew an authorisation or qualification
+          - In the terms or conditions on which it confers the authorisation or qualification
+          - By withdrawing the authorisation or qualification, or varying the terms or conditions on which it is held
       - Selling Land: 'Selling Land'
         help: |
            - By refusing or failing to sell land to the other person
@@ -403,6 +418,9 @@ fields:
           - In the terms or conditions for which accommodation is offered
           - By refusing an application for accommodation
           - By deferring an application or accoding the applicant a lower order of preference on a list of applicants for that accommodation
+          - By denying or limiting access to a benefit connected with the accommodation
+          - By evicting the person
+          - By subjecting the person to other detriment
       - Clubs and Associations: 'Clubs and Associations'
         help: |
           - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
@@ -429,7 +447,9 @@ fields:
           - By subjecting the employee to other detriment
       - Granting Qualifications: 'Granting Qualifications'
         help: |
-          It is unlawful for an authority or body empowered to confer an authorisation or qualification that is needed for, or facilitates, the practice of a profession, or the carrying on or engaging in of a trade or occupation, to discriminate against a person.
+          - By refusing or failing to confer or renew an authorisation or qualification
+          - In the terms or conditions on which it confers the authorisation or qualification
+          - By withdrawing the authorisation or qualification, or varying the terms or conditions on which it is held
       - Selling Land: 'Selling Land'
         help: |
           - By refusing or failing to sell land to the other person
@@ -450,6 +470,9 @@ fields:
           - In the terms or conditions for which accommodation is offered
           - By refusing an application for accommodation
           - By deferring an application or accoding the applicant a lower order of preference on a list of applicants for that accommodation
+          - By denying or limiting access to a benefit connected with the accommodation
+          - By evicting the person
+          - By subjecting the person to other detriment
       - Advertising: 'Advertising'
         help: |
           - A person must not publish an advertisement that indicates an intention to discrimination against a person. 
@@ -479,7 +502,9 @@ fields:
           - By subjecting the employee to other detriment
       - Granting Qualifications: 'Granting Qualifications'
         help: |
-          It is unlawful for an authority or body empowered to confer an authorisation or qualification that is needed for, or facilitates, the practice of a profession, or the carrying on or engaging in of a trade or occupation, to discriminate against a person.
+          - By refusing or failing to confer or renew an authorisation or qualification
+          - In the terms or conditions on which it confers the authorisation or qualification
+          - By withdrawing the authorisation or qualification, or varying the terms or conditions on which it is held
       - Selling Land: 'Selling Land'
         help: |
           - By refusing or failing to sell land to the other person
@@ -553,7 +578,7 @@ subquestion: |
   If you do not consent to your responses being sent to the Equal Opportunity Commission, please click exit below.
   
 fields:
-  - Was this information useful?: usersurvey_response
+  - Was this information useful?: EOC_usersurvey_response
     datatype: yesnoradio 
 
 action buttons:
@@ -562,3 +587,10 @@ action buttons:
     color: warning
     icon: sign-out-alt
 ---
+code: |
+  if EOC_usersurvey_response == True:
+    usersurvey_response = 'Yes'
+  else:
+    usersurvey_response = 'No'
+---
+  
