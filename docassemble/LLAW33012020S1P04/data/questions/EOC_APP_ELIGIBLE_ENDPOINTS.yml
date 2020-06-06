@@ -9,7 +9,7 @@ subquestion: |
   
   If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
   
-  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
 
     Here are your responses:
   
@@ -48,7 +48,7 @@ subquestion: |
   
   If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
   
-  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
   
   Here are your responses:
   
@@ -91,7 +91,7 @@ subquestion: |
   
   If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
   
-  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
   
   Here are your responses:
   
@@ -134,7 +134,7 @@ subquestion: |
   
   If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
   
-  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
   
   Here are your responses:
   
@@ -177,7 +177,7 @@ subquestion: |
   
   If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
   
-  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
   
   Here are your responses:
   
@@ -220,7 +220,7 @@ subquestion: |
   
   If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
   
-  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
   
   Here are your responses:
   
@@ -263,7 +263,7 @@ subquestion: |
   
   If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
   
-  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
   
   Here are your responses:
   
@@ -306,7 +306,7 @@ subquestion: |
   
   If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
   
-  **Disclaimer:** The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the *Equal Opportunity Act.* The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
   
   Here are your responses:
   
@@ -340,7 +340,7 @@ code: |
   hidden_response370 = ''
 ---
 question: |
-  Thank you for completing the Application.
+   Thank you for your responses. 
 subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
@@ -379,7 +379,7 @@ code: |
   hidden_response371 = ''
 ---
 question: |
-  Thank you for completing the Application.
+   Thank you for your responses. 
 subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
@@ -418,7 +418,7 @@ code: |
   hidden_response372 = ''
 ---
 question: |
-  Thank you for completing the Application.
+   Thank you for your responses. 
 subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
@@ -457,7 +457,7 @@ code: |
   hidden_response373 = ''
 ---
 question: |
-  Thank you for completing the Application.
+   Thank you for your responses. 
 subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
@@ -496,7 +496,7 @@ code: |
   hidden_response374 = ''
 ---
 question: |
-  Thank you for completing the Application.
+   Thank you for your responses. 
 subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
@@ -535,7 +535,7 @@ code: |
   hidden_response375 = ''
 ---
 question: |
-  Thank you for completing the Application.
+   Thank you for your responses. 
 subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
@@ -574,7 +574,7 @@ code: |
   hidden_response376 = ''
 ---
 question: |
-  Thank you for completing the Application.
+   Thank you for your responses. 
 subquestion: |
   
   As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
