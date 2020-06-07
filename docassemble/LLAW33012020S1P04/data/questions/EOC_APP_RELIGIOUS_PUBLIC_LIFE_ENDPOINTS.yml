@@ -101,6 +101,7 @@ subquestion: |
   Have a nice day! ${ hidden_response201 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -140,6 +141,7 @@ subquestion: |
   Have a nice day! ${ hidden_response202 }
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -179,6 +181,7 @@ subquestion: |
   Have a nice day! ${ hidden_response203 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -218,6 +221,7 @@ subquestion: |
   Have a nice day! ${ hidden_response204 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -257,6 +261,7 @@ subquestion: |
   Have a nice day! ${ hidden_response205 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -296,6 +301,7 @@ subquestion: |
   Have a nice day! ${ hidden_response206 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -335,6 +341,7 @@ subquestion: |
   Have a nice day! ${ hidden_response207 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -374,6 +381,7 @@ subquestion: |
   Have a nice day! ${ hidden_response208 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -417,6 +425,7 @@ subquestion: |
   Have a nice day! ${ hidden_response209 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -456,6 +465,7 @@ subquestion: |
   Have a nice day! ${ hidden_response210 }
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -496,6 +506,7 @@ subquestion: |
   Have a nice day! ${ hidden_response211 }
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -543,6 +554,7 @@ subquestion: |
   Have a nice day! ${ hidden_response212 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -582,6 +594,7 @@ subquestion: |
   Have a nice day! ${ hidden_response213 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -621,6 +634,7 @@ subquestion: |
   Have a nice day! ${ hidden_response214 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -660,6 +674,7 @@ subquestion: |
   Have a nice day! ${ hidden_response215 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -699,6 +714,7 @@ subquestion: |
   Have a nice day! ${ hidden_response216 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -742,6 +758,7 @@ subquestion: |
   Have a nice day! ${ hidden_response217 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -781,6 +798,7 @@ subquestion: |
   Have a nice day! ${ hidden_response218 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -820,6 +838,7 @@ subquestion: |
   Have a nice day! ${ hidden_response219 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -859,6 +878,7 @@ subquestion: |
   Have a nice day! ${ hidden_response219 }
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -898,6 +918,7 @@ subquestion: |
   Have a nice day! ${ hidden_response220 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -937,6 +958,7 @@ subquestion: |
   Have a nice day! ${ hidden_response221 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -978,6 +1000,7 @@ subquestion: |
   Have a nice day! ${ hidden_response222 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -1017,6 +1040,7 @@ subquestion: |
   Have a nice day! ${ hidden_response223 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -1056,6 +1080,7 @@ subquestion: |
   Have a nice day! ${ hidden_response224 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -1095,6 +1120,7 @@ subquestion: |
   Have a nice day! ${ hidden_response225 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -1134,6 +1160,7 @@ subquestion: |
   Have a nice day! ${ hidden_response226 }
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -1173,6 +1200,7 @@ subquestion: |
   Have a nice day! ${ hidden_response227 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -1212,6 +1240,7 @@ subquestion: |
   Have a nice day! ${ hidden_response228 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -1251,6 +1280,7 @@ subquestion: |
   Have a nice day! ${ hidden_response229 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -1290,6 +1320,7 @@ subquestion: |
   Have a nice day! ${ hidden_response230 } 
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -1331,6 +1362,7 @@ subquestion: |
   Have a nice day! ${ hidden_response231 }
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
@@ -1375,6 +1407,7 @@ subquestion: |
   Have a nice day! ${ hidden_response364 }
 buttons: 
   - Exit: exit
+    url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
