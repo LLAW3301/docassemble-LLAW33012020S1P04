@@ -1,20 +1,33 @@
 ---
 question: Are you yourself the person {aggrieved}?
 subquestion: |
-  *You are considered the **person aggrieved** if you are the person that is treated poorly. You are not the person aggrieved if your friend, colleague, partner or child is treated poorly.*
+  You are considered the **person aggrieved** if you are the person that is treated poorly. You are not the person aggrieved if the person who is treated poorly is your friend, colleague, partner, child, or someone else who you have seen, read about or heard about.
+  
+  You are also **not the person aggrieved** if a discriminatory statement is generalised or sweeping, for example *“all green people need to move to the moon”*. Statements such as this may be dealt with by other areas of the law. Please seek legal advice for more information.
+  
 fields: 
   - no label: person_aggrieved
     input type: radio
     choices: 
      - Yes, I am the person aggrieved by the action: 'Yes, I am the person aggrieved by the action'
+       default: 'Yes, I am the person aggrieved by the action'
      - No, but the person aggrieved is a child (under 18): 'No, but the person aggrieved is a child (under 18)'
-     - No, but the person aggrieved is intellectually incapable: 'No, but the person aggrieved is intellectually incapable'
+     - No, but the person aggrieved has an intellectually disability: 'No, but the person aggrieved is intellectually incapable'
      - No, I have no connection with the person aggrieved: 'No, I have no connection with the person aggrieved'
-    note: |
-      Note: *The EOC will determine if you are a suitable representative for the interests of the  aggrieved person.*
+     
+  - note: 
+      '**Please note:** The EOC will determine if you are a suitable representative for the interests of the aggrieved person.'
+    js show if: |
+      val("person_aggrieved") == "No, but the person aggrieved is a child (under 18)" 
+  - note: 
+      '**Please note:** The EOC will determine if you are a suitable representative for the interests of the aggrieved person.'
+    js show if: |
+      val("person_aggrieved") == "No, but the person aggrieved is intellectually incapable"
+
 terms:
   aggrieved: |
-    The word aggrieved describes someone who is upset or distressed about being treated poorly.   
+    The word aggrieved describes someone who is upset or distressed about being treated poorly. 
+  
 ---
 question: |
   When did the {incident} occur?
@@ -23,19 +36,28 @@ fields:
     input type: radio
     choices:
       - The incident occurred within the **last 12 months**: 'The incident occurred within the **last 12 months**'
+        default: 'The incident occurred within the **last 12 months**'
       - The incident occurred **over 12 months ago**: 'The incident occurred **over 12 months ago**'
       - I do not remember when the incident occurred: 'I do not remember when the incident occurred'
+      
+  - note: 
+      '*Please note:* If the **incident occurred over 12 months ago,** you will be required to provide the Equal Opportunity Commission a good reason for why your complaint is late. The Commissioner will determine whether your complaint may still be accepted. *You will be prompted to provide these reasons when you are completing your complaint.*'
+    js show if: |
+      val("incident_date") == "The incident occurred **over 12 months ago**"
+   
 terms:
   incident: |
     The act which caused you harm
 ---
 question: |
   Did the incident occur in South Australia?
+  
 fields:
   - no label: which_state
     input type: radio
     choices:
       - Yes: True
+        default: True
       - No: False
 ---
 question: |
@@ -44,12 +66,13 @@ fields:
   - no label: different_state
     input type: radio
     choices:
-      - Victoria: 'Victoria'
+      - Australian Capital Territory: 'Australian Capital Territory'
+        default: 'Australian Capital Territory'
       - New South Wales: 'NSW'
+      - Northern Territory: 'Northern Territory'
       - Queensland: 'Queensland'
       - Tasmania: 'Tasmania'
-      - Northern Territory: 'Northern Territory'
-      - Australian Capital Territory: 'Australian Capital Territory'
+      - Victoria: 'Victoria'
       - Western Australia: 'Western Australia'
       - Outside Australia: 'Outside Australia'
 ---
@@ -66,6 +89,7 @@ fields:
     input type: radio
     choices:
       - Yes: True
+        default: No
       - No: False
 ---
 question: |
@@ -75,44 +99,157 @@ fields:
     input type: radio
     choices:
       - Sexual Harrassment: 'Sexual Harrassment'
+        default: 'Sexual Harrassment'
       - Victimisation: 'Victimisation'
+---
+question: |
+  Does your complaint relate to any of the following?
+fields:
+  - no label: extra_sections
+    input type: radio
+    choices:
+      - Refusal or deferral of an application for accommodation on the basis that it would be shared accommodation with a child: 'Refusal or deferral of an application for accommodation on the basis that it would be shared accommodation with a child'
+      - Refusal or deferral of an application for accommodation on the basis that a therapeutic animal would be kept at that accommodation: 'Refusal or deferral of an application for accommodation on the basis that a therapeutic animal would be kept at that accommodation'
+      - An educational authority discriminates against a student by denying or limiting access to the educational services provided on the ground that the student is breast feeding an infant or proposes to do so: 'An educational authority discriminates against a student by denying or limiting access to the educational services provided on the ground that the student is breast feeding an infant or proposes to do so'
+      - A condition or requirement was imposed that resulted in you being separated from your disability assistance animal: 'A condition or requirement was imposed that resulted in you being separated from your disability assistance animal'
+      - None of the above: 'None of the above'
+        default: 'None of the above'
 ---
 question: |
   Was there discrimination?
 subquestion: |
-  **Discrimination happens when a person, or a group of people, are treated less favourably than another person or group because of their background or certain characteristics.**
+  **Discrimination happens when a person is treated less favourably than another person (or group of people) because of their background or certain characteristics.**
   
-  If someone is just being mean or treating you poorly, it may not be discrimination. 
+  Bullying is when someone misuses their power through verbal, physical or social abuse to harm you in any way. Bullying is only considered discrimination when someone treats another less favourably or different because of their personal characteristics, such as their age, gender, race or religious dress.
   
-  Bullying is when someone misuses their power through verbal, physical or social abuse to harm you in any way. Bullying is only considered discrimination when someone treats another less favourably or different because of their personal characteristics, such as age, gender, race or religion.
 fields:
   - no label: discrimination
     input type: radio
     choices:
       - Yes: True
+        default: True
       - No: False
 ---
 question: |
-  On what ground is the discrimination in question based on?
+  What ground is the discrimination based on?
 subquestion: |
   *I have been discriminated against because of my...*
 fields:
   - no label: protected_ground
     input type: radio
     choices:
-      - Sex: 'Sex'
-      - Sexual Orientation: 'Sexual Orientation'
-      - Sexual Identity: 'Sexual Identity'
-      - Race: 'Race'
-      - Disability: 'Disability'
-      - Age: 'Age'
-      - Matrial or domestic partnership status: 'Matrial or domestic partnership status'
-      - Identity of a spouse or domestic partner: 'Identity of a spouse or domestic partner'
-      - Pregnancy: 'Pregnancy'
+      - Age: 'Age' #
+        default: 'Age'
       - Association with a child: 'Association with a child'
       - Caring Responsibility: 'Caring Responsibility'
+      - Disability: 'Disability' #
+      - Gender Identity: 'Gender Identity' #
+      - Identity of a spouse or domestic partner: 'Identity of a spouse or domestic partner'
+      - Intersex Status: 'Intersex status' #
+      - Marital or domestic partnership status: 'Marital or domestic partnership status'
+      - Pregnancy: 'Pregnancy'
+      - Race: 'Race' # 
       - Religious appearance or dress: 'Religious appearance or dress'
-      - Other grounds: 'Other grounds'
+      - Sex: 'Sex' #
+      - Sexual Orientation: 'Sexual Orientation' #
+      - None of the above: 'Other grounds'
+---
+question: |
+  Did the discrimination occur in an area of public life? 
+subquestion: |
+  *Where did the discrimination happen?*
+fields:
+  - no label: religious_area_public_life
+    input type: radio
+    choices:
+      - Education: 'Education'
+        default: 'Education'
+      - Employment: 'Employment'
+      - None of the above: 'No'
+---
+question: |
+  Did the discrimination occur in an area of public life? 
+subquestion: |
+  *Where did the discrimination happen?*
+fields:
+  - no label: domestic_partner_area_public_life
+    input type: radio
+    choices:
+      - Employment: 'Employment'
+        default: 'Employment'
+      - Education: 'Education'
+      - Clubs and Associations: 'Clubs and Associations'
+      - Granting Qualifications: 'Granting Qualifications'
+      - Selling Land: 'Selling Land'
+      - Customer Service: 'Customer Service'
+      - Accomodation: 'Accomodation'
+      - None of the above: 'No'
+---
+question: |
+  Did the discrimination occur in an area of public life? 
+subquestion: |
+  *Where did the discrimination happen?*
+fields:
+  - no label: identity_of_partner_area_public_life
+    input type: radio
+    choices:
+      - Employment: 'Employment'
+        default: 'Employment'
+      - Associations and Clubs: 'Associations and Clubs'
+      - Granting Qualifications: 'Granting Qualifications'
+      - Education: 'Education'
+      - Selling Land: 'Selling Land'
+      - Customer Service: 'Customer Service'
+      - Accomodation: 'Accomodation'
+      - None of the above: 'No'
+---
+question: |
+  Did the discrimination occur in an area of public life? 
+subquestion: |
+  *Where did the discrimination happen?*
+fields:
+  - no label: association_with_child_area_public_life
+    input type: radio
+    choices:
+      - Customer Service: 'Customer Service'
+        default: 'Customer Service'
+      - None of the above: 'No'
+---
+question: |
+  Did the discrimination occur in an area of public life? 
+subquestion: |
+  *Where did the discrimination happen?*
+fields:
+  - no label: caring_responsibility_area_public_life 
+    input type: radio
+    choices:
+      - Employment: 'Employment'
+        default: 'Employment'
+      - Association: 'Association'
+      - Granting Qualifications: 'Granting Qualifications'
+      - Education: 'Education'
+      - Selling Land: 'Selling Land'
+      - Customer Service: 'Customer Service'
+      - Accomodation: 'Accomodation'
+      - None of the above: 'No'
+---
+question: |
+  Did the discrimination occur in an area of public life? 
+subquestion: |
+  *Where did the discrimination happen?*
+fields:
+  - no label: pregnancy_area_public_life
+    input type: radio
+    choices:
+      - Employment: 'Employment'
+        default: 'Employment'
+      - Clubs and Associations: 'Clubs and Associations'
+      - Granting Qualifications: 'Granting Qualifications'
+      - Education: 'Education'
+      - Selling Land: 'Selling Land'
+      - Customer Service: 'Customer Service'
+      - Accomodation: 'Accomodation'
+      - None of the above: 'No'
 ---
 question: |
   Did the discrimination occur in an area of public life? 
@@ -122,54 +259,89 @@ fields:
   - no label: area_public_life
     input type: radio
     choices:
-      - Employment: 'Employment'
-      - Customer Service: 'Customer Service'
       - Accomodation: 'Accomodation'
-      - Selling Land: 'Selling Land'
-      - Clubs and Associations: 'Clubs and Associations'
+        default: 'Accomodation'
+        help: |
+          - In the terms or conditions for which accommodation is offered
+          - By refusing an application for accommodation
+          - By deferring an application or accoding the applicant a lower order of preference on a list of applicants for that accommodation
       - Advertising: 'Advertising'
+        help: |
+          - A person must not publish an advertisement that indicates an intention to discrimination against a person. 
+      - Clubs and Associations: 'Clubs and Associations'
+        help: |
+          - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
+          - In the terms by which the applicant is, or may be, admitted to membership
+          - By refusing or failing to provide a particular service or benefit is provided to that member
+          - By expelling that member from the association or subjecting him or her to other detriment
+      - Customer Service: 'Customer Service'
+        help: |
+          - By refusing or failing to supply the goods or perform the services
+          - In the terms or conditions on which or the manner in which the goods are supplied or the services are performed
       - Education: 'Education'
+        help: |
+          - By refusing or failing to accept an application for admission as a student
+          - Discriminate in the terms or conditions on which it provides the student with training or education 
+          - By denying or limiting access to a benefit provided by the authority
+          - By expelling the student
+          - By subjecting the student to other detriment
+      - Employment: 'Employment'
+        help: |
+          - In determining who should be offered employment
+          - In the terms or conditions of employment
+          - By denying or limiting access to opportunities for promotion, transfer or training, or to other benefits connect with employment
+          - By dismissing the employee
+          - By subjecting the employee to other detriment
       - Granting Qualifications: 'Granting Qualifications'
+        help: |
+          It is unlawful for an authority or body empowered to confer an authorisation or qualification that is needed for, or facilitates, the practice of a profession, or the carrying on or engaging in of a trade or occupation, to discriminate against a person.
+      - Selling Land: 'Selling Land'
+        help: |
+          - By refusing or failing to sell land to the other person
+          - In the terms or conditions on which the sale of land is offered to the other person
       - None of the above: 'No'
 ---
 question: |
-  Is your complaint based on any of these grounds?
+  What does your complaint involve? Choose one from the list below.
 fields:
   - no label: other_complaint_bodies
-    input type: radio
+    input type: dropdown
     choices:
-      - Housing Disputes: 'Housing Disputes'
-      - Medical/Mental Health Issues: 'Mental Health'
-      - Consent to Medical Treatment: 'Consent Medical'
-      - Reviews of Government Decisions: 'Government Review'
+      - Administrative Actions of Australian Government Departments and Agencies: 'Administrative Government' 
+        default: 'Administrative Government'
       - Advance Care Directives: 'Advance Care'
-      - Guardianship and Administration of Personal Affairs: 'Personal Affairs'
-      - Workplace Discrimination: 'Workplace Discrimination'
-      - Health, Safety and Workplace Relations: 'Health, Safety and Workplace Relations'
       - Banking and Financial Services: 'Banking'
+      - Consent to Medical Treatment: 'Consent Medical'
       - Consumer Rights: 'Consumer Rights'
-      - Administrative Actions of Australian Government Departments and Agencies: 'Administrative Government'
       - Education and Training: 'Education'
       - Electricity Suppliers: 'Electricity'
       - Employment: 'Employment'
       - Gas Suppliers: 'Gas'
+      - Guardianship and Administration of Personal Affairs: 'Personal Affairs'
       - Guardianship of Young People: 'Guardianship of Young'
-      - Healthcare and Community Services: 'Healthcare'
+      - Housing Disputes: 'Housing Disputes'
+      - Healthcare and Community Services: 'Health Care'
+      - Health, Safety and Workplace Relations: 'Health, Safety and Workplace Relations'
       - Human Rights: 'Human Rights'
       - Land: 'Land'
       - Legal Practitioners: 'Lawyers'
       - Local Government: 'Government'
       - Media: 'Media'
+      - Medical/Mental Health Issues: 'Mental Health'
       - Mentally Vulnerable: 'Mentally Vulnerable'
       - Phone, Internet and Telecommunications: 'Phone/Internet'
       - Planning and Infrastructure: 'Infrastructure'
       - Police: 'Police'
       - Public Trustee: 'Public Trustee'
+      - ReturnToWorkSA: 'ReturnToWorkSA'
+      - Reviews of Government Decisions: 'Government Review'
       - State Government: 'State Government'
       - Transport: 'Transport'
       - Victims of Crime: 'Crime Victims'
       - Water Suppliers: 'Water'
-      - ReturnToWorkSA: 'ReturnToWorkSA'
+      - Workplace Discrimination: 'Workplace Discrimination'
+      - None of the above: 'None of the above'
+
 ---
 question: |
   Do you wish to make this complaint at a State or Federal Level? 
@@ -184,10 +356,24 @@ fields:
     input type: radio
     choices:
       - South Australian State Level: True
+        default: True
       - Australian Federal Level: False
 ---
-question: Feedback opportunity
+question: Feedback Opportunity
+subquestion: |
+  The Equal Opportunity Commission would like to find out if the information provided was useful. 
+  
+  By answering the below feedback question and clicking continue, you consent to your responses being sent to the Equal Opportunity Commission. 
+  
+  If you do not consent to your responses being sent to the Equal Opportunity Commission, please click exit below.
+  
 fields:
   - Was this information useful?: usersurvey_response
-    datatype: yesnoradio
+    datatype: yesnoradio 
+
+action buttons:
+  - label: Exit
+    action: https://eoc.sa.gov.au
+    color: warning
+    icon: sign-out-alt
 ---

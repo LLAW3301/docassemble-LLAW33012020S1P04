@@ -1,0 +1,1384 @@
+---
+mandatory: True
+event: endpoint['pregnancy_no_public_life'] 
+code: |
+  if other_complaint_bodies == 'Housing Disputes':
+    endpoint['pregnancy_noareapubliclife_housingdisputes']
+  if other_complaint_bodies == 'Mental Health':
+    endpoint['pregnancy_noareapubliclife_mentalhealth']
+  if other_complaint_bodies == 'Consent Medical':
+    endpoint['pregnancy_noareapubliclife_consentmedical']
+  if other_complaint_bodies == 'Government Review':
+    endpoint['pregnancy_noareapubliclife_governmentreview']
+  if other_complaint_bodies == 'Advance Care':
+    endpoint['pregnancy_noareapubliclife_advancecare']
+  if other_complaint_bodies == 'Personal Affairs':
+    endpoint['pregnancy_noareapubliclife_personalaffairs']
+  if other_complaint_bodies == 'Workplace Discrimination':
+    endpoint['pregnancy_noareapubliclife_workplacediscrimination']
+  if other_complaint_bodies == 'Health, Safety and Workplace Relations':
+    endpoint['pregnancy_noareapubliclife_hwsrelations']
+  if other_complaint_bodies == 'Banking':
+    endpoint['pregnancy_noareapubliclife_banking']
+  if other_complaint_bodies == 'Consumer Rights':
+    endpoint['pregnancy_noareapubliclife_consumerrights']
+  if other_complaint_bodies == 'Administrative Government':
+    endpoint['pregnancy_noareapubliclife_administrativegovernment']
+  if other_complaint_bodies == 'Education':
+    endpoint['pregnancy_noareapubliclife_education']
+  if other_complaint_bodies == 'Electricity':
+    endpoint['pregnancy_noareapubliclife_electricity']
+  if other_complaint_bodies == 'Employment':
+    endpoint['pregnancy_noareapubliclife_emplyoment']
+  if other_complaint_bodies == 'Gas':
+     endpoint['pregnancy_noareapubliclife_gas']
+  if other_complaint_bodies == 'Guardianship of Young':
+    endpoint['pregnancy_noareapubliclife_guardianshipyoung']
+  if other_complaint_bodies == 'Health Care':
+    endpoint['pregnancy_noareapubliclife_healthcare']
+  if other_complaint_bodies == 'Human Rights':
+    endpoint['pregnancy_noareapubliclife_humanrights']
+  if other_complaint_bodies == 'Land':
+    endpoint['pregnancy_noareapubliclife_land']
+  if other_complaint_bodies == 'Lawyers':
+    endpoint['pregnancy_noareapubliclife_lawyers']
+  if other_complaint_bodies == 'Government':
+    endpoint['pregnancy_noareapubliclife_government']
+  if other_complaint_bodies == 'Media':
+    endpoint['pregnancy_noareapubliclife_media']
+  if other_complaint_bodies == 'Mentally Vulnerable':
+    endpoint['pregnancy_mentallyvulnerable']
+  if other_complaint_bodies == 'Phone/Internet':
+    endpoint['pregnancy_noareapubliclife_internet']
+  if other_complaint_bodies == 'Infrastructure':
+    endpoint['pregnancy_noareapubliclife_infrastructure']
+  if other_complaint_bodies == 'Police':
+    endpoint['pregnancy_noareapubliclife_police']
+  if other_complaint_bodies == 'Public Trustee':
+    endpoint['pregnancy_noareapubliclife_publictrustee']
+  if other_complaint_bodies == 'State Government':
+    endpoint['pregnancy_noareapubliclife_stategovernment']
+  if other_complaint_bodies == 'Transport':
+    endpoint['pregnancy_noareapubliclife_transport']
+  if other_complaint_bodies == 'Crime Victims':
+    endpoint['pregnancy_noareapubliclife_crimevictims']
+  if other_complaint_bodies == 'Water':
+    endpoint['pregnancy_noareapubliclife_water']
+  if other_complaint_bodies == 'ReturnToWorkSA':
+    endpoint['pregnancy_noareapubliclife_returntowork']
+  if other_complaint_bodies == 'None of the above':
+    endpoint['pregnancy_noareapubliclife_noneoftheabove']
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with a **housing dispute**, please contact SACAT.
+  
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+  Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey328
+---
+event: endpoint['pregnancy_noareapubliclife_housingdisputes']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response328 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey328
+  survey_answer328
+  hidden_response328 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with a **Medical/Mental Health Issue** please contact SACAT.
+
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey329
+---
+event: endpoint['pregnancy_noareapubliclife_mentalhealth']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response329 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey329
+  survey_answer329
+  hidden_response329 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+  
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Consent to Medical Treatment** please contact SACAT.
+
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey359
+---
+event: endpoint['pregnancy_noareapubliclife_consentmedical']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response359 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey359
+  survey_answer359
+  hidden_response359 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Reviews of Government Decisions** please contact SACAT.
+
+   [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey330
+---
+event: endpoint['pregnancy_noareapubliclife_governmentreview']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response330 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey330
+  survey_answer330
+  hidden_response330 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Advance Care**, please contact SACAT.
+
+  [Please click here to access the SACAT website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life  }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey331
+---
+event: endpoint['pregnancy_noareapubliclife_advancecare']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response331 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey331
+  survey_answer331
+  hidden_response331 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Guardianship and Administration of Personal Affairs**, please contact SACAT.
+
+  [Please click here to access the SACAT website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey332
+---
+event: endpoint['pregnancy_noareapubliclife_personalaffairs']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response332 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey332
+  survey_answer332
+  hidden_response332 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Workplace Discrimination**, please contact the South Australian Employment Tribunal.
+
+  [Please click here to access the SAET website](${ url_of('https://www.saet.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+  Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+  
+   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey333
+---
+event: endpoint['pregnancy_noareapubliclife_workplacediscrimination']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response333 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey333
+  survey_answer333
+  hidden_response333 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Health, Safety and Workplace Relations**, please contact SafeWork SA.
+
+  [Please click here to access the SafeWork SA website](${ url_of('https://www.safework.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey334
+---
+event: endpoint['pregnancy_noareapubliclife_hwsrelations']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response334 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey334
+  survey_answer334
+  hidden_response334 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Banking and Financial Services**, please contact either of the complaint bodies below: 
+  
+   - [Australian Financial Complaints Authority](${ url_of('https://www.afca.org.au') }).
+   
+   - [Australian Securities and Investment Commission](${ url_of('https://asic.gov.au') }).
+   
+   - [Ombudsman SA (complaints about Super SA Board)](${ url_of('https://www.ombudsman.sa.gov.au') }).
+
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey335
+---
+event: endpoint['pregnancy_noareapubliclife_banking']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response335 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey335
+  survey_answer335
+  hidden_response335 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Consumer Rights**, please contact the Commissioner for Consumer Affairs. 
+
+  [Please click here to access the Consumer and Business Services website](${ url_of('https://www.cbs.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey336
+---
+event: endpoint['pregnancy_noareapubliclife_consumerrights']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response336 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey336
+  survey_answer336
+  hidden_response336 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Administrative actions of Australian Government Departments and Agencies**, please contact the Commonwealth Ombudsman.
+
+  [Please click here to access the Commonwealth Ombudsman website](${ url_of('https://www.ombudsman.gov.au') }).
+  
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey337
+---
+event: endpoint['pregnancy_noareapubliclife_administrativegovernment']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response337 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey337
+  survey_answer337
+  hidden_response337 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Education and Training**, please contact either of these complaint bodies:
+  
+    - [Training Advocate](${ url_of('https://www.trainingadvocate.sa.gov.au') }).
+    
+    - [Overseas Students Ombudsman](${ url_of('https://www.ombudsman.gov.au/How-we-can-help/overseas-students') }).
+    
+    - [Catholic Education Office](${ url_of('https://www.cesa.catholic.edu.au') }).
+    
+    - [Association of Idependent Schools of SA](${ url_of('https://www.ais.sa.edu.au') }).
+    
+    - [Ombudsman SA (complaints about Department of Education, Flinders University, University of Adelaide and University of South Australia)](${ url_of('https://www.ombudsman.sa.gov.au') }).
+    
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey338
+---
+event: endpoint['pregnancy_noareapubliclife_education']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response338 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey338
+  survey_answer338
+  hidden_response338 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Electricity**, please contact the Energy and Water Ombudsman SA.
+
+  [Please click here to access the Energy and Water Ombudsman SA website](${ url_of('https://ewosa.com.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey339
+---
+event: endpoint['pregnancy_noareapubliclife_electricity']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response339 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey339
+  survey_answer339
+  hidden_response339 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Employment**, please contact the Fair Work Ombudsman.
+
+  [Please click here to access the Fair Work Ombudsman website](${ url_of('https://www.fairwork.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey340
+---
+event: endpoint['pregnancy_noareapubliclife_emplyoment']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response340 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey340
+  survey_answer340
+  hidden_response340 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Gas Suppliers**, please contact the Energy and Water Ombudsman SA.
+
+  [Please click here to access the Energy and Water Ombudsman SA website](${ url_of('https://ewosa.com.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey341
+---
+event: endpoint['pregnancy_noareapubliclife_gas']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response341 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey341
+  survey_answer341
+  hidden_response341 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Guardianship of Young People**, please contact the Guardian for Children and Young People.
+
+   [Please click here to access the Guardian for Children and Young People website](${ url_of('http://www.gcyp.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey342
+---
+event: endpoint['pregnancy_noareapubliclife_guardianshipyoung']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response342 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey342
+  survey_answer342
+  hidden_response342 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Healthcare and Community Services**, please contact either of these complaint bodies:
+  
+   - [Health and Community Services Complaints Commissioner](${ url_of('https://www.hcscc.sa.gov.au') }).
+   
+   - [Australian Health Practitioner Regulation Agency](${ url_of('https://www.ahpra.gov.au') }).
+   
+   - [Ombudsmans SA (complaints about the administrative actions of the Department for Health and Wellbeing and the Local Health networks)](${ url_of('https://www.ombudsman.sa.gov.au') }).
+
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+  
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey343
+---
+event: endpoint['pregnancy_noareapubliclife_healthcare']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response343 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey343
+  survey_answer343
+  hidden_response343 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Human Rights**, please contact the Australian Human Rights Commission.
+
+  [Please click here to access the Australian Human Rights Commission website](${ url_of('https://www.humanrights.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey344
+---
+event: endpoint['pregnancy_noareapubliclife_humanrights']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response344 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey344
+  survey_answer344
+  hidden_response344 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Land**, please contact the Environment, Resources and Development (ERD) Court.
+
+  [Please click here to access the Environment, Resources and Development Court website](${ url_of('http://www.courts.sa.gov.au/OurCourts/ERDCourt/Pages/default.aspx') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey345
+---
+event: endpoint['pregnancy_noareapubliclife_land']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response345 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey345
+  survey_answer345
+  hidden_response345 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Legal Practitioners**, please contact the Legal Profession Conduct Commissioner.
+
+  [Please click here to access the Legal Profession Conduct Commissioner website](${ url_of('https://www.lpcc.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey346
+---
+event: endpoint['pregnancy_noareapubliclife_lawyers']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response346 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey346
+  survey_answer346
+  hidden_response346 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with the **Local Government**, please contact SA Ombudsman.
+
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey347
+---
+event: endpoint['pregnancy_noareapubliclife_government']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response347 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey347
+  survey_answer347
+  hidden_response347 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Media**, please contact the Australian Communications and Media Authority.
+
+  [Please click here to access the Australian Communications and Media Authority website](${ url_of('https://www.acma.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey348
+---
+event: endpoint['pregnancy_noareapubliclife_media']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response348 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey348
+  survey_answer348
+  hidden_response348 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Mentally Vulnerable**, please contact either of these complaint bodies:
+  
+    - [Office of the Public Advocate](${ url_of('http://www.opa.sa.gov.au') }).
+    
+    - [Community Visitor Scheme](${ url_of('https://communityvisitorscheme.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey349
+---
+event: endpoint['pregnancy_mentallyvulnerable']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response349 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey349
+  survey_answer349
+  hidden_response349 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Phone, Internet and Telecommunications**, please contact the Telecommunications Industry Ombudsman.
+
+  [Please click here to access the Telecommunications Industry Ombudsman website](${ url_of('https://www.tio.com.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey350
+---
+event: endpoint['pregnancy_noareapubliclife_internet']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response350 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey350
+  survey_answer350
+  hidden_response350 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Planning and Infrastructure**, please contact the SA Ombudsman (complaints about the Department of Planning, Transport and Infrastructure).
+
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey351
+---
+event: endpoint['pregnancy_noareapubliclife_infrastructure']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response351 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey351
+  survey_answer351
+  hidden_response351 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Police**, please contact the Office of Public Integrity.
+
+  [Please click here to access the Office of Public Integrity website](${ url_of('https://icac.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+  
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey352
+---
+event: endpoint['pregnancy_noareapubliclife_police']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response352 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey352
+  survey_answer352
+  hidden_response352 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Public Trustee**, please contact the SA Ombudsman.
+
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+  
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey353
+---
+event: endpoint['pregnancy_noareapubliclife_publictrustee']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response353 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey353
+  survey_answer353
+  hidden_response353 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **State Government**, please contact the SA Ombudsman.
+
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey354
+---
+event:  endpoint['pregnancy_noareapubliclife_stategovernment']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response354 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey354
+  survey_answer354
+  hidden_response354 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Transport**, please contact the SA Ombudsman.
+
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey355
+---
+event: endpoint['pregnancy_noareapubliclife_transport']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response355 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey355
+  survey_answer355
+  hidden_response355 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Victims of Crime**, please contact the Commissioner for Victims' Rights.
+
+  [Please click here to access the Commissioner for Victims' Rights website](${ url_of('https://www.voc.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey356
+---
+event: endpoint['pregnancy_noareapubliclife_crimevictims']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response356 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey356
+  survey_answer356
+  hidden_response356 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Water**, please contact the SA Energy and Water Ombudsman.
+
+  [Please click here to access the SA Energy and Water Ombudsman website](${ url_of('https://ewosa.com.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey357
+---
+event: endpoint['pregnancy_noareapubliclife_water']
+question: Thank you. We appreciate your feedback. 
+subquestion: |
+  Have a nice day! ${ hidden_response357 } 
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey357
+  survey_answer357
+  hidden_response357 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **ReturnToWorkSA**, please contact either of these complaint bodies:
+  
+  - [ReturnToWorkSA](${ url_of('https://www.rtwsa.com') }).
+    
+  - [SA Ombudsman](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+  Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey358
+---
+event: endpoint['pregnancy_noareapubliclife_returntowork']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response358 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey358
+  survey_answer358
+  hidden_response358 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+ 
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+  
+  As your complaint does not involve any of the suggested areas, this application is unable to determine who can assist. You may wish to contact the Legal Services Commission and seek support from them in regards to your matter. [Click here for information on office locations in South Australia and the contact details for each one](${ url_of ('https://lsc.sa.gov.au/contact') }).
+
+  Or you could contact one of the following Community Legal centres. If you are not sure which area you fall into, [click here for more information](${url_of ('https://www.clcsa.org.au/generlaist-law') }).
+
+  - **Northern Zone:** Contact *Northern Community Legal Services Inc.* on 08 8281 6911 or [click here for more details](${ url_of ('https://northerncommunitylegalservice.weebly.com/contact.html') }).
+  - **Western, Mid North and Outback Zone:** Contact *Westside Lawyers* on 08 8340 9009 or [click here for more details](${ url_of ('http://www.westsidelawyers.net/contactus.htm') }).
+  - **Central and Hills Zone:** Contact *Uniting Communities Law Centre* on 08 8342 1800 or [click here for more details](${ url_of ('https://www.unitingcommunities.org/contact-us/') }).
+  - **Southern, South East and Riverland Zone:** Contact *Southern Community Justice Centre* on 1300 850 650 or [click here for more details](${ url_of ('https://www.communityjusticesa.org.au/contact-us/') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+  Did the discrimination occur in an area of public life? | ${ pregnancy_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey363
+---
+event: endpoint['pregnancy_noareapubliclife_noneoftheabove']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response363 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey363
+  survey_answer363
+  hidden_response363 = ''
+---

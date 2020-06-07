@@ -1,3 +1,85 @@
+---
+question: |
+  Thank you for your responses. 
+subquestion: |
+
+  Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission should be able to accept your complaint and assist you throughout the complaint process. 
+  
+  Please download and complete the Equal Opportunity Commission Complaint Form below, or [click here for access to the online form,](${url_of('https://forms.sa.gov.au/#/form/59964287ad9c5a332435b63f/app/5ed379c14d43317668245f0d') }) to officially begin the complaint process.
+  
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
+
+    Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  
+attachment:
+  - name: Equal Opportunity Commission Complaint Form 
+    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+continue button field: usergoto_survey410
+---
+event: endpoint['extra_sections_eligible']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response410 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey410
+  survey_answer410
+  hidden_response410 = ''
+---
+question: |
+  Thank you for your responses. 
+subquestion: |
+  
+  Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission should be able to accept your complaint and assist you throughout the complaint process. 
+  
+  Please download and complete the Equal Opportunity Commission Complaint Form below, or [click here for access to the online form,](${url_of('https://forms.sa.gov.au/#/form/59964287ad9c5a332435b63f/app/5ed379c14d43317668245f0d') }) to officially begin the complaint process.
+  
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+  
+  **Please click continue for an opportunity to provide feedback only after you have downloaded the complaint form below.**
+attachment:
+  - name: Equal Opportunity Commission Complaint Form 
+    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+continue button field: usergoto_survey411
+---
+event: endpoint['eligible']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response411 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey411
+  survey_answer411
+  hidden_response411 = ''
+---
 question: |
   Thank you for your responses. 
 subquestion: |
@@ -15,54 +97,526 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
-  Did the discrimination occur in an area of public? | ${ area_public_life } 
+  Did the discrimination occur in an area of public? | ${ religious_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
-  
-  **Please click continue for an opportunity to provide feedback only after you have downloaded the complaint form below**
+
 attachment:
   - name: Equal Opportunity Commission Complaint Form 
     docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
-continue button field: usergoto_survey
+continue button field: usergoto_survey365
 ---
-event: endpoint['eligible']
+event: endpoint['eligible_religious_no_area_public_life']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey } ${ hidden_responses } ${ survey_answer }
+  Have a nice day! ${ hidden_response365 }
 buttons: 
   - Exit: exit
   - Restart: restart
 ---
+code: |
+  usergoto_survey365
+  survey_answer365
+  hidden_response365 = ''
+---
 question: |
-  Thank you for completing the Application.
+  Thank you for your responses. 
 subquestion: |
   
-  As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further suport. 
+  Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission will be able to help and support you through your legal complaint.
   
-  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
+  Please download and complete the Equal Opportunity Commission Complaint Form to officially begin the complaint process.
   
-  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative support where required.*
+  
   Here are your responses:
   
   Question|Your Responses
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
-  Was there discrimination?                | ${ discrimination }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
-  Did the discrimination occur in an area of public? | ${ area_public_life } 
-  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal }
+  Did the discrimination occur in an area of public? | ${ domestic_partner_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
-continue button field: usergoto_survey109
+  **Please click continue for an opportunity to provide feedback only after you have downloaded the complaint form below.**
+attachment:
+  - name: Equal Opportunity Commission Complaint Form 
+    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+continue button field: usergoto_survey366
 ---
-event: endpoint['federal']
+event: endpoint['eligible_domestic_partnership_no_public_life']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Thanks for your response ${ usergoto_survey109 } ${ hidden_responses } ${ survey_answer109 }
+  Have a nice day! ${ hidden_response366 }
 buttons: 
   - Exit: exit
   - Restart: restart
+---
+code: |
+  usergoto_survey366
+  survey_answer366
+  hidden_response366 = ''
+---
+question: |
+  Thank you for your responses. 
+subquestion: |
+  
+  Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission will be able to help and support you through your legal complaint.
+  
+  Please download and complete the Equal Opportunity Commission Complaint Form to officially begin the complaint process.
+  
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative support where required.*
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ identity_of_partner_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
 
+attachment:
+  - name: Equal Opportunity Commission Complaint Form 
+    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+continue button field: usergoto_survey367
+---
+event: endpoint['eligible_identity_of_partner_no_public_life']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response367 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey367
+  survey_answer367
+  hidden_response367 = ''
+---
+question: |
+  Thank you for your responses. 
+subquestion: |
+  
+  Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission will be able to help and support you through your legal complaint.
+  
+  Please download and complete the Equal Opportunity Commission Complaint Form to officially begin the complaint process.
+  
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative support where required.*
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ association_with_child_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+
+attachment:
+  - name: Equal Opportunity Commission Complaint Form 
+    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+continue button field: usergoto_survey368
+---
+event: endpoint['eligible_association_with_child_no_public_life']  
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response368 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey368
+  survey_answer368
+  hidden_response368 = ''
+---
+question: |
+  Thank you for your responses. 
+subquestion: |
+  
+  Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission will be able to help and support you through your legal complaint.
+  
+  Please download and complete the Equal Opportunity Commission Complaint Form to officially begin the complaint process.
+  
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative support where required.*
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ caring_responsibility_area_public_life  }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+
+attachment:
+  - name: Equal Opportunity Commission Complaint Form 
+    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+continue button field: usergoto_survey369
+---
+event: endpoint['eligible_caring_responsibility_no_public_life']  
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response369 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey369
+  survey_answer369
+  hidden_response369 = ''
+---
+question: |
+  Thank you for your responses. 
+subquestion: |
+  
+  Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission will be able to help and support you through your legal complaint.
+  
+  Please download and complete the Equal Opportunity Commission Complaint Form to officially begin the complaint process.
+  
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative support where required.*
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ pregnancy_area_public_life  }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+
+attachment:
+  - name: Equal Opportunity Commission Complaint Form 
+    docx template file: 2019.11.06_Complaint_Form_GPO_Exchange_editsdocx_1_1.docx
+continue button field: usergoto_survey370
+---
+event: endpoint['eligible_pregnancy_no_public_life']  
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response370 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey370
+  survey_answer370
+  hidden_response370 = ''
+---
+question: |
+  Thank you for completing the Application.
+subquestion: |
+  
+  As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
+  
+  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
+  
+  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ religious_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+
+continue button field: usergoto_survey371
+---
+event: endpoint['federal_religious_no_area_public_life']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response371 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey371
+  survey_answer371
+  hidden_response371 = ''
+---
+question: |
+  Thank you for completing the Application.
+subquestion: |
+  
+  As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
+  
+  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
+  
+  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+ 
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ domestic_partner_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+
+continue button field: usergoto_survey372
+---
+event: endpoint['federal_domestic_partnership_no_public_life']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response372 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey372
+  survey_answer372
+  hidden_response372 = ''
+---
+question: |
+  Thank you for completing the Application.
+subquestion: |
+  
+  As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
+  
+  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
+  
+  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ identity_of_partner_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+
+continue button field: usergoto_survey373
+---
+event: endpoint['federal_identity_of_partner_no_public_life']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response373 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey373
+  survey_answer373
+  hidden_response373 = ''
+---
+question: |
+  Thank you for completing the Application.
+subquestion: |
+  
+  As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
+  
+  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
+  
+  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ association_with_child_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+
+continue button field: usergoto_survey374
+---
+event: endpoint['federal_association_with_child_no_public_life'] 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response374 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey374
+  survey_answer374
+  hidden_response374 = ''
+---
+question: |
+  Thank you for completing the Application.
+subquestion: |
+  
+  As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
+  
+  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
+  
+  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ caring_responsibility_area_public_life  }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+
+continue button field: usergoto_survey375
+---
+event: endpoint['federal_caring_responsibility_no_public_life'] 
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response375 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey375
+  survey_answer375
+  hidden_response375 = ''
+---
+question: |
+  Thank you for completing the Application.
+subquestion: |
+  
+  As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
+  
+  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
+  
+  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ pregnancy_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+
+continue button field: usergoto_survey376
+---
+event: endpoint['federal_pregnancy_no_public_life']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response376 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey376
+  survey_answer376
+  hidden_response376 = ''
+---
+question: |
+  Thank you for completing the Application.
+subquestion: |
+  
+  As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
+  
+  Please click on the AHRC button below to access the Australian Human Rights Commission website for further information.
+  
+  [Please click here to access the AHRC Website](${ url_of('https://www.humanrights.gov.au/about') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ area_public_life } 
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+
+continue button field: usergoto_survey109
+---
+event: endpoint['federal_eligible']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response109 }
+buttons: 
+  - Exit: exit
+  - Restart: restart
+---
+code: |
+  usergoto_survey109
+  survey_answer109
+  hidden_response109 = ''
 ---
