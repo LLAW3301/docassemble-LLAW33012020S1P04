@@ -1505,13 +1505,13 @@ code: |
 ---
 template: notification
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
   
      Question      | User Responses
   -----------------|-----------------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved? | ${ person_aggrieved }
@@ -1522,13 +1522,13 @@ content: |
 ---
 template: notification_2
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
   
   Question         | User Responses
   -----------------|-----------------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1539,13 +1539,13 @@ content: |
 --- 
 template: notification_3
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
   
   Question         | User Responses
   -----------------|-----------------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1558,13 +1558,13 @@ content: |
 ---
 template: notification_4
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
 
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1578,13 +1578,13 @@ content: |
 ---
 template: notification_4A
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
 
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1599,13 +1599,13 @@ content: |
 ---
 template: notification_5
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
 
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1621,13 +1621,13 @@ content: |
 ---
 template: notification_6
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
 
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1644,13 +1644,13 @@ content: |
 ---
 template: notification_7
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
 
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1668,13 +1668,13 @@ content: |
 ---
 template: notification_8
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
 
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1692,13 +1692,13 @@ content: |
 ---
 template: notification_9
 subject: |
-  EOC Complaints directory has been accessed!
+ Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1716,14 +1716,14 @@ content: |
 ---
 template: notification_10
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below. 
 
 
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1741,13 +1741,13 @@ content: |
 ---
 template: notification_11
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1765,13 +1765,13 @@ content: |
 ---
 template: notification_12
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1789,13 +1789,13 @@ content: |
 ---
 template: notification_13
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
 
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1813,13 +1813,13 @@ content: |
 ---
 template: notification_14
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1837,13 +1837,13 @@ content: |
 ---
 template: notification_15
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
 
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1857,13 +1857,13 @@ content: |
 ---
 template: notification_16
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1881,13 +1881,13 @@ content: |
 ---
 template: notification_17
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1905,13 +1905,13 @@ content: |
 ---
 template: notification_18
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1929,13 +1929,13 @@ content: |
 ---
 template: notification_19
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1953,13 +1953,13 @@ content: |
 ---
 template: notification_20
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -1977,13 +1977,13 @@ content: |
 ---
 template: notification_21
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -2001,13 +2001,13 @@ content: |
 ---
 template: notification_22
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -2025,13 +2025,13 @@ content: |
 ---
 template: notification_23
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -2049,13 +2049,13 @@ content: |
 ---
 template: notification_24
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
  
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -2073,13 +2073,13 @@ content: |
 ---
 template: notification_25
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -2097,13 +2097,13 @@ content: |
 ---
 template: notification_26
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -2121,13 +2121,13 @@ content: |
 ---
 template: notification_27
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
-  Frist Name       | ${ EOC_first_name }
+  First Name       | ${ EOC_first_name }
   Last Name        | ${ EOC_last_name }
   Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
@@ -2143,12 +2143,15 @@ content: |
 ---
 template: notification_28
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
+  First Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
@@ -2164,12 +2167,15 @@ content: |
 ---
 template: notification_29
 subject: |
-  EOC Complaints directory has been accessed!
+  Is my complaint covered under the Equal Opportunity Act? has been accessed!
 content: | 
   This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
   
   Question|User Responses
   --------|--------
+  First Name       | ${ EOC_first_name }
+  Last Name        | ${ EOC_last_name }
+  Email Address    | ${ EOC_email_address }
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
