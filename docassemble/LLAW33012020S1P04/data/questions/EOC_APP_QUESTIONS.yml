@@ -461,6 +461,59 @@ question: |
 subquestion: |
   *Where did the discrimination happen?*
 fields:
+  - no label: disability_race_area_public_life
+    input type: radio
+    choices:
+      - Accommodation: 'Accommodation'
+        default: 'Accommodation'
+        help: |
+          - In the terms or conditions for which accommodation is offered
+          - By refusing an application for accommodation
+          - By deferring an application or according the applicant a lower order of preference on a list of applicants for that accommodation
+          - By denying or limiting access to a benefit connected with the accommodation
+          - By evicting the person
+          - By subjecting the person to other detriment
+      - Clubs and Associations: 'Clubs and Associations'
+        help: |
+          - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
+          - In the terms by which the applicant is, or may be, admitted to membership
+          - By refusing or failing to provide a particular service or benefit to that member
+          - By expelling that member from the association or subjecting him or her to other detriment
+      - Customer Service: 'Customer Service'
+        help: |
+          - By refusing or failing to supply the goods or perform the services
+          - In the terms or conditions on which or the manner in which the goods are supplied or the services are performed
+      - Education: 'Education'
+        help: |
+          - By refusing or failing to accept an application for admission as a student
+          - Discriminate in the terms or conditions on which it provides the student with training or education 
+          - By denying or limiting access to a benefit provided by the authority
+          - By expelling the student
+          - By subjecting the student to other detriment
+      - Employment: 'Employment'
+        help: |
+          - In determining who should be offered employment
+          - In the terms or conditions of employment
+          - By denying or limiting access to opportunities for promotion, transfer or training, or to other benefits connect with employment
+          - By dismissing the employee
+          - By subjecting the employee to other detriment
+      - Granting Qualifications: 'Granting Qualifications'
+        help: |
+          - By refusing or failing to confer or renew an authorisation or qualification
+          - In the terms or conditions on which it confers the authorisation or qualification
+          - By withdrawing the authorisation or qualification, or varying the terms or conditions on which it is held
+      - Selling Land: 'Selling Land'
+        help: |
+          - By refusing or failing to sell land to the other person
+          - In the terms or conditions on which the sale of land is offered to the other person
+      - Superannuation: 'Superannuation'
+      - None of the above: 'No'
+---
+question: |
+  Did the discrimination occur in an area of public life? 
+subquestion: |
+  *Where did the discrimination happen?*
+fields:
   - no label: area_public_life
     input type: radio
     choices:

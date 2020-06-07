@@ -1,73 +1,72 @@
----
 mandatory: True
-event: endpoint['religious_no_area_public_life']
+event: endpoint['disability_race_no_public_life'] 
 code: |
   if other_complaint_bodies == 'Housing Disputes':
-    endpoint['religious_noareapubliclife_housingdisputes']
+    endpoint['disability_race_noareapubliclife_housingdisputes']
   if other_complaint_bodies == 'Mental Health':
-    endpoint['religous_noareapubliclife_mentalhealth']
+    endpoint['disability_race_noareapubliclife_mentalhealth']
   if other_complaint_bodies == 'Consent Medical':
-    endpoint['religious_noareapubliclife_consentmedical']
+    endpoint['disability_race_noareapubliclife_consentmedical']
   if other_complaint_bodies == 'Government Review':
-    endpoint['religious_noareapubliclife_governmentreview']
+    endpoint['disability_race_noareapubliclife_governmentreview']
   if other_complaint_bodies == 'Advance Care':
-    endpoint['religious_noareapubliclife_advancecare']
+    endpoint['disability_race_noareapubliclife_advancecare']
   if other_complaint_bodies == 'Personal Affairs':
-    endpoint['religious_noareapubliclife_personalaffairs']
+    endpoint['disability_race_noareapubliclife_personalaffairs']
   if other_complaint_bodies == 'Workplace Discrimination':
-    endpoint['religious_noareapubliclife_workplacediscrimination']
+    endpoint['disability_race_noareapubliclife_workplacediscrimination']
   if other_complaint_bodies == 'Health, Safety and Workplace Relations':
-    endpoint['religious_noareapubliclife_hwsrelations']
+    endpoint['disability_race_noareapubliclife_hwsrelations']
   if other_complaint_bodies == 'Banking':
-    endpoint['religious_noareapubliclife_banking']
+    endpoint['disability_race_noareapubliclife_banking']
   if other_complaint_bodies == 'Consumer Rights':
-    endpoint['religious_noareapubliclife_consumerrights']
+    endpoint['disability_race_noareapubliclife_consumerrights']
   if other_complaint_bodies == 'Administrative Government':
-    endpoint['religious_noareapubliclife_administrativegovernment']
+    endpoint['disability_race_noareapubliclife_administrativegovernment']
   if other_complaint_bodies == 'Education':
-    endpoint['religious_noareapubliclife_education']
+    endpoint['disability_race_noareapubliclife_education']
   if other_complaint_bodies == 'Electricity':
-    endpoint['religious_noareapubliclife_electricity']
+    endpoint['disability_race_noareapubliclife_electricity']
   if other_complaint_bodies == 'Employment':
-    endpoint['religious_noareapubliclife_emplyoment']
+    endpoint['disability_race_noareapubliclife_emplyoment']
   if other_complaint_bodies == 'Gas':
-     endpoint['religious_noareapubliclife_gas']
+     endpoint['disability_race_noareapubliclife_gas']
   if other_complaint_bodies == 'Guardianship of Young':
-    endpoint['religious_noareapubliclife_guardianshipyoung']
+    endpoint['disability_race_noareapubliclife_guardianshipyoung']
   if other_complaint_bodies == 'Health Care':
-    endpoint['religious_noareapubliclife_healthcare']
+    endpoint['disability_race_noareapubliclife_healthcare']
   if other_complaint_bodies == 'Human Rights':
-    endpoint['religious_noareapubliclife_humanrights']
+    endpoint['disability_race_noareapubliclife_humanrights']
   if other_complaint_bodies == 'Land':
-    endpoint['religious_noareapubliclife_land']
+    endpoint['disability_race_noareapubliclife_land']
   if other_complaint_bodies == 'Lawyers':
-    endpoint['religious_noareapubliclife_lawyers']
+    endpoint['disability_race_noareapubliclife_lawyers']
   if other_complaint_bodies == 'Government':
-    endpoint['religious_noareapubliclife_government']
+    endpoint['disability_race_noareapubliclife_government']
   if other_complaint_bodies == 'Media':
-    endpoint['religious_noareapubliclife_media']
+    endpoint['disability_race_noareapubliclife_media']
   if other_complaint_bodies == 'Mentally Vulnerable':
-    endpoint['religious_mentallyvulnerable']
+    endpoint['disability_race_mentallyvulnerable']
   if other_complaint_bodies == 'Phone/Internet':
-    endpoint['religious_noareapubliclife_internet']
+    endpoint['disability_race_noareapubliclife_internet']
   if other_complaint_bodies == 'Infrastructure':
-    endpoint['religious_noareapubliclife_infrastructure']
+    endpoint['disability_race_noareapubliclife_infrastructure']
   if other_complaint_bodies == 'Police':
-    endpoint['religious_noareapubliclife_police']
+    endpoint['disability_race_noareapubliclife_police']
   if other_complaint_bodies == 'Public Trustee':
-    endpoint['religious_noareapubliclife_publictrustee']
+    endpoint['disability_race_noareapubliclife_publictrustee']
   if other_complaint_bodies == 'State Government':
-    endpoint['religious_noareapubliclife_stategovernment']
+    endpoint['disability_race_noareapubliclife_stategovernment']
   if other_complaint_bodies == 'Transport':
-    endpoint['religious_noareapubliclife_transport']
+    endpoint['disability_race_noareapubliclife_transport']
   if other_complaint_bodies == 'Crime Victims':
-    endpoint['religious_noareapubliclife_crimevictims']
+    endpoint['disability_race_noareapubliclife_crimevictims']
   if other_complaint_bodies == 'Water':
-    endpoint['religious_noareapubliclife_water']
+    endpoint['disability_race_noareapubliclife_water']
   if other_complaint_bodies == 'ReturnToWorkSA':
-    endpoint['religious_noareapubliclife_returntowork']
+    endpoint['disability_race_noareapubliclife_returntowork']
   if other_complaint_bodies == 'None of the above':
-    endpoint['religious_noareapubliclife_noneoftheabove']
+    endpoint['disability_race_noareapubliclife_noneoftheabove']
 ---
 question: |
   Thank you for your responses.
@@ -90,24 +89,25 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+  Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+  
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey201
+continue button field: usergoto_survey504
 ---
-event: endpoint['religious_noareapubliclife_housingdisputes']
+event: endpoint['disability_race_noareapubliclife_housingdisputes']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response201 } 
+  Have a nice day! ${ hidden_response504 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey201
-  survey_answer201
-  hidden_response201 = ''
+  usergoto_survey504
+  survey_answer504
+  hidden_response504 = ''
 ---
 question: |
   Thank you for your responses.
@@ -130,24 +130,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey202
+continue button field: usergoto_survey505
 ---
-event: endpoint['religous_noareapubliclife_mentalhealth']
+event: endpoint['disability_race_noareapubliclife_mentalhealth']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response202 }
+  Have a nice day! ${ hidden_response505 }
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey202
-  survey_answer202
-  hidden_response202 = ''
+  usergoto_survey505
+  survey_answer505
+  hidden_response505 = ''
 ---
 question: |
   Thank you for your responses.
@@ -170,24 +170,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey203
+continue button field: usergoto_survey506
 ---
-event: endpoint['religious_noareapubliclife_consentmedical']
+event: endpoint['disability_race_noareapubliclife_consentmedical']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response203 } 
+  Have a nice day! ${ hidden_response506 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey203
-  survey_answer203
-  hidden_response203 = ''
+  usergoto_survey506
+  survey_answer506
+  hidden_response506 = ''
 ---
 question: |
   Thank you for your responses.
@@ -210,24 +210,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey204
+continue button field: usergoto_survey507
 ---
-event: endpoint['religious_noareapubliclife_governmentreview']
+event: endpoint['disability_race_noareapubliclife_governmentreview']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response204 } 
+  Have a nice day! ${ hidden_response507 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey204
-  survey_answer204
-  hidden_response204 = ''
+  usergoto_survey507
+  survey_answer507
+  hidden_response507 = ''
 ---
 question: |
   Thank you for your responses.
@@ -250,24 +250,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life  }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life  }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey205
+continue button field: usergoto_survey508
 ---
-event: endpoint['religious_noareapubliclife_advancecare']
+event: endpoint['disability_race_noareapubliclife_advancecare']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response205 } 
+  Have a nice day! ${ hidden_response508 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey205
-  survey_answer205
-  hidden_response205 = ''
+  usergoto_survey508
+  survey_answer508
+  hidden_response508 = ''
 ---
 question: |
   Thank you for your responses.
@@ -290,24 +290,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey206
+continue button field: usergoto_survey509
 ---
-event: endpoint['religious_noareapubliclife_personalaffairs']
+event: endpoint['disability_race_noareapubliclife_personalaffairs']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response206 } 
+  Have a nice day! ${ hidden_response509 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey206
-  survey_answer206
-  hidden_response206 = ''
+  usergoto_survey509
+  survey_answer509
+  hidden_response509 = ''
 ---
 question: |
   Thank you for your responses.
@@ -330,24 +330,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+  Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
   
    **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey207
+continue button field: usergoto_survey510
 ---
-event: endpoint['religious_noareapubliclife_workplacediscrimination']
+event: endpoint['disability_race_noareapubliclife_workplacediscrimination']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response207 } 
+  Have a nice day! ${ hidden_response510 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey207
-  survey_answer207
-  hidden_response207 = ''
+  usergoto_survey510
+  survey_answer510
+  hidden_response510 = ''
 ---
 question: |
   Thank you for your responses.
@@ -370,24 +370,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey208
+continue button field: usergoto_survey511
 ---
-event: endpoint['religious_noareapubliclife_hwsrelations']
+event: endpoint['disability_race_noareapubliclife_hwsrelations']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response208 } 
+  Have a nice day! ${ hidden_response511 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey208
-  survey_answer208
-  hidden_response208 = ''
+  usergoto_survey511
+  survey_answer511
+  hidden_response511 = ''
 ---
 question: |
   Thank you for your responses.
@@ -414,24 +414,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey209
+continue button field: usergoto_survey512
 ---
-event: endpoint['religious_noareapubliclife_banking']
+event: endpoint['disability_race_noareapubliclife_banking']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response209 } 
+  Have a nice day! ${ hidden_response512 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey209
-  survey_answer209
-  hidden_response209 = ''
+  usergoto_survey512
+  survey_answer512
+  hidden_response512 = ''
 ---
 question: |
   Thank you for your responses.
@@ -454,24 +454,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey210
+continue button field: usergoto_survey513
 ---
-event: endpoint['religious_noareapubliclife_consumerrights']
+event: endpoint['disability_race_noareapubliclife_consumerrights']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response210 }
+  Have a nice day! ${ hidden_response513 }
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey210
-  survey_answer210
-  hidden_response210 = ''
+  usergoto_survey513
+  survey_answer513
+  hidden_response513 = ''
 ---
 question: |
   Thank you for your responses.
@@ -495,24 +495,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey211
+continue button field: usergoto_survey514
 ---
-event: endpoint['religious_noareapubliclife_administrativegovernment']
+event: endpoint['disability_race_noareapubliclife_administrativegovernment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response211 }
+  Have a nice day! ${ hidden_response514 }
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey211
-  survey_answer211
-  hidden_response211 = ''
+  usergoto_survey514
+  survey_answer514
+  hidden_response514 = ''
 ---
 question: |
   Thank you for your responses.
@@ -543,24 +543,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey212
+continue button field: usergoto_survey515
 ---
-event: endpoint['religious_noareapubliclife_education']
+event: endpoint['disability_race_noareapubliclife_education']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response212 } 
+  Have a nice day! ${ hidden_response515 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey212
-  survey_answer212
-  hidden_response212 = ''
+  usergoto_survey515
+  survey_answer515
+  hidden_response515 = ''
 ---
 question: |
   Thank you for your responses.
@@ -583,24 +583,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey213
+continue button field: usergoto_survey516
 ---
-event: endpoint['religious_noareapubliclife_electricity']
+event: endpoint['disability_race_noareapubliclife_electricity']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response213 } 
+  Have a nice day! ${ hidden_response516 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey213
-  survey_answer213
-  hidden_response213 = ''
+  usergoto_survey516
+  survey_answer516
+  hidden_response516 = ''
 ---
 question: |
   Thank you for your responses.
@@ -623,24 +623,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey214
+continue button field: usergoto_survey517
 ---
-event: endpoint['religious_noareapubliclife_emplyoment']
+event: endpoint['disability_race_noareapubliclife_emplyoment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response214 } 
+  Have a nice day! ${ hidden_response517 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey214
-  survey_answer214
-  hidden_response214 = ''
+  usergoto_survey517
+  survey_answer517
+  hidden_response517 = ''
 ---
 question: |
   Thank you for your responses.
@@ -663,24 +663,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey215
+continue button field: usergoto_survey518
 ---
-event: endpoint['religious_noareapubliclife_gas']
+event: endpoint['disability_race_noareapubliclife_gas']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response215 } 
+  Have a nice day! ${ hidden_response518 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey215
-  survey_answer215
-  hidden_response215 = ''
+  usergoto_survey518
+  survey_answer518
+  hidden_response518 = ''
 ---
 question: |
   Thank you for your responses.
@@ -703,24 +703,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey216
+continue button field: usergoto_survey519
 ---
-event: endpoint['religious_noareapubliclife_guardianshipyoung']
+event: endpoint['disability_race_noareapubliclife_guardianshipyoung']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response216 } 
+  Have a nice day! ${ hidden_response519 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey216
-  survey_answer216
-  hidden_response216 = ''
+  usergoto_survey519
+  survey_answer519
+  hidden_response519 = ''
 ---
 question: |
   Thank you for your responses.
@@ -747,24 +747,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
   
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey217
+continue button field: usergoto_survey520
 ---
-event: endpoint['religious_noareapubliclife_healthcare']
+event: endpoint['disability_race_noareapubliclife_healthcare']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response217 } 
+  Have a nice day! ${ hidden_response520 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey217
-  survey_answer217
-  hidden_response217 = ''
+  usergoto_survey520
+  survey_answer520
+  hidden_response520 = ''
 ---
 question: |
   Thank you for your responses.
@@ -787,24 +787,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey218
+continue button field: usergoto_survey521
 ---
-event: endpoint['religious_noareapubliclife_humanrights']
+event: endpoint['disability_race_noareapubliclife_humanrights']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response218 } 
+  Have a nice day! ${ hidden_response521 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey218
-  survey_answer218
-  hidden_response218 = ''
+  usergoto_survey521
+  survey_answer521
+  hidden_response521 = ''
 ---
 question: |
   Thank you for your responses.
@@ -827,24 +827,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey219
+continue button field: usergoto_survey522
 ---
-event: endpoint['religious_noareapubliclife_land']
+event: endpoint['disability_race_noareapubliclife_land']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response219 } 
+  Have a nice day! ${ hidden_response522 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey219
-  survey_answer219
-  hidden_response219 = ''
+  usergoto_survey522
+  survey_answer522
+  hidden_response522 = ''
 ---
 question: |
   Thank you for your responses.
@@ -867,24 +867,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey219
+continue button field: usergoto_survey523
 ---
-event: endpoint['religious_noareapubliclife_lawyers']
+event: endpoint['disability_race_noareapubliclife_lawyers']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response219 }
+  Have a nice day! ${ hidden_response523 }
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey219
-  survey_answer219
-  hidden_response219 = ''
+  usergoto_survey523
+  survey_answer523
+  hidden_response523 = ''
 ---
 question: |
   Thank you for your responses.
@@ -907,24 +907,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey220
+continue button field: usergoto_survey524
 ---
-event: endpoint['religious_noareapubliclife_government']
+event: endpoint['disability_race_noareapubliclife_government']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response220 } 
+  Have a nice day! ${ hidden_response524 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey220
-  survey_answer220
-  hidden_response220 = ''
+  usergoto_survey524
+  survey_answer524
+  hidden_response524 = ''
 ---
 question: |
   Thank you for your responses.
@@ -947,24 +947,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey221
+continue button field: usergoto_survey525
 ---
-event: endpoint['religious_noareapubliclife_media']
+event: endpoint['disability_race_noareapubliclife_media']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response221 } 
+  Have a nice day! ${ hidden_response525 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey221
-  survey_answer221
-  hidden_response221 = ''
+  usergoto_survey525
+  survey_answer525
+  hidden_response525 = ''
 ---
 question: |
   Thank you for your responses.
@@ -989,24 +989,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey222
+continue button field: usergoto_survey526
 ---
-event: endpoint['religious_noareapubliclife_mentallyvulnerable']
+event: endpoint['disability_race_mentallyvulnerable']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response222 } 
+  Have a nice day! ${ hidden_response526 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey222
-  survey_answer222
-  hidden_response222 = ''
+  usergoto_survey526
+  survey_answer526
+  hidden_response526 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1029,24 +1029,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey223
+continue button field: usergoto_survey527
 ---
-event: endpoint['religious_noareapubliclife_internet']
+event: endpoint['disability_race_noareapubliclife_internet']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response223 } 
+  Have a nice day! ${ hidden_response527 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey223
-  survey_answer223
-  hidden_response223 = ''
+  usergoto_survey527
+  survey_answer527
+  hidden_response527 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1069,24 +1069,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey224
+continue button field: usergoto_survey528
 ---
-event: endpoint['religious_noareapubliclife_infrastructure']
+event: endpoint['disability_race_noareapubliclife_infrastructure']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response224 } 
+  Have a nice day! ${ hidden_response528 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey224
-  survey_answer224
-  hidden_response224 = ''
+  usergoto_survey528
+  survey_answer528
+  hidden_response528 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1109,24 +1109,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
   
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey225
+continue button field: usergoto_survey529
 ---
-event: endpoint['religious_noareapubliclife_police']
+event: endpoint['disability_race_noareapubliclife_police']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response225 } 
+  Have a nice day! ${ hidden_response529 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey225
-  survey_answer225
-  hidden_response225 = ''
+  usergoto_survey529
+  survey_answer529
+  hidden_response529 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1149,24 +1149,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
   
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey226
+continue button field: usergoto_survey530
 ---
-event: endpoint['religious_noareapubliclife_publictrustee']
+event: endpoint['disability_race_noareapubliclife_publictrustee']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response226 }
+  Have a nice day! ${ hidden_response530 }
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey226
-  survey_answer226
-  hidden_response226 = ''
+  usergoto_survey530
+  survey_answer530
+  hidden_response530 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1189,24 +1189,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey227
+continue button field: usergoto_survey531
 ---
-event: endpoint['religious_noareapubliclife_stategovernment']
+event:  endpoint['disability_race_noareapubliclife_stategovernment']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response227 } 
+  Have a nice day! ${ hidden_response531 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey227
-  survey_answer227
-  hidden_response227 = ''
+  usergoto_survey531
+  survey_answer531
+  hidden_response531 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1229,24 +1229,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey228
+continue button field: usergoto_survey532
 ---
-event: endpoint['religious_noareapubliclife_transport']
+event: endpoint['disability_race_noareapubliclife_transport']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response228 } 
+  Have a nice day! ${ hidden_response532 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey228
-  survey_answer228
-  hidden_response228 = ''
+  usergoto_survey532
+  survey_answer532
+  hidden_response532 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1269,24 +1269,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey229
+continue button field: usergoto_survey533
 ---
-event: endpoint['religious_noareapubliclife_crimevictims']
+event: endpoint['disability_race_noareapubliclife_crimevictims']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response229 } 
+  Have a nice day! ${ hidden_response533 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey229
-  survey_answer229
-  hidden_response229 = ''
+  usergoto_survey533
+  survey_answer533
+  hidden_response533 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1309,24 +1309,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-    Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey230
+continue button field: usergoto_survey534
 ---
-event: endpoint['religious_noareapubliclife_water']
+event: endpoint['disability_race_noareapubliclife_water']
 question: Thank you. We appreciate your feedback. 
-subquestion: | 
-  Have a nice day! ${ hidden_response230 } 
+subquestion: |
+  Have a nice day! ${ hidden_response534 } 
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey230
-  survey_answer230
-  hidden_response230 = ''
+  usergoto_survey534
+  survey_answer534
+  hidden_response534 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1351,24 +1351,24 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+  Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey231
+continue button field: usergoto_survey535
 ---
-event: endpoint['religious_noareapubliclife_returntowork']
+event: endpoint['disability_race_noareapubliclife_returntowork']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response231 }
+  Have a nice day! ${ hidden_response535 }
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey231
-  survey_answer231
-  hidden_response231 = ''
+  usergoto_survey535
+  survey_answer535
+  hidden_response535 = ''
 ---
 question: |
   Thank you for your responses.
@@ -1396,22 +1396,22 @@ subquestion: |
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
-  Did the discrimination occur in an area of public life? | ${ religious_area_public_life }
+  Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
-continue button field: usergoto_survey364
+continue button field: usergoto_survey536
 ---
-event: endpoint['religious_noareapubliclife_noneoftheabove']
+event: endpoint['disability_race_noareapubliclife_noneoftheabove']
 question: Thank you. We appreciate your feedback. 
 subquestion: | 
-  Have a nice day! ${ hidden_response364 }
+  Have a nice day! ${ hidden_response536 }
 buttons: 
   - Exit: exit
     url: https://eoc.sa.gov.au
   - Restart: restart
 ---
 code: |
-  usergoto_survey364
-  survey_answer364
-  hidden_response364 = ''
+  usergoto_survey536
+  survey_answer536
+  hidden_response536 = ''
 ---

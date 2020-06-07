@@ -18,7 +18,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
@@ -58,7 +58,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -102,7 +102,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -146,7 +146,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -190,7 +190,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -234,7 +234,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -278,7 +278,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -322,7 +322,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -362,7 +362,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -402,7 +402,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -442,7 +442,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -482,7 +482,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -522,7 +522,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -562,7 +562,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -602,7 +602,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -627,3 +627,173 @@ code: |
   survey_answer109
   hidden_response109 = ''
 ---
+question: |
+  Thank you for your responses. 
+subquestion: |
+  
+  Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission will be able to help and support you through your legal complaint.
+  
+   The completion of this application **does not** trigger the complaint process. You will need to complete the complaint form, [please click here to access to this form](${url_of('https://eoc.sa.gov.au/what-discrimination/making-complaint') }) to officially begin the process. 
+  
+  If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
+  
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ disability_race_area_public_life  }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+
+continue button field: usergoto_survey500
+---
+event: endpoint['eligible_race']  
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response500 }
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey500
+  survey_answer500
+  hidden_response500 = ''
+---
+question: |
+   Thank you for your responses. 
+subquestion: |
+  
+  As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
+  
+  [Please click here to access the Australian Human Rights Commission website for further information](${ url_of('https://www.humanrights.gov.au/about') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ disability_race_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+
+continue button field: usergoto_survey501
+---
+event: endpoint['federal_eligible_race']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response501 }
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey501
+  survey_answer501
+  hidden_response501 = ''
+---
+question: |
+  Thank you for your responses. 
+subquestion: |
+  
+  Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint. This means the Commission will be able to help and support you through your legal complaint.
+  
+   The completion of this application **does not** trigger the complaint process. You will need to complete the complaint form, [please click here to access to this form](${url_of('https://eoc.sa.gov.au/what-discrimination/making-complaint') }) to officially begin the process. 
+  
+  If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
+  
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ disability_race_area_public_life  }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+
+continue button field: usergoto_survey502
+---
+event: endpoint['eligible_disability']  
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response502 }
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey502
+  survey_answer502
+  hidden_response502 = ''
+---
+question: |
+   Thank you for your responses. 
+subquestion: |
+  
+  As you have selected to have your complaint dealt with at a Federal Level, please contact the **Australian Human Rights Commission** for further support. 
+  
+  [Please click here to access the Australian Human Rights Commission website for further information](${ url_of('https://www.humanrights.gov.au/about') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ disability_race_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+
+continue button field: usergoto_survey503
+---
+event: endpoint['federal_eligible_disability']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response503 }
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey503
+  survey_answer503
+  hidden_response503 = ''
+---
+
+

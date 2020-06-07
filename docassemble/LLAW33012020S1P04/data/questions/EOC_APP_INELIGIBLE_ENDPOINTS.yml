@@ -341,7 +341,7 @@ subquestion: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment2 }
+  Does your complaint involve Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment2 }
 
   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
 continue button field: usergoto_survey107

@@ -1292,6 +1292,154 @@ code: |
   survey_answer376 = True
 ---
 code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_28)
+  survey_answer500 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_28)
+  survey_answer501 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_28)
+  survey_answer502 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_28)
+  survey_answer503 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer504 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer505 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer506 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer507 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer508 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer509 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer510 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer511 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer512 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer513 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer514 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer515 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer516 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer517 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer518 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer519 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer520 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer521 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer522 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer523 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer524 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer525 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer526 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer527 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer528 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer529 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer530 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer531 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer532 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer533 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer534 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer535 = True
+---
+code: |
+  send_email(to='rayn0066@flinders.edu.au', template=notification_29)
+  survey_answer536 = True
+---
+code: |
   if usergoto_survey97 == True:
     template['notification']
   if usergoto_survey98 == True:
@@ -1350,6 +1498,10 @@ code: |
     template['notification_26']
   if usergoto_survey376 == True:
     template['notification_27']
+  if usergoto_survey500 == True or usergoto_survey501 == True or usergoto_survey502 == True or usergoto_survey503 == True:
+    template['notification_28']
+  if usergoto_survey504 == True or usergoto_survey505 == True or usergoto_survey506 == True or usergoto_survey507 == True or usergoto_survey508 == True or usergoto_survey509 == True or usergoto_survey510 == True or usergoto_survey511 == True or usergoto_survey512 == True or usergoto_survey513 == True or usergoto_survey514 == True or usergoto_survey515 == True or usergoto_survey516 == True or usergoto_survey517 == True or usergoto_survey518 == True or usergoto_survey519 == True or usergoto_survey520 == True or usergoto_survey521 == True or usergoto_survey522 == True or usergoto_survey523 == True or usergoto_survey524 == True or usergoto_survey525 == True or usergoto_survey526 == True or usergoto_survey527 == True or usergoto_survey528 == True or usergoto_survey529 == True or usergoto_survey530 == True or usergoto_survey531 == True or usergoto_survey532 == True or usergoto_survey533 == True or usergoto_survey534 == True or usergoto_survey535 == True or usergoto_survey536 == True:
+    template['notification_29']
 ---
 template: notification
 subject: |
@@ -1418,8 +1570,8 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
-  Does your complaint involve Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment2 }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment2 }
   Was this information useful?             | ${ usersurvey_response }
   
   Have a nice day!
@@ -1438,8 +1590,8 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
-  Does your complaint involve Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment2 }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment2 }
   Did your Sexual Harassment occur in an area of public life? | ${ sexual_harassment_areapubliclife }
   Was this information useful?             | ${ usersurvey_response }
   
@@ -1459,7 +1611,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Complaint based on other grounds                    | ${ other_complaint_bodies }
@@ -1481,7 +1633,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Was discrimination based on protected ground? | ${ protected_ground }
@@ -1504,7 +1656,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Was discrimination based on protected ground? | ${ protected_ground }
@@ -1528,7 +1680,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1552,7 +1704,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
@@ -1576,7 +1728,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
@@ -1599,7 +1751,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
@@ -1622,7 +1774,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
@@ -1645,7 +1797,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
@@ -1668,7 +1820,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   On what ground is the discrimination in question based on? | ${ protected_ground }
@@ -1691,7 +1843,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was this information useful?             | ${ usersurvey_response }
   
@@ -1711,7 +1863,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1735,7 +1887,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1759,7 +1911,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1783,7 +1935,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1807,7 +1959,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1831,7 +1983,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1855,7 +2007,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1879,7 +2031,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1903,7 +2055,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1927,7 +2079,7 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
@@ -1951,13 +2103,15 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
   Did the discrimination occur in an area of public? | ${ caring_responsibility_area_public_life  }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
   Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day!
 ---
 template: notification_27
 subject: |
@@ -1973,11 +2127,52 @@ content: |
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
   Did the incident occur in South Australia?  | ${ which_state_answer }
-  Does your complaint involve either Sexual Harrassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
   Was there discrimination?                | ${ discrimination }
   Is the discrimination based on a protected ground? | ${ protected_ground }
   Did the discrimination occur in an area of public? | ${ pregnancy_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
   Was this information useful?             | ${ usersurvey_response }
+---
+template: notification_28
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+  
+  Question|User Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination }
+  Is the discrimination based on a protected ground? | ${ protected_ground }
+  Did the discrimination occur in an area of public? | ${ disability_race_area_public_life }
+  Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
+   Was this information useful?             | ${ usersurvey_response }
+ 
+  Have a nice day!
+---
+template: notification_29
+subject: |
+  EOC Complaints directory has been accessed!
+content: | 
+  This is an automated e-mail sent from a **docassemble** interview. Refer to the responses from the user below.
+  
+  Question|User Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+  Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+  Was this information useful?             | ${ usersurvey_response }
+  
+  Have a nice day!
 ---
