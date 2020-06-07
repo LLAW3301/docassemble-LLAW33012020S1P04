@@ -475,7 +475,7 @@ code: |
     which_state_answer = 'No'
 ---
 code: |
-  if victimisation_sexualharrassment:
+  if victimisation_sexualharrassment == 'Yes':
     victimisation_sexualharrassment_answer = 'Yes'
   else: 
     victimisation_sexualharrassment_answer = 'No'
