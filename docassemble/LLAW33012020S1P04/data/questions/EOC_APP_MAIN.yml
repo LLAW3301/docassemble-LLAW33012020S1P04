@@ -161,7 +161,7 @@ code: |
   
   if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment_eligible == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Disability' and disability_race_area_public_life_eligible == True and state_or_federal == True ):
     endpoint['eligible_disability']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment_eligible == False and extra_sections_answer == False and discrimination == True and disability_race_area_public_life_eligible == True and state_or_federal == False ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment_eligible == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Disability' and disability_race_area_public_life_eligible == True and state_or_federal == False ):
     endpoint['federal_eligible_disability']
   
   if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment_eligible == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Sex' and state_or_federal == True ):
