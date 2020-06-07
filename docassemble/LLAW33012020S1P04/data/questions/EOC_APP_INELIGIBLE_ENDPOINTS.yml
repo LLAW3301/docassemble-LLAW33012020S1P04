@@ -27,6 +27,7 @@ subquestion: |
   Have a nice day! ${ hidden_response97 }  
 buttons:
  - Exit: exit
+   url: https://eoc.sa.gov.au
  - Restart: restart
 ---
 code: |
