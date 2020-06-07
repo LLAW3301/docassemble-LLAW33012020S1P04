@@ -92,7 +92,7 @@ fields:
      hide if:
        variable: EOC_first_name
        is: null
-     
+
 under: |
       **Privacy Statement**: Personal information provided to the Equal Opportunity Commission is protected by the Information Privacy Principles (IPPS) Instruction.      
        [Please click here for further information](${ url_of('https://eoc.sa.gov.au/resources/privacy-policy') }).
@@ -110,7 +110,7 @@ code: |
     endpoint['extra_sections_eligible']
   if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment_eligible == False and extra_sections_answer == False and discrimination == False ):
     endpoint['nodiscrimination']
-  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment_eligible == False and extra_sections_answer == False and discrimination == True and protected_ground == 'Other grounds' ):
+  if ( person_aggrieved_eligible == True and incident_date_eligible == True and which_state == True and victimisation_sexualharrassment_eligible == False and extra_sections_answer == False and discrimination == True and protected_ground == 'None of the above' ):
     endpoint['noprotectedground']
 ---
 mandatory: True
