@@ -12,7 +12,7 @@ fields:
      - Yes, I am the person aggrieved by the action: 'Yes, I am the person aggrieved by the action'
        default: 'Yes, I am the person aggrieved by the action'
      - No, but the person aggrieved is a child (under 18): 'No, but the person aggrieved is a child (under 18)'
-     - No, but the person aggrieved has an intellectually disability: 'No, but the person aggrieved is intellectually incapable'
+     - No, but the person aggrieved has an intellectual disability: 'No, but the person aggrieved is intellectually incapable'
      - No, I have no connection with the person aggrieved: 'No, I have no connection with the person aggrieved'
      
   - note: 
@@ -46,7 +46,7 @@ fields:
       val("incident_date") == "The incident occurred **over 12 months ago**"
       
   - note: 
-      "**Please note:** If you **do not remember when the incident occurred**, you should review the details of your complaint further. The Equal Opportunity Commission need as many details as possible to assist. [You may access further information on this by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/complaint-process/time-limits-late-complaints') })."
+      "**Please note:** If you **do not remember when the incident occurred**, you should review the details of your complaint further. The Equal Opportunity Commission will need as many details as possible to assist. [You may access further information on this by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/complaint-process/time-limits-late-complaints') })."
     js show if: |
       val("incident_date") == "I do not remember when the incident occurred"
    
@@ -134,7 +134,7 @@ fields:
         help: |
           - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
           - In the terms by which the applicant is, or may be, admitted to membership
-          - By refusing or failing to provide a particular service or benefit is provided to that member
+          - By refusing or failing to provide a particular service or benefit to that member
           - By expelling that member from the association or subjecting him or her to other detriment
       - Customer Service: 'Customer Service'
         help: |
@@ -254,7 +254,7 @@ fields:
         help: |
           - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
           - In the terms by which the applicant is, or may be, admitted to membership
-          - By refusing or failing to provide a particular service or benefit is provided to that member
+          - By refusing or failing to provide a particular service or benefit to that member
           - By expelling that member from the association or subjecting him or her to other detriment
       - Customer Service: 'Customer Service'
         help: |
@@ -306,7 +306,7 @@ fields:
         help: |
           - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
           - In the terms by which the applicant is, or may be, admitted to membership
-          - By refusing or failing to provide a particular service or benefit is provided to that member
+          - By refusing or failing to provide a particular service or benefit to that member
           - By expelling that member from the association or subjecting him or her to other detriment
       - Customer Service: 'Customer Service'
         help: |
@@ -373,7 +373,7 @@ fields:
         help: |
            - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
            - In the terms by which the applicant is, or may be, admitted to membership
-           - By refusing or failing to provide a particular service or benefit is provided to that member
+           - By refusing or failing to provide a particular service or benefit to that member
            - By expelling that member from the association or subjecting him or her to other detriment
       - Customer Service: 'Customer Service'
         help: |
@@ -425,7 +425,7 @@ fields:
         help: |
           - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
           - In the terms by which the applicant is, or may be, admitted to membership
-          - By refusing or failing to provide a particular service or benefit is provided to that member
+          - By refusing or failing to provide a particular service or benefit to that member
           - By expelling that member from the association or subjecting him or her to other detriment
       - Customer Service: 'Customer Service'
         help: |
@@ -480,7 +480,7 @@ fields:
         help: |
           - By refusing or failing to admit applicant to membership, or particular class of membership, of the association
           - In the terms by which the applicant is, or may be, admitted to membership
-          - By refusing or failing to provide a particular service or benefit is provided to that member
+          - By refusing or failing to provide a particular service or benefit to that member
           - By expelling that member from the association or subjecting him or her to other detriment
       - Customer Service: 'Customer Service'
         help: |

@@ -275,7 +275,7 @@ subquestion: |
 
   Unfortunately, as you have not selected a protected ground, the Equal Opportunity Commission is unable to process your complaint. 
 
-  As your complaint deals with **Reviews of Government Decisions**, please contact SACAT.
+  As your complaint deals with **Reviewing a Government Decision**, please contact SACAT.
 
   [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
@@ -434,7 +434,7 @@ subquestion: |
 
   Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
 
-  As your complaint deals with **Reviews of Government Decisions** please contact SACAT.
+  As your complaint deals with **Reviewing a Government Decision**, please contact SACAT.
 
    [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
