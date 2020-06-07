@@ -1,4 +1,4 @@
-# Is my complaint covered by the Equal Opportunity Act?
+# Is my complaint covered under the Equal Opportunity Act?
 
 An Equal Opportunity Jurisdiction Finder created by Amelia Galpin, Holly Langford, Rebecca Rayner and Thomas Ramsey for the South Australian Equal Opportunity Commission.
 
