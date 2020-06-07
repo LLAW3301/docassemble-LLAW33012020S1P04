@@ -507,6 +507,9 @@ fields:
           - By refusing or failing to sell land to the other person
           - In the terms or conditions on which the sale of land is offered to the other person
       - Superannuation: 'Superannuation'
+        help: |
+          - By providing a scheme or fund that discriminates or, if the other person were to become a member of the scheme or fund, would discriminate, or require or authorise discrimination, against the other person; or
+          - in the manner in which the scheme or fund is administered
       - None of the above: 'No'
 ---
 question: |
