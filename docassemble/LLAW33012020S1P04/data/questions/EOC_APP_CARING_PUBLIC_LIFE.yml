@@ -114,7 +114,7 @@ subquestion: |
 
   Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
 
-  As your complaint deals with a **Medical/Mental Health Issue** please contact SACAT.
+  As your complaint deals with a **Medical/Mental Health Issue**, please contact SACAT.
 
   [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
@@ -154,7 +154,7 @@ subquestion: |
   
   Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
 
-  As your complaint deals with **Consent to Medical Treatment** please contact SACAT.
+  As your complaint deals with **Consent to Medical Treatment**, please contact SACAT.
 
   [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
   
