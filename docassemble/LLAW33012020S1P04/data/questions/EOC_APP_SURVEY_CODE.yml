@@ -2015,7 +2015,7 @@ content: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
-  Was there discrimination?                | ${ discrimination }
+  Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
   Did the discrimination occur in an area of public? | ${ religious_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
@@ -2039,7 +2039,7 @@ content: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
-  Was there discrimination?                | ${ discrimination }
+  Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
   Did the discrimination occur in an area of public? | ${ domestic_partner_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
@@ -2063,7 +2063,7 @@ content: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
-  Was there discrimination?                | ${ discrimination }
+  Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
   Did the discrimination occur in an area of public? | ${ identity_of_partner_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
@@ -2087,7 +2087,7 @@ content: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
-  Was there discrimination?                | ${ discrimination }
+  Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
   Did the discrimination occur in an area of public? | ${ association_with_child_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
@@ -2111,7 +2111,7 @@ content: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
-  Was there discrimination?                | ${ discrimination }
+  Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
   Did the discrimination occur in an area of public? | ${ caring_responsibility_area_public_life  }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
@@ -2135,7 +2135,7 @@ content: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
-  Was there discrimination?                | ${ discrimination }
+  Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
   Did the discrimination occur in an area of public? | ${ pregnancy_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
@@ -2157,7 +2157,7 @@ content: |
   Did the incident occur in South Australia?  | ${ which_state_answer }
   Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
   What does your complaint relate to?      | ${ extra_sections }
-  Was there discrimination?                | ${ discrimination }
+  Was there discrimination?                | ${ discrimination_answer }
   Is the discrimination based on a protected ground? | ${ protected_ground }
   Did the discrimination occur in an area of public? | ${ disability_race_area_public_life }
   Do you wish to make this complaint at a State or Federal Level?   | ${ state_or_federal_answer }
