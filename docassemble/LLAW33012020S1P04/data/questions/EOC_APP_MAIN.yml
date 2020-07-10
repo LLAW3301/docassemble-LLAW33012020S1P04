@@ -28,7 +28,7 @@ objects:
   - template: DADict
 ---
 objects:
-  - EOCLogo: DAStaticFile.using(filename='MicrosoftTeams-image-2.png')
+  - EOCLogo: DAStaticFile.using(filename='eoc_white_horiz.png')
 ---
 mandatory: True
 code: |
