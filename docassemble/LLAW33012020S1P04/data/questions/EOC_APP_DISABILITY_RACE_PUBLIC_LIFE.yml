@@ -1,0 +1,1417 @@
+mandatory: True
+event: endpoint['disability_race_no_public_life'] 
+code: |
+  if other_complaint_bodies == 'Housing Disputes':
+    endpoint['disability_race_noareapubliclife_housingdisputes']
+  if other_complaint_bodies == 'Mental Health':
+    endpoint['disability_race_noareapubliclife_mentalhealth']
+  if other_complaint_bodies == 'Consent Medical':
+    endpoint['disability_race_noareapubliclife_consentmedical']
+  if other_complaint_bodies == 'Government Review':
+    endpoint['disability_race_noareapubliclife_governmentreview']
+  if other_complaint_bodies == 'Advance Care':
+    endpoint['disability_race_noareapubliclife_advancecare']
+  if other_complaint_bodies == 'Personal Affairs':
+    endpoint['disability_race_noareapubliclife_personalaffairs']
+  if other_complaint_bodies == 'Workplace Discrimination':
+    endpoint['disability_race_noareapubliclife_workplacediscrimination']
+  if other_complaint_bodies == 'Health, Safety and Workplace Relations':
+    endpoint['disability_race_noareapubliclife_hwsrelations']
+  if other_complaint_bodies == 'Banking':
+    endpoint['disability_race_noareapubliclife_banking']
+  if other_complaint_bodies == 'Consumer Rights':
+    endpoint['disability_race_noareapubliclife_consumerrights']
+  if other_complaint_bodies == 'Administrative Government':
+    endpoint['disability_race_noareapubliclife_administrativegovernment']
+  if other_complaint_bodies == 'Education':
+    endpoint['disability_race_noareapubliclife_education']
+  if other_complaint_bodies == 'Electricity':
+    endpoint['disability_race_noareapubliclife_electricity']
+  if other_complaint_bodies == 'Employment':
+    endpoint['disability_race_noareapubliclife_emplyoment']
+  if other_complaint_bodies == 'Gas':
+     endpoint['disability_race_noareapubliclife_gas']
+  if other_complaint_bodies == 'Guardianship of Young':
+    endpoint['disability_race_noareapubliclife_guardianshipyoung']
+  if other_complaint_bodies == 'Health Care':
+    endpoint['disability_race_noareapubliclife_healthcare']
+  if other_complaint_bodies == 'Human Rights':
+    endpoint['disability_race_noareapubliclife_humanrights']
+  if other_complaint_bodies == 'Land':
+    endpoint['disability_race_noareapubliclife_land']
+  if other_complaint_bodies == 'Lawyers':
+    endpoint['disability_race_noareapubliclife_lawyers']
+  if other_complaint_bodies == 'Government':
+    endpoint['disability_race_noareapubliclife_government']
+  if other_complaint_bodies == 'Media':
+    endpoint['disability_race_noareapubliclife_media']
+  if other_complaint_bodies == 'Mentally Vulnerable':
+    endpoint['disability_race_mentallyvulnerable']
+  if other_complaint_bodies == 'Phone/Internet':
+    endpoint['disability_race_noareapubliclife_internet']
+  if other_complaint_bodies == 'Infrastructure':
+    endpoint['disability_race_noareapubliclife_infrastructure']
+  if other_complaint_bodies == 'Police':
+    endpoint['disability_race_noareapubliclife_police']
+  if other_complaint_bodies == 'Public Trustee':
+    endpoint['disability_race_noareapubliclife_publictrustee']
+  if other_complaint_bodies == 'State Government':
+    endpoint['disability_race_noareapubliclife_stategovernment']
+  if other_complaint_bodies == 'Transport':
+    endpoint['disability_race_noareapubliclife_transport']
+  if other_complaint_bodies == 'Crime Victims':
+    endpoint['disability_race_noareapubliclife_crimevictims']
+  if other_complaint_bodies == 'Water':
+    endpoint['disability_race_noareapubliclife_water']
+  if other_complaint_bodies == 'ReturnToWorkSA':
+    endpoint['disability_race_noareapubliclife_returntowork']
+  if other_complaint_bodies == 'None of the above':
+    endpoint['disability_race_noareapubliclife_noneoftheabove']
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with a **housing dispute**, please contact SACAT.
+  
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+  Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+  
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey504
+---
+event: endpoint['disability_race_noareapubliclife_housingdisputes']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response504 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey504
+  survey_answer504
+  hidden_response504 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with a **Medical/Mental Health Issue**, please contact SACAT.
+
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey505
+---
+event: endpoint['disability_race_noareapubliclife_mentalhealth']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response505 }
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey505
+  survey_answer505
+  hidden_response505 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+  
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Consent to Medical Treatment**, please contact SACAT.
+
+  [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey506
+---
+event: endpoint['disability_race_noareapubliclife_consentmedical']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response506 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey506
+  survey_answer506
+  hidden_response506 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Reviewing a Government Decision**, please contact SACAT.
+
+   [Please click here to access the SACAT Website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey507
+---
+event: endpoint['disability_race_noareapubliclife_governmentreview']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response507 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey507
+  survey_answer507
+  hidden_response507 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Advance Care**, please contact SACAT.
+
+  [Please click here to access the SACAT website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life  }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey508
+---
+event: endpoint['disability_race_noareapubliclife_advancecare']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response508 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey508
+  survey_answer508
+  hidden_response508 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Guardianship and Administration of Personal Affairs**, please contact SACAT.
+
+  [Please click here to access the SACAT website](${ url_of('http://sacat.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey509
+---
+event: endpoint['disability_race_noareapubliclife_personalaffairs']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response509 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey509
+  survey_answer509
+  hidden_response509 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Workplace Discrimination**, please contact the South Australian Employment Tribunal.
+
+  [Please click here to access the SAET website](${ url_of('https://www.saet.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+  Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+  
+   **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey510
+---
+event: endpoint['disability_race_noareapubliclife_workplacediscrimination']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response510 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey510
+  survey_answer510
+  hidden_response510 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Health, Safety and Workplace Relations**, please contact SafeWork SA.
+
+  [Please click here to access the SafeWork SA website](${ url_of('https://www.safework.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey511
+---
+event: endpoint['disability_race_noareapubliclife_hwsrelations']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response511 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey511
+  survey_answer511
+  hidden_response511 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Banking and Financial Services**, please contact either of the complaint bodies below: 
+  
+   - [Australian Financial Complaints Authority](${ url_of('https://www.afca.org.au') }).
+   
+   - [Australian Securities and Investment Commission](${ url_of('https://asic.gov.au') }).
+   
+   - [Ombudsman SA (complaints about Super SA Board)](${ url_of('https://www.ombudsman.sa.gov.au') }).
+
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey512
+---
+event: endpoint['disability_race_noareapubliclife_banking']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response512 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey512
+  survey_answer512
+  hidden_response512 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Consumer Rights**, please contact the Commissioner for Consumer Affairs. 
+
+  [Please click here to access the Consumer and Business Services website](${ url_of('https://www.cbs.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey513
+---
+event: endpoint['disability_race_noareapubliclife_consumerrights']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response513 }
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey513
+  survey_answer513
+  hidden_response513 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Administrative actions of Australian Government Departments and Agencies**, please contact the Commonwealth Ombudsman.
+
+  [Please click here to access the Commonwealth Ombudsman website](${ url_of('https://www.ombudsman.gov.au') }).
+  
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey514
+---
+event: endpoint['disability_race_noareapubliclife_administrativegovernment']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response514 }
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey514
+  survey_answer514
+  hidden_response514 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Education and Training**, please contact either of these complaint bodies:
+  
+    - [Training Advocate](${ url_of('https://www.trainingadvocate.sa.gov.au') }).
+    
+    - [Overseas Students Ombudsman](${ url_of('https://www.ombudsman.gov.au/How-we-can-help/overseas-students') }).
+    
+    - [Catholic Education Office](${ url_of('https://www.cesa.catholic.edu.au') }).
+    
+    - [Association of Idependent Schools of SA](${ url_of('https://www.ais.sa.edu.au') }).
+    
+    - [Ombudsman SA (complaints about Department of Education, Flinders University, University of Adelaide and University of South Australia)](${ url_of('https://www.ombudsman.sa.gov.au') }).
+    
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey515
+---
+event: endpoint['disability_race_noareapubliclife_education']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response515 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey515
+  survey_answer515
+  hidden_response515 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Electricity**, please contact the Energy and Water Ombudsman SA.
+
+  [Please click here to access the Energy and Water Ombudsman SA website](${ url_of('https://ewosa.com.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey516
+---
+event: endpoint['disability_race_noareapubliclife_electricity']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response516 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey516
+  survey_answer516
+  hidden_response516 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Employment**, please contact the Fair Work Ombudsman.
+
+  [Please click here to access the Fair Work Ombudsman website](${ url_of('https://www.fairwork.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey517
+---
+event: endpoint['disability_race_noareapubliclife_emplyoment']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response517 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey517
+  survey_answer517
+  hidden_response517 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Gas Suppliers**, please contact the Energy and Water Ombudsman SA.
+
+  [Please click here to access the Energy and Water Ombudsman SA website](${ url_of('https://ewosa.com.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey518
+---
+event: endpoint['disability_race_noareapubliclife_gas']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response518 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey518
+  survey_answer518
+  hidden_response518 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Guardianship of Young People**, please contact the Guardian for Children and Young People.
+
+   [Please click here to access the Guardian for Children and Young People website](${ url_of('http://www.gcyp.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey519
+---
+event: endpoint['disability_race_noareapubliclife_guardianshipyoung']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response519 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey519
+  survey_answer519
+  hidden_response519 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Healthcare and Community Services**, please contact either of these complaint bodies:
+  
+   - [Health and Community Services Complaints Commissioner](${ url_of('https://www.hcscc.sa.gov.au') }).
+   
+   - [Australian Health Practitioner Regulation Agency](${ url_of('https://www.ahpra.gov.au') }).
+   
+   - [Ombudsmans SA (complaints about the administrative actions of the Department for Health and Wellbeing and the Local Health networks)](${ url_of('https://www.ombudsman.sa.gov.au') }).
+
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+  
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey520
+---
+event: endpoint['disability_race_noareapubliclife_healthcare']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response520 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey520
+  survey_answer520
+  hidden_response520 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Human Rights**, please contact the Australian Human Rights Commission.
+
+  [Please click here to access the Australian Human Rights Commission website](${ url_of('https://www.humanrights.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey521
+---
+event: endpoint['disability_race_noareapubliclife_humanrights']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response521 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey521
+  survey_answer521
+  hidden_response521 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Land**, please contact the Environment, Resources and Development (ERD) Court.
+
+  [Please click here to access the Environment, Resources and Development Court website](${ url_of('http://www.courts.sa.gov.au/OurCourts/ERDCourt/Pages/default.aspx') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey522
+---
+event: endpoint['disability_race_noareapubliclife_land']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response522 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey522
+  survey_answer522
+  hidden_response522 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Legal Practitioners**, please contact the Legal Profession Conduct Commissioner.
+
+  [Please click here to access the Legal Profession Conduct Commissioner website](${ url_of('https://www.lpcc.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey523
+---
+event: endpoint['disability_race_noareapubliclife_lawyers']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response523 }
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey523
+  survey_answer523
+  hidden_response523 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with the **Local Government**, please contact SA Ombudsman.
+
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey524
+---
+event: endpoint['disability_race_noareapubliclife_government']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response524 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey524
+  survey_answer524
+  hidden_response524 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Media**, please contact the Australian Communications and Media Authority.
+
+  [Please click here to access the Australian Communications and Media Authority website](${ url_of('https://www.acma.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey525
+---
+event: endpoint['disability_race_noareapubliclife_media']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response525 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey525
+  survey_answer525
+  hidden_response525 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Mentally Vulnerable**, please contact either of these complaint bodies:
+  
+    - [Office of the Public Advocate](${ url_of('http://www.opa.sa.gov.au') }).
+    
+    - [Community Visitor Scheme](${ url_of('https://communityvisitorscheme.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey526
+---
+event: endpoint['disability_race_mentallyvulnerable']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response526 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey526
+  survey_answer526
+  hidden_response526 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Phone, Internet and Telecommunications**, please contact the Telecommunications Industry Ombudsman.
+
+  [Please click here to access the Telecommunications Industry Ombudsman website](${ url_of('https://www.tio.com.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey527
+---
+event: endpoint['disability_race_noareapubliclife_internet']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response527 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey527
+  survey_answer527
+  hidden_response527 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Planning and Infrastructure**, please contact the SA Ombudsman (complaints about the Department of Planning, Transport and Infrastructure).
+
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey528
+---
+event: endpoint['disability_race_noareapubliclife_infrastructure']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response528 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey528
+  survey_answer528
+  hidden_response528 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Police**, please contact the Office of Public Integrity.
+
+  [Please click here to access the Office of Public Integrity website](${ url_of('https://icac.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+  
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey529
+---
+event: endpoint['disability_race_noareapubliclife_police']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response529 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey529
+  survey_answer529
+  hidden_response529 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Public Trustee**, please contact the SA Ombudsman.
+
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+  
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey530
+---
+event: endpoint['disability_race_noareapubliclife_publictrustee']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response530 }
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey530
+  survey_answer530
+  hidden_response530 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **State Government**, please contact the SA Ombudsman.
+
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey531
+---
+event:  endpoint['disability_race_noareapubliclife_stategovernment']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response531 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey531
+  survey_answer531
+  hidden_response531 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Transport**, please contact the SA Ombudsman.
+
+  [Please click here to access the SA Ombudsman website](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey532
+---
+event: endpoint['disability_race_noareapubliclife_transport']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response532 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey532
+  survey_answer532
+  hidden_response532 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Victims of Crime**, please contact the Commissioner for Victims' Rights.
+
+  [Please click here to access the Commissioner for Victims' Rights website](${ url_of('https://www.voc.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey533
+---
+event: endpoint['disability_race_noareapubliclife_crimevictims']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response533 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey533
+  survey_answer533
+  hidden_response533 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **Water**, please contact the SA Energy and Water Ombudsman.
+
+  [Please click here to access the SA Energy and Water Ombudsman website](${ url_of('https://ewosa.com.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+    Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey534
+---
+event: endpoint['disability_race_noareapubliclife_water']
+question: Thank you. We appreciate your feedback. 
+subquestion: |
+  Have a nice day! ${ hidden_response534 } 
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey534
+  survey_answer534
+  hidden_response534 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+
+  As your complaint deals with **ReturnToWorkSA**, please contact either of these complaint bodies:
+  
+  - [ReturnToWorkSA](${ url_of('https://www.rtwsa.com') }).
+    
+  - [SA Ombudsman](${ url_of('https://www.ombudsman.sa.gov.au') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+  Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey535
+---
+event: endpoint['disability_race_noareapubliclife_returntowork']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response535 }
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey535
+  survey_answer535
+  hidden_response535 = ''
+---
+question: |
+  Thank you for your responses.
+subquestion: |
+ 
+  Unfortunately, as you have not selected an area of public life, the Equal Opportunity Commission is unable to process your complaint.
+  
+  As your complaint does not involve any of the suggested areas, this application is unable to determine who can assist. You may wish to contact the Legal Services Commission and seek support from them in regards to your matter. [Click here for information on office locations in South Australia and the contact details for each one](${ url_of ('https://lsc.sa.gov.au/contact') }).
+
+  Or you could contact one of the following Community Legal centres. If you are not sure which area you fall into, [click here for more information](${url_of ('https://www.clcsa.org.au/generlaist-law') }).
+
+  - **Northern Zone:** Contact *Northern Community Legal Services Inc.* on 08 8281 6911 or [click here for more details](${ url_of ('https://northerncommunitylegalservice.weebly.com/contact.html') }).
+  - **Western, Mid North and Outback Zone:** Contact *Westside Lawyers* on 08 8340 9009 or [click here for more details](${ url_of ('http://www.westsidelawyers.net/contactus.htm') }).
+  - **Central and Hills Zone:** Contact *Uniting Communities Law Centre* on 08 8342 1800 or [click here for more details](${ url_of ('https://www.unitingcommunities.org/contact-us/') }).
+  - **Southern, South East and Riverland Zone:** Contact *Southern Community Justice Centre* on 1300 850 650 or [click here for more details](${ url_of ('https://www.communityjusticesa.org.au/contact-us/') }).
+  
+  Here are your responses:
+  
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve either Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment_answer }
+  What does your complaint relate to?      | ${ extra_sections }
+  Was there discrimination?                | ${ discrimination_answer }
+  On what ground is the discrimination in question based on? | ${ protected_ground }
+  Did the discrimination occur in an area of public life? | ${ disability_race_area_public_life }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey536
+---
+event: endpoint['disability_race_noareapubliclife_noneoftheabove']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response536 }
+buttons: 
+  - Exit: exit
+    url: https://eoc.sa.gov.au
+  - Restart: restart
+---
+code: |
+  usergoto_survey536
+  survey_answer536
+  hidden_response536 = ''
+---

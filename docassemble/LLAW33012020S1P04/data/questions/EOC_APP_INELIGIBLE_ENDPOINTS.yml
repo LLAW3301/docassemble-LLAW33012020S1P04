@@ -1,54 +1,49 @@
+---
 question: |
-  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+  Thank you for your responses. 
 subquestion: |
   
   Unfortunately, the Equal Opportunity Commission can **only accept complaints from the aggrieved person themselves or a suitable representative for a child or intellectually incapable person.**
 
-  If you believe a person has been aggrieved by an action of discrimination, please do not hesitate to show them the Equal Opportunity Commission website for further information. 
+  If you know someone who has been aggrieved by an act of discrimination, please direct them to the Equal Opportunity Commission website which provides further information on how the Commission can help. 
+  
+  [Please click here to access the EOC website](${ url_of('https://eoc.sa.gov.au/index.php/about-us/charter-service ')}).
+
+  Or you may call the Commission directly on 08 8207 1997 or email [eoc@agd.sa.gov.au](mailto:eoc@agd.sa.gov.au) for further assistance.
   
   Here are your responses:
   
   Question|Your Responses
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
   
+continue button field: usergoto_survey97
+---
 event: endpoint['notpersonaggrieved']
-buttons:
- - Exit: exit
- - Restart: restart
- - EOC website: exit
-   url: https://eoc.sa.gov.au
----
-question: |
-  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+question: Thank you. We appreciate your feedback.
 subquestion: |
-  It is important to pinpoint when the action of discrimination occurred as it will effect whether your claim can proceed or if an exemption must be applied for first.
-  
-  If the **incident occurred over 12 months ago,** you must apply to the court for an exemption. Please contact the EOC directly by the phone number or email address below for support. 
-  
-  If you **cannot remember when the incident occurred**, please restart the EOC Complaint Directory once you have determined when the incident occurred.
- 
-  Here are your responses:
-  
-  Question|Your Responses
-  --------|--------
-  Are you the person aggrieved?            | ${ person_aggrieved }
-  When did the incident occur?             | ${ incident_date }
- 
-event: endpoint['notintimeframe']
+  Have a nice day! ${ hidden_response97 }  
 buttons:
  - Exit: exit
- - Restart: restart
- - EOC website: exit
    url: https://eoc.sa.gov.au
+ - Restart: restart
+---
+code: |
+  usergoto_survey97
+  survey_answer97
+  hidden_response97 = ''
 ---
 question: |
-  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+  Thank you for your responses. 
 subquestion: |
 
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**.
   
   Plese refer to the **VIC Equal Opportunity and Human Rights Commission** for support on your complaint. 
+  
+  [Please click here to access their Website](${ url_of('https://www.humanrightscommission.vic.gov.au') }).
 
   Here are your responses:
   
@@ -56,46 +51,70 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
- 
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey99
+---
 event: endpoint['Victoria']
-buttons:
-  - "Victorian Website": exit
-    url: https://www.humanrightscommission.vic.gov.au
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response99 }
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
+---
+code: |
+  usergoto_survey99
+  survey_answer99
+  hidden_response99 = ''
 ---
 question: |
-  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+  Thank you for your responses. 
 subquestion: |
 
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
    Please refer to the **NSW Anti-Discrimination Board** for support on your complaint.
   
+  [Please click here to access their Website](${ url_of('https://www.antidiscrimination.justice.nsw.gov.au')}).
+  
   Here are your responses:
   
   Question|Your Responses
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
  
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey100
+---
 event: endpoint['NSW']
-buttons:
-  - "NSW Website": exit
-    url: https://www.antidiscrimination.justice.nsw.gov.au
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response100 }
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
+---
+code: |
+  usergoto_survey100
+  survey_answer100
+  hidden_response100 = ''
 ---
 question: |
-  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+  Thank you for your responses.
 subquestion: |
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
-  Please refer to the **QLD Anti-Discrimination Commission** for support on your complaint.
+  Please refer to the **QLD Anti-Discrimination Commission** for support on your complaint. 
+  
+  [Please click here to access their Website](${ url_of('https://www.qhrc.qld.gov.au') }).
   
   Here are your responses:
   
@@ -103,47 +122,70 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
  
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey101
+---
 event: endpoint['Queensland']
-buttons:
-  - "Queensland Website": exit
-    url: https://www.qhrc.qld.gov.au
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response101 }
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
+---
+code: |
+  usergoto_survey101
+  survey_answer101
+  hidden_response101 = ''
 ---
 question: |
-  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+  Thank you for your responses. 
 subquestion: |
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
   Please refer to the **Equal Opportunity Tasmania** for support on your complaint. 
 
-  
+  [Please click here to access their Website](${ url_of('https://equalopportunity.tas.gov.au') }).
+
   Here are your responses:
   
   Question|Your Responses
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
- 
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey102
+---
 event: endpoint['Tasmania']
-buttons:
-  - "Tasmania Website": exit
-    url: https://equalopportunity.tas.gov.au
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response102 }
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
+---
+code: |
+  usergoto_survey102
+  survey_answer102
+  hidden_response102 = ''
 ---
 question: |
-  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+  Thank you for your responses. 
 subquestion: |
   
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
-  Please refer to the **ACT Human Rights Comission** for support on your complaint.
+  Please refer to the **ACT Human Rights Comission** for support on your complaint. 
+  
+  [Please click here to access their Website](${ url_of('https://hrc.act.gov.au') }).
 
 
   Here are your responses:
@@ -152,23 +194,35 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
- 
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey103
+---
 event: endpoint['ACT']
-buttons:
-  - "ACT Website": exit
-    url: https://hrc.act.gov.au
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response103 }
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart  
+---
+code: |
+  usergoto_survey103
+  survey_answer103
+  hidden_response103 = ''
 ---
 question: |
-  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+  Thank you for your responses. 
 subquestion: |
   
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
   Please refer to the **NT Anti-Discrimination Commission** for support on your complaint.
+  
+  [Please click here to access their Website](${ url_of('https://adc.nt.gov.au') }).
 
   Here are your responses:
   
@@ -176,45 +230,69 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
- 
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey104
+---
 event: endpoint['NT']
-buttons:
-  - "Northern Territory Website": exit
-    url: https://adc.nt.gov.au
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response104 }
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart 
+---
+code: |
+  usergoto_survey104
+  survey_answer104
+  hidden_response104 = ''
 ---
 question: |
-  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+  Thank you for your responses. 
 subquestion: |
   Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
   Please refer to the **WA Equal Opportunity Commission** for support on your complaint.
   
+  [Please click here to access their Website](${ url_of('http://www.eoc.wa.gov.au') }).
+  
   Here are your responses:
   
   Question|Your Responses
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia? | ${ which_state }
+  Did the incident occur in South Australia? | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
- 
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey105
+---
 event: endpoint['WA']
-buttons:
-  - "WA Website": exit
-    url: http://www.eoc.wa.gov.au
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response105 }
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
+---
+code: |
+  usergoto_survey105
+  survey_answer105
+  hidden_response105 = ''
 ---
 question: |
-  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+  Thank you for your responses. 
 subquestion: |
-  Unfortunately, the Equal Opportunity Commission only has jurisdiction over   matters that occurred in **South Australia**. 
+  Unfortunately, the Equal Opportunity Commission only has jurisdiction over matters that occurred in **South Australia**. 
 
-  Please refer to the **Australian Human Rights Commission** for support on your complaint. 
+  Please refer to the **Australian Human Rights Commission** for support on your complaint.
+
+  [Please click here to access their Website](${ url_of('https://www.humanrights.gov.au/about') }).
 
   Here are your responses:
   
@@ -222,34 +300,144 @@ subquestion: |
   --------|--------
   Are you the person aggrieved?            | ${ person_aggrieved }
   When did the incident occur?             | ${ incident_date }
-  Did the incident occur in South Australia?  | ${ which_state }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
   In which South Australia state did the incident occur? | ${ different_state }
- 
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey106
+---
 event: endpoint['outsideAus']
-buttons:
-  - "AHRC Website": exit
-    url: https://www.humanrights.gov.au/about
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response106 }
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
+---
+code: |
+  usergoto_survey106
+  survey_answer106
+  hidden_response106 = ''
 ---
 question: |
-  Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+  Thank you for your responses. 
 subquestion: |
+
+  Based on the information you have provided, the Equal Opportunity Commission **may** have jurisdiction over your complaint of **Victimisation**.
   
-  Please contact the EOC directly via email or phone to help with your complaint.
+  Please note, a complaint of victimisation or report of inappropriate behaviour must relate to an alleged breach of *Equal Opportunity Act 1984*, the *Public Interest Disclosure Act 2018* or the *Independent Commission Against Corruption Act 2012*.
+ 
+  There are also a number of other South Australian Acts that create a right to make a complaint to the Equal Opportunity Commission for victimisation. If your complaint of victimisation relates to an Act not mentioned above, please contact the Equal Opportunity Commission to speak about your complaint in more detail.
+ 
+  Victimisation is complex, has very specific definitions, and requires careful consideration. You may contact the Equal Opportunity Commission directly on 08 8207 1997 or email [eoc@agd.sa.gov.au](mailto:eoc@agd.sa.gov.au) for information on whether your complaint meets the definitions of victimisation.
+  
+  [You may also access further information on Victimisation by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/types-discrimination/victimisation-and-public-interest-disclosures') }).
 
+  Here are your responses:
+
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment2 }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey107
+---
 event: endpoint['victimisation']
-buttons:
-  - "Exit": exit
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response107 }
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
+---
+code: |
+  usergoto_survey107
+  survey_answer107
+  hidden_response107 = ''
 ---
 question: |
- Thank you for completing the Equal Opportunity Commission's Complaint Directory.
+ Thank you for your responses. 
 subquestion: |
 
-  Please contact the EOC directly via email or phone to help with your complaint.
+ Based on the information you have provided, the Equal Opportunity Commission should have jurisdiction over your complaint of **Sexual Harassment**. This means the Commission should be able to accept your complaint and assist you throughout the complaint process. 
+  
+  The completion of this application **does not** trigger the complaint process. You will need to complete the complaint form, [please click here to access to this form](${url_of('https://eoc.sa.gov.au/what-discrimination/making-complaint') }) to officially begin the process. 
+  
+  If you provided personal information to this application, the Equal Opportunity Commission will not contact you unless they require more information. This may only happen once you have formally submitted a complaint via the form above.
+  
+   [You may access further information on Sexual Harassment by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/types-discrimination/sexual-harassment') }).
+  
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
+ 
+   Here are your responses:
 
-event: endpoint['sexualharrassment']
-buttons:
-  - "Exit": exit
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment2 }
+  Did your Sexual Harassment occur in an area of public life? | ${ sexual_harassment_areapubliclife }
+
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+continue button field: usergoto_survey108
+---
+event: endpoint['sexualharrassment_eligible']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response108 }
+buttons: 
+  - Exit: exit
     url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
+---
+code: |
+  usergoto_survey108
+  survey_answer108
+  hidden_response108 = ''
+---
+question: |
+ Thank you for your responses. 
+subquestion: |
+
+ Based on the information you have provided, the Equal Opportunity Commission **may** have jurisdiction over your complaint of **Sexual Harassment**. 
+ 
+ Please contact the Equal Opportunity Commission directly on 08 8207 1997 or email [eoc@agd.sa.gov.au](mailto:eoc@agd.sa.gov.au) for support.
+ 
+  [You may access further information on Sexual Harassment by clicking here](${ url_of('https://eoc.sa.gov.au/index.php/what-discrimination/types-discrimination/sexual-harassment') }).
+  
+  **Disclaimer:** *The conclusion made by this Application is a tentative conclusion based on your responses to the questions. Once your complaint form is received and reviewed by the Equal Opportunity Commission, they may determine your complaint is outside their authority under the Equal Opportunity Act. The Commission will be in contact with you if this is the case and will provide alternative options where appropriate.*
+ 
+  Here are your responses:
+
+  Question|Your Responses
+  --------|--------
+  Are you the person aggrieved?            | ${ person_aggrieved }
+  When did the incident occur?             | ${ incident_date }
+  Did the incident occur in South Australia?  | ${ which_state_answer }
+  Does your complaint involve Sexual Harassment or Victimisation? | ${ victimisation_sexualharrassment2 }
+  Did your Sexual Harassment occur in an area of public life? | ${ sexual_harassment_areapubliclife }
+  
+  **Please click continue for an opportunity to provide feedback to the Equal Opportunity Commission.**
+
+continue button field: usergoto_survey98
+---
+event: endpoint['sexualharrassment_may_be_eligible']
+question: Thank you. We appreciate your feedback. 
+subquestion: | 
+  Have a nice day! ${ hidden_response98 }
+buttons: 
+  - Exit: exit
+    url: http://www.courts.sa.gov.au/Pages/default.aspx
+  - Restart: restart
+---
+code: |
+  usergoto_survey98
+  survey_answer98
+  hidden_response98 = ''
+---

@@ -45,7 +45,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
 setup(name='docassemble.LLAW33012020S1P04',
       version='0.0.1',
       description=('A docassemble extension.'),
-      long_description='# Package P04',
+      long_description='# Is my complaint covered under the Equal Opportunity Act?\r\n\r\nAn Equal Opportunity Jurisdiction Finder created by Amelia Galpin, Holly Langford, Rebecca Rayner and Thomas Ramsey for the South Australian Equal Opportunity Commission.\r\n\r\nThe aim of our application is to allow individuals direct access to the Equal Opportunity Commission, or another relevant statutory complaints body, by asking questions to identify if the Equal Opportunity Commission would have jurisdiction to assist with the individuals complaint. \r\n',
       long_description_content_type='text/markdown',
       author='Rebecca Rayner',
       author_email='rayn0066@flinders.edu.au',
