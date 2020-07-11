@@ -32,8 +32,7 @@ objects:
 ---
 mandatory: True
 code: |
-  TRlogo_string = '<img src="{}" height="40">'.format(EOCLogo.url_for())
-  set_parts(logo=TRlogo_string)
+  set_parts(logo='<img src="' + EOCLogo.url_for() + '" style="height: 50px;">')
 ---
 features:
   css: EOCheader.css

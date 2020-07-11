@@ -30,6 +30,7 @@
        for any colour you pick
     */
     background-color: rgb(0, 0, 153) !important;
+    height; 40px
   
 }
 
@@ -74,3 +75,5 @@
     /* Make it bold */
     font-weight: normal;
 }
+
+  
