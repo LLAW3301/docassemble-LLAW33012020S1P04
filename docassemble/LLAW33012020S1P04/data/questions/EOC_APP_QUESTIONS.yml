@@ -100,7 +100,6 @@ fields:
     choices:
       - Yes: 'Yes'
       - No: 'No'
-         'No'
 ---
 question: |
   Does your complaint involve Sexual Harassment or Victimisation?
